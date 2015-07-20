@@ -31,6 +31,10 @@
                     <field name="purchase_order_state" readonly="1"/>
                 </group>
             </xpath>
+            
+			<xpath expr="/form/sheet//field[@name='order_line']/tree/field[@name='tax_id']" position="before">
+       			<field name="type" invisible="1"/>
+  			</xpath>
         </field>
     </record>
 
