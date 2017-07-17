@@ -22,7 +22,7 @@
 
 {
     "name": "Sale Order Types",
-    "version": "1.0",
+    "version": "8.0.1.1.0",
     "category": "Sales Management",
     "author": "OdooMRP team, "
               "Grupo Vermon, "
@@ -42,10 +42,12 @@
     ],
     "data": [
         "security/ir.model.access.csv",
+        "security/security.xml",
         "views/sale_order_view.xml",
         "views/sale_order_type_view.xml",
         "views/res_partner_view.xml",
         "data/default_type.xml",
+        "views/account_invoice_view.xml",
     ],
     "installable": True,
 }

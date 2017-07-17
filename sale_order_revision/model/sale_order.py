@@ -61,6 +61,10 @@ class sale_order(models.Model):
         self.delete_workflow()
         self.create_workflow()
         self.write({'state': 'draft'})
+        self.order_line.write({'state': 'draft'})
+        # remove old procurements
+        self.mapped('order_line.procurement_ids').write(
+            {'sale_line_id': False})
         msg = _('New revision created: %s') % self.name
         self.message_post(body=msg)
         old_revision.message_post(body=msg)
@@ -68,9 +72,9 @@ class sale_order(models.Model):
 
     @api.returns('self', lambda value: value.id)
     @api.multi
-    def copy(self, defaults=None):
-        if not defaults:
-            defaults = {}
+    def copy(self, default=None):
+        if default is None:
+            default = {}
         if self.env.context.get('new_sale_revision'):
             prev_name = self.name
             revno = self.revision_number
@@ -78,13 +82,15 @@ class sale_order(models.Model):
                         'name': '%s-%02d' % (self.unrevisioned_name,
                                              revno + 1)
                         })
-            defaults.update({'name': prev_name,
-                             'revision_number': revno,
-                             'active': False,
-                             'state': 'cancel',
-                             'current_revision_id': self.id,
-                             })
-        return super(sale_order, self).copy(defaults)
+            default.update({
+                'name': prev_name,
+                'revision_number': revno,
+                'active': False,
+                'state': 'cancel',
+                'current_revision_id': self.id,
+                'unrevisioned_name': self.unrevisioned_name,
+            })
+        return super(sale_order, self).copy(default=default)
 
     @api.model
     def create(self, values):
