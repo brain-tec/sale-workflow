@@ -2,26 +2,39 @@
    :target: http://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-==============================
-Sale Procurement Group by line
-==============================
+===================
+Sale Force Invoiced
+===================
 
-This module was written to extend the functionality of procurement groups
-created from a Sale order.
+This module adds the possibility for users to force the invoice status of the
+sales orders to 'Invoiced', even when not all the quantities ordered or
+delivered have been invoiced.
 
-On itself, this module does nothing it is a requirement for modules which
-needs to create procurement group per sale order line basis.
+This feature useful in the following scenario:
+
+* The customer disputes the quantities to be invoiced for, after the
+  products have been delivered to her/him, and you agree to reduce the
+  quantity to invoice (without sending a refund).
+
+* When migrating from a previous Odoo version, in some cases there is less
+  quantity invoiced to what was delivered, and you don't want these old sales
+  orders to appear in your 'To Invoice' list.
 
 
 Usage
 =====
 
-To use this module, you need to install e.g.
-**Sale Sourced By Line** (`sale_sourced_by_line`)
+#. Create a sales order and confirm it.
+#. Deliver the products/services.
+#. Create an invoice and reduce the invoiced quantity. The sales order
+   invoicing status is 'To Invoice'.
+#. Lock the Sale Order, to change the status of it to 'Done'.
+#. Check the field 'Force Invoiced'
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
    :alt: Try me on Runbot
    :target: https://runbot.odoo-community.org/runbot/167/10.0
+
 
 Bug Tracker
 ===========
@@ -40,13 +53,12 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
+
 Contributors
 ------------
 
-* Guewen Baconnier <guewen.baconnier@camptocamp.com>
-* Yannick Vaucher <yannick.vaucher@camptocamp.com>
 * Jordi Ballester <jordi.ballester@eficent.com>
-* Serpent Consulting Services Pvt. Ltd. <support@serpentcs.com>
+
 
 Maintainer
 ----------
