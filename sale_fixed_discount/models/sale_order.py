@@ -37,10 +37,11 @@ class SaleOrderLine(models.Model):
         digits=dp.get_precision('Product Price'),
         help="Fixed amount discount.")
 
-    @api.onchange('discount')
+    @api.onchange('discount_fixed', 'product_id', 'price_unit', 'product_uom', 'product_uom_qty', 'tax_id')
     def _onchange_discount(self):
-        if self.discount:
-            self.discount_fixed = 0.0
+        super(SaleOrderLine, self)._onchange_discount()
+        if self.discount_fixed:
+            self.discount = 0.0
 
     @api.onchange('discount_fixed')
     def _onchange_discount_fixed(self):
