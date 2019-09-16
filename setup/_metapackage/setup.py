@@ -11,7 +11,7 @@ setuptools.setup(
         'odoo12-addon-partner_prospect',
         'odoo12-addon-portal_sale_personal_data_only',
         'odoo12-addon-sale_automatic_workflow',
-        'odoo12-addon-sale_brand',
+        'odoo12-addon-sale_automatic_workflow_payment_mode',
         'odoo12-addon-sale_cancel_reason',
         'odoo12-addon-sale_commercial_partner',
         'odoo12-addon-sale_discount_display_amount',
@@ -38,6 +38,7 @@ setuptools.setup(
         'odoo12-addon-sale_product_set',
         'odoo12-addon-sale_stock_picking_blocking',
         'odoo12-addon-sale_validity',
+        'odoo12-addon-sales_team_security',
     ],
     classifiers=[
         'Programming Language :: Python',
