@@ -35,6 +35,7 @@ addon | version | summary
 [sale_force_invoiced](sale_force_invoiced/) | 10.0.1.0.0 | Allows to force the invoice status of the sales order to Invoiced
 [sale_invoice_auto_deliver](sale_invoice_auto_deliver/) | 10.0.1.0.0 | Sale Invoice Automatic Deliver
 [sale_invoice_group_method](sale_invoice_group_method/) | 10.0.1.0.0 | Sale Invoice Group Method
+[sale_invoice_policy](sale_invoice_policy/) | 10.0.1.0.0 | Sale invoice Policy
 [sale_isolated_quotation](sale_isolated_quotation/) | 10.0.1.0.0 | Sales - Isolated Quotation
 [sale_layout_hidden](sale_layout_hidden/) | 10.0.1.0.1 | Sale Layout Hidden Sections
 [sale_merge_draft_invoice](sale_merge_draft_invoice/) | 10.0.1.0.0 | Sale Merge Draft Invoice
@@ -62,6 +63,7 @@ addon | version | summary
 [sale_product_set](sale_product_set/) | 10.0.1.0.2 | Sale product set
 [sale_product_set_layout](sale_product_set_layout/) | 10.0.1.0.0 | Sale product set layout
 [sale_promotion_rule](sale_promotion_rule/) | 10.0.2.0.0 | Module to manage promotion rule on sale order
+[sale_promotion_rule_assortment](sale_promotion_rule_assortment/) | 10.0.1.0.0 | This addon allows to reduce the appliance of a promotion rule to a set of products
 [sale_promotion_rule_delivery](sale_promotion_rule_delivery/) | 10.0.1.0.0 | Manage promotion rule with delivery
 [sale_quotation_number](sale_quotation_number/) | 10.0.1.1.0 | Different sequence for sale quotations
 [sale_rental](sale_rental/) | 10.0.1.0.0 | Manage Rental of Products
