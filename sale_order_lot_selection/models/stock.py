@@ -26,10 +26,11 @@ class StockMove(models.Model):
             strict=strict,
         )
 
-    def _prepare_move_line_vals(self, quantity=None, reserved_quant=None):
-        vals = super()._prepare_move_line_vals(
-            quantity=quantity, reserved_quant=reserved_quant
-        )
-        if reserved_quant and self.sale_line_id and self.sale_line_id.lot_id:
-            vals["lot_id"] = self.sale_line_id.lot_id.id
-        return vals
+    # This method seems not to be necessary (bt#11722)
+    # def _prepare_move_line_vals(self, quantity=None, reserved_quant=None):
+    #     vals = super()._prepare_move_line_vals(
+    #         quantity=quantity, reserved_quant=reserved_quant
+    #     )
+    #     if reserved_quant and self.sale_line_id and self.sale_line_id.lot_id:
+    #         vals["lot_id"] = self.sale_line_id.lot_id.id
+    #     return vals
