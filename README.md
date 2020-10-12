@@ -55,6 +55,7 @@ addon | version | summary
 [sale_order_margin_percent](sale_order_margin_percent/) | 10.0.1.0.0 | Show Percent in sale order
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 10.0.1.0.1 | Price recalculation in sales orders
 [sale_order_priority](sale_order_priority/) | 10.0.1.0.0 | Define priority on sale orders
+[sale_order_restrict_cancel_existing_invoice](sale_order_restrict_cancel_existing_invoice/) | 10.0.1.0.0 | Allows to restrict sale order cancelling if an invoice exists
 [sale_order_revision](sale_order_revision/) | 10.0.1.0.1 | Sale order revisions
 [sale_order_type](sale_order_type/) | 10.0.1.1.0 | Sale Order Type
 [sale_owner_stock_sourcing](sale_owner_stock_sourcing/) | 10.0.1.0.0 | Manage stock ownership on sale order lines
@@ -75,7 +76,7 @@ addon | version | summary
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 10.0.1.0.0 | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 10.0.1.0.0 | Multiple warehouse source locations for Sale order
 [sale_start_end_dates](sale_start_end_dates/) | 10.0.1.0.0 | Adds start date and end date on sale order lines
-[sale_stock_picking_blocking](sale_stock_picking_blocking/) | 10.0.1.0.0 | Allow you to block the creation of deliveries from a sale order.
+[sale_stock_picking_blocking](sale_stock_picking_blocking/) | 10.0.1.0.1 | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_blocking_proc_group_by_line](sale_stock_picking_blocking_proc_group_by_line/) | 10.0.1.0.0 | Module that allows module sale_delivery_block to work with sale_procurement_group_by_line
 [sale_stock_picking_note](sale_stock_picking_note/) | 10.0.1.1.0 | Add picking note in sale and purchase order
 [sale_triple_discount](sale_triple_discount/) | 10.0.1.1.2 | Manage triple discount on sale order lines
