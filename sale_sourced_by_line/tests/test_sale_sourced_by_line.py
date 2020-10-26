@@ -20,6 +20,25 @@ class TestSaleSourcedByLine(TransactionCase):
         self.warehouse_shop0 = self.env.ref("stock.stock_warehouse_shop0")
         self.warehouse0 = self.env.ref("stock.warehouse0")
 
+        # # TODO: Two tests failed because of a product not having a route set.
+        # #       But with it the last test fails because the stock.move
+        # #       doesn't have a warehouse associated.
+        # route_1 = self.env["stock.location.route"].create({
+        #     "name": "SO -> Customer",
+        #     "product_selectable": True,
+        #     "sale_selectable": True,
+        #     "rule_ids": [
+        #         (0, 0, {
+        #             'name': 'SO -> Customer',
+        #             'action': 'pull_push',
+        #             'picking_type_id': self.env.ref('stock.picking_type_out').id,
+        #             'location_src_id': self.warehouse0.lot_stock_id.id,
+        #             'location_id': self.env.ref('stock.stock_location_customers').id,
+        #         }),
+        #     ],
+        # })
+        # self.product_1.route_ids = [(6, 0, route_1.ids)]
+
     def test_sales_order_multi_source(self):
         so = self.sale_order_model.create({"partner_id": self.customer.id})
         self.sale_order_line_model.create(
