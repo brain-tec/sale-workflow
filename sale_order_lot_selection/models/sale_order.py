@@ -45,7 +45,8 @@ class SaleOrder(models.Model):
             return True
         for line in self.order_line:
             if line.lot_id:
-                unreserved_moves = line.move_ids.filtered(
+                moves = line.move_ids._get_assigned_move_ids()
+                unreserved_moves = moves.filtered(
                     lambda move: move.product_uom_qty != move.reserved_availability
                 )
                 if unreserved_moves:
