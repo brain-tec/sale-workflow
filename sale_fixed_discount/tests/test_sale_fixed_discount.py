@@ -2,9 +2,14 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo.exceptions import ValidationError
-from odoo.tests import SavepointCase
+from odoo.tests import SavepointCase, tagged
 
 
+# Tags added because of the default value set for 'picking_policy',
+# on the module sale_stock, which is set only after that module has
+# been loaded. So with the tagging we ensure this test is executed
+# after the modules have been installed (thus loaded).
+@tagged("post_install", "-at_install")
 class TestSaleFixedDiscount(SavepointCase):
     @classmethod
     def setUpClass(cls):
