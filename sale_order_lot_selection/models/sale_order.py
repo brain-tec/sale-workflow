@@ -47,7 +47,7 @@ class SaleOrder(models.Model):
         # When the reservation mode in the Stock Settings is set to Immediately, we need to check for unreserved moves.
         # ('1', 'Immediately after sales order confirmation'),  -- module installed
         # ('0', 'Manually or based on automatic scheduler')     -- module uninstalled
-        procurement_jit_module = self.env['ir.module.module'].search([('name', '=', 'procurement_jit')])
+        procurement_jit_module = self.env['ir.module.module'].sudo().search([('name', '=', 'procurement_jit')])
         if procurement_jit_module and procurement_jit_module.state == 'installed':
             for line in self.order_line:
                 if line.lot_id:
