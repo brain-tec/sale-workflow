@@ -9,11 +9,17 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo14-addon-sale_commercial_partner',
+        'odoo14-addon-sale_discount_display_amount',
         'odoo14-addon-sale_last_price_info',
         'odoo14-addon-sale_order_archive',
+        'odoo14-addon-sale_order_line_note',
+        'odoo14-addon-sale_order_lot_generator',
         'odoo14-addon-sale_order_lot_selection',
+        'odoo14-addon-sale_partner_incoterm',
         'odoo14-addon-sale_product_category_menu',
         'odoo14-addon-sale_product_multi_add',
+        'odoo14-addon-sale_product_set',
+        'odoo14-addon-sale_quotation_number',
         'odoo14-addon-sale_validity',
     ],
     classifiers=[
