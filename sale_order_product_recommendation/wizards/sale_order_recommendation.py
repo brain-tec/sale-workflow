@@ -6,9 +6,11 @@
 from datetime import datetime, timedelta
 
 from odoo import api, fields, models
-from odoo.tests import Form
+from odoo.tests import Form, tagged
 
 
+# Tags added because of the views for sale not loading the field date_order.
+@tagged("post_install", "-at_install")
 class SaleOrderRecommendation(models.TransientModel):
     _name = "sale.order.recommendation"
     _description = "Recommended products for current sale order"
@@ -126,7 +128,7 @@ class SaleOrderRecommendation(models.TransientModel):
     def action_accept(self):
         """Propagate recommendations to sale order."""
         sequence = max(self.order_id.mapped("order_line.sequence") or [0])
-        order_form = Form(self.order_id.sudo())
+        order_form = Form(self.order_id.sudo(), view="sale.view_order_form")
         to_remove = []
         for wiz_line in self.line_ids.filtered(
             lambda x: x.sale_line_id or x.units_included

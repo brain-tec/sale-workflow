@@ -43,14 +43,22 @@ class SaleOrder(models.Model):
     def _check_related_moves(self):
         if self.env.context.get("skip_check_lot_selection_qty", False):
             return True
-        for line in self.order_line:
-            if line.lot_id:
-                unreserved_moves = line.move_ids.filtered(
-                    lambda move: move.product_uom_qty != move.reserved_availability
-                )
-                if unreserved_moves:
-                    raise UserError(
-                        _("Can't reserve products for lot %s") % line.lot_id.name
+
+        # When the reservation mode in the Stock Settings is set to Immediately, we need to check for unreserved moves.
+        # ('1', 'Immediately after sales order confirmation'),  -- module installed
+        # ('0', 'Manually or based on automatic scheduler')     -- module uninstalled
+        procurement_jit_module = self.env['ir.module.module'].sudo().search([('name', '=', 'procurement_jit')])
+        if procurement_jit_module and procurement_jit_module.state == 'installed':
+            for line in self.order_line:
+                if line.lot_id:
+                    moves = line.move_ids._get_assigned_move_ids()
+                    unreserved_moves = moves.filtered(
+                        lambda move: move.product_uom_qty != move.reserved_availability
                     )
-            self._check_move_state(line)
+                    if unreserved_moves:
+                        raise UserError(
+                            _("Can't reserve products for lot %s") % line.lot_id.name
+                        )
+                self._check_move_state(line)
+
         return True
