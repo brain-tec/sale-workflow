@@ -35,18 +35,20 @@ class StockMove(models.Model):
                 if lot_id:
                     return lot_id
 
-
     def _get_assigned_move_ids(self):
-        move_ids = self.env['stock.move']
-        if self.state == 'assigned':
-           move_ids |= self
+        move_ids = self.env["stock.move"]
+        if self.state == "assigned":
+            move_ids |= self
         for move in self.move_orig_ids:
-           move_ids |= move._get_assigned_move_ids()
+            move_ids |= move._get_assigned_move_ids()
         return move_ids
 
-    # This method has caused some issues with tickets: bt#11722, bt#12546, bt#12985
-    # In some cases it does not work because the lot can not be found in the sales order line, but it could be found
-    # in the moves. So we are enhancing this method to do both actions using the method "_get_sol_lot_id"
+    # This method has caused some issues with tickets:
+    # bt#11722, bt#12546, bt#12985
+    # In some cases it does not work because the lot can not be found in the
+    # sales order line, but it could be found
+    # in the moves. So we are enhancing this method to do both actions using
+    # the method "_get_sol_lot_id"
     def _prepare_move_line_vals(self, quantity=None, reserved_quant=None):
         vals = super()._prepare_move_line_vals(
             quantity=quantity, reserved_quant=reserved_quant
