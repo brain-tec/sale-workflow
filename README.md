@@ -24,7 +24,7 @@ addon | version | summary
 [partner_sale_pivot](partner_sale_pivot/) | 12.0.1.0.0 | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 12.0.1.0.0 | Allow portal users to see their own documents
 [product_form_sale_link](product_form_sale_link/) | 12.0.1.0.0 | Adds a button on product forms to access Sale Lines
-[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 12.0.1.0.0 | Loads in every sale order line the customer code defined in the product
+[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 12.0.1.1.0 | Loads in every sale order line the customer code defined in the product
 [sale_automatic_workflow](sale_automatic_workflow/) | 12.0.1.1.0 | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 12.0.1.0.1 | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 12.0.1.0.0 | Sale Automatic Workflow - Payment Mode
@@ -41,8 +41,9 @@ addon | version | summary
 [sale_exception](sale_exception/) | 12.0.1.1.1 | Custom exceptions on sale order
 [sale_fixed_discount](sale_fixed_discount/) | 12.0.1.0.0 | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 12.0.1.0.1 | Allows to force the invoice status of the sales order to Invoiced
+[sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 12.0.1.0.0 | Sale Force Whole Invoiceability
 [sale_generator](sale_generator/) | 12.0.1.0.1 | Sale Generator
-[sale_global_discount](sale_global_discount/) | 12.0.1.1.0 | Sale Global Discount
+[sale_global_discount](sale_global_discount/) | 12.0.1.2.0 | Sale Global Discount
 [sale_invoice_group_method](sale_invoice_group_method/) | 12.0.1.0.0 | This module allows you to combine severalSales Orders into a single invoice,if they meet the group criteria defined by the 'Invoice Group Method'
 [sale_invoice_plan](sale_invoice_plan/) | 12.0.2.0.0 | Add to sales order, ability to manage future invoice plan
 [sale_invoice_policy](sale_invoice_policy/) | 12.0.1.0.0 | Sales Management: let the user choose the invoice policy on the order
@@ -57,18 +58,20 @@ addon | version | summary
 [sale_order_digitized_signature](sale_order_digitized_signature/) | 12.0.1.0.0 | Capture customer signature on the sales order
 [sale_order_general_discount](sale_order_general_discount/) | 12.0.1.0.1 | General discount per sale order
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 12.0.1.0.1 | Sale Order Incoterm Place
-[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 12.0.1.0.0 | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 12.0.1.1.0 | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 12.0.1.0.0 | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 12.0.1.0.0 | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 12.0.1.0.0 | Search, create or modify directly sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 12.0.1.1.1 | Sale order line price history
 [sale_order_line_sequence](sale_order_line_sequence/) | 12.0.1.0.0 | Propagates SO line sequence to invoices and stock picking.
-[sale_order_lot_generator](sale_order_lot_generator/) | 12.0.1.0.1 | Sale Order Lot Generator
-[sale_order_lot_selection](sale_order_lot_selection/) | 12.0.2.0.0 | Sale Order Lot Selection
+[sale_order_lot_generator](sale_order_lot_generator/) | 12.0.1.0.2 | Sale Order Lot Generator
+[sale_order_lot_selection](sale_order_lot_selection/) | 12.0.2.0.1 | Sale Order Lot Selection
 [sale_order_min_qty](sale_order_min_qty/) | 12.0.1.0.0 | Sale order min quantity
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 12.0.1.1.0 | Recalculate prices / Reset descriptions on sale order lines
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 12.0.2.0.2 | Recommend products to sell to customer based on history
-[sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 12.0.2.0.0 | Add secondary unit to recommend products wizard
+[sale_order_priority](sale_order_priority/) | 12.0.1.0.1 | Define priority on sale orders
+[sale_order_product_assortment](sale_order_product_assortment/) | 12.0.1.0.0 | Sale Order Product Assortment
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 12.0.3.0.0 | Recommend products to sell to customer based on history
+[sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 12.0.2.1.0 | Add secondary unit to recommend products wizard
 [sale_order_revision](sale_order_revision/) | 12.0.1.0.0 | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 12.0.1.1.0 | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 12.0.1.0.0 | Adds Tags to Sales Orders.
@@ -80,7 +83,7 @@ addon | version | summary
 [sale_product_category_menu](sale_product_category_menu/) | 12.0.1.0.2 | Shows 'Product Categories' menu item in Sales
 [sale_product_multi_add](sale_product_multi_add/) | 12.0.1.0.0 | Sale Product Multi Add
 [sale_product_returnable](sale_product_returnable/) | 12.0.1.0.2 | Get returnable products from your customers
-[sale_product_set](sale_product_set/) | 12.0.1.3.0 | Sale product set
+[sale_product_set](sale_product_set/) | 12.0.1.3.1 | Sale product set
 [sale_product_set_variant](sale_product_set_variant/) | 12.0.1.1.0 | Add variant management to sale product set.
 [sale_quotation_number](sale_quotation_number/) | 12.0.1.0.0 | Different sequence for sale quotations
 [sale_rental](sale_rental/) | 12.0.1.0.0 | Manage Rental of Products
