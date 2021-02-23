@@ -49,6 +49,7 @@ addon | version | summary
 [sale_invoice_policy](sale_invoice_policy/) | 12.0.1.0.0 | Sales Management: let the user choose the invoice policy on the order
 [sale_isolated_quotation](sale_isolated_quotation/) | 12.0.1.1.0 | Sale Isolated Quotation
 [sale_last_price_info](sale_last_price_info/) | 12.0.2.0.0 | Product Last Price Info - Sale
+[sale_manual_delivery](sale_manual_delivery/) | 12.0.2.0.1 | Create manually your deliveries
 [sale_merge_draft_invoice](sale_merge_draft_invoice/) | 12.0.1.0.1 | Sale Merge Draft Invoice
 [sale_milestone_profile_invoicing](sale_milestone_profile_invoicing/) | 12.0.1.0.1 | Inform on delivered and invoiced work by sale order line.
 [sale_mrp_bom](sale_mrp_bom/) | 12.0.1.0.0 | Allows define a BOM in the sales lines.
@@ -70,7 +71,7 @@ addon | version | summary
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 12.0.1.1.0 | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_priority](sale_order_priority/) | 12.0.1.0.1 | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 12.0.1.0.0 | Sale Order Product Assortment
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 12.0.3.0.0 | Recommend products to sell to customer based on history
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 12.0.3.0.1 | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 12.0.2.1.0 | Add secondary unit to recommend products wizard
 [sale_order_revision](sale_order_revision/) | 12.0.1.0.0 | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 12.0.1.1.0 | Sale product in a secondary unit
