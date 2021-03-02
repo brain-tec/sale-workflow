@@ -26,6 +26,7 @@ addon | version | summary
 [sale_automatic_workflow](sale_automatic_workflow/) | 13.0.1.1.1 | Sale Automatic Workflow
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_by_packaging](sale_by_packaging/) | 13.0.1.5.1 | Manage sale of packaging
+[sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 13.0.1.0.0 | Add stored related field 'Commercial Entity' on sale orders
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 | Define ordering contact type
 [sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.1.0 | Schedule delivery orders according to cutoff preferences
@@ -46,9 +47,10 @@ addon | version | summary
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.0.0 | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.1.0.2 | Sale Order Lot Selection
+[sale_order_priority](sale_order_priority/) | 13.0.1.0.0 | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.0.0 | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | Show product availability in sales order line product drop-down.
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.2.0.6 | Recommend products to sell to customer based on history
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.2.1.0 | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.1.0 | Add secondary unit to recommend products wizard
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 13.0.1.0.0 | Sale product in a secondary unit
