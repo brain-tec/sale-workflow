@@ -22,13 +22,18 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.0.0 | Portal Sale Personal Data Only
+[partner_sale_pivot](partner_sale_pivot/) | 13.0.1.0.0 | Sales analysis from customer form view
+[portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 | Portal Sale Personal Data Only
 [sale_automatic_workflow](sale_automatic_workflow/) | 13.0.1.1.1 | Sale Automatic Workflow
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_by_packaging](sale_by_packaging/) | 13.0.1.5.1 | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 13.0.1.0.0 | Add stored related field 'Commercial Entity' on sale orders
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 | Define ordering contact type
+[sale_coupon_most_expensive](sale_coupon_most_expensive/) | 13.0.1.0.1 | Extra Discount Apply option - On Most Expensive Product
+[sale_coupon_multi_currency](sale_coupon_multi_currency/) | 13.0.1.0.1 | Allow to use custom currency on coupon/promotion program
+[sale_coupon_multi_use](sale_coupon_multi_use/) | 13.0.1.0.1 | Allow to use same coupon multiple times
+[sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 | Prevents in changing currency if multi coupon is in use
 [sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.1.0 | Schedule delivery orders according to cutoff preferences
 [sale_discount_display_amount](sale_discount_display_amount/) | 13.0.1.0.1 | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 13.0.1.0.0 | Set an elaboration for any sale line
