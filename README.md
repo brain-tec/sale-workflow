@@ -82,7 +82,7 @@ addon | version | summary
 [sale_procurement_group_by_commitment_date](sale_procurement_group_by_commitment_date/) | 12.0.1.0.0 | Groups pickings based on commitment date of order line
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 12.0.1.0.0 | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 12.0.1.0.2 | Shows 'Product Categories' menu item in Sales
-[sale_product_multi_add](sale_product_multi_add/) | 12.0.1.0.0 | Sale Product Multi Add
+[sale_product_multi_add](sale_product_multi_add/) | 12.0.1.1.0 | Sale Product Multi Add
 [sale_product_returnable](sale_product_returnable/) | 12.0.1.0.2 | Get returnable products from your customers
 [sale_product_set](sale_product_set/) | 12.0.1.3.1 | Sale product set
 [sale_product_set_variant](sale_product_set_variant/) | 12.0.1.1.0 | Add variant management to sale product set.
@@ -98,7 +98,7 @@ addon | version | summary
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 12.0.1.0.0 | Get product quantities in a secondary unit
 [sale_stock_sourcing_address](sale_stock_sourcing_address/) | 12.0.1.0.0 | Sale Stock Sourcing Address
 [sale_tier_validation](sale_tier_validation/) | 12.0.1.0.0 | Extends the functionality of Sale Orders to support a tier validation process.
-[sale_triple_discount](sale_triple_discount/) | 12.0.1.1.0 | Manage triple discount on sale order lines
+[sale_triple_discount](sale_triple_discount/) | 12.0.1.1.1 | Manage triple discount on sale order lines
 [sale_validity](sale_validity/) | 12.0.1.0.0 | Set a default validity delay on quotations
 [sale_wishlist](sale_wishlist/) | 12.0.1.0.0 | Handle sale wishlist for partners
 [sales_team_security](sales_team_security/) | 12.0.2.0.0 | New group for seeing only sales channel's documents
