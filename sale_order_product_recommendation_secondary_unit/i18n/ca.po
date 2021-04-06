@@ -1,16 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* sale_order_product_recommendation_secondary_unit
+#	* sale_order_product_recommendation_secondary_unit
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 15:17+0000\n"
 "PO-Revision-Date: 2021-03-25 16:46+0000\n"
 "Last-Translator: Daniel Martinez Vila <daniel.martinez@qubiq.es>\n"
-"Language-Team: \n"
-"Language: es\n"
+"Language-Team: none\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -20,7 +19,7 @@ msgstr ""
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line_secondary_uom_id
 msgid "Default secondary unit for sales"
-msgstr "Ud. de venta secundaria por defecto"
+msgstr "Unitat secundària predeterminada per a vendes"
 
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line_product_tmpl_id
@@ -30,17 +29,17 @@ msgstr "Plantilla de producte"
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model,name:sale_order_product_recommendation_secondary_unit.model_sale_order_recommendation_line
 msgid "Recommended product for current sale order"
-msgstr "Producto recomendado para el pedido de venta actual"
+msgstr "Producte recomanat per a la comanda de venda actual"
 
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model,name:sale_order_product_recommendation_secondary_unit.model_sale_order_recommendation
 msgid "Recommended products for current sale order"
-msgstr "Productos recomendados para el pedido de venta actual"
+msgstr "Productes recomanats per a la comanda de venda actual"
 
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line_secondary_uom_qty
 msgid "Secondary Qty"
-msgstr "Cta. Ud. secundaria"
+msgstr "Quantitat secundària"
 
 #. module: sale_order_product_recommendation_secondary_unit
 #: model:ir.model.fields,help:sale_order_product_recommendation_secondary_unit.field_sale_order_recommendation_line_product_tmpl_id
