@@ -53,11 +53,29 @@ class SaleOrder(models.Model):
 
     @api.model
     def create(self, vals):
-        if vals.get('name', '/') == '/'and vals.get('type_id'):
+        if vals.get('name', '/') == '/' and vals.get('type_id'):
             sale_type = self.env['sale.order.type'].browse(vals['type_id'])
             if sale_type.sequence_id:
                 vals['name'] = sale_type.sequence_id.next_by_id()
         return super(SaleOrder, self).create(vals)
+
+    @api.multi
+    def write(self, vals):
+        if vals.get("type_id"):
+            sale_type = self.env["sale.order.type"].browse(vals["type_id"])
+            if sale_type.sequence_id:
+                for record in self:
+                    if (
+                        record.state in {"draft", "sent"}
+                        and record.type_id != sale_type
+                    ):
+                        new_vals = vals.copy()
+                        new_vals["name"] = sale_type.sequence_id.next_by_id()
+                        super(SaleOrder, record).write(new_vals)
+                    else:
+                        super(SaleOrder, record).write(vals)
+            return True
+        return super(SaleOrder, self).write(vals)
 
     @api.multi
     def _prepare_invoice(self):

@@ -59,7 +59,7 @@ addon | version | summary
 [sale_order_digitized_signature](sale_order_digitized_signature/) | 12.0.1.0.0 | Capture customer signature on the sales order
 [sale_order_general_discount](sale_order_general_discount/) | 12.0.1.0.1 | General discount per sale order
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 12.0.1.0.1 | Sale Order Incoterm Place
-[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 12.0.1.1.0 | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 12.0.1.1.1 | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 12.0.1.0.0 | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 12.0.1.0.0 | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 12.0.1.0.0 | Search, create or modify directly sale order lines
@@ -73,11 +73,11 @@ addon | version | summary
 [sale_order_product_assortment](sale_order_product_assortment/) | 12.0.1.0.0 | Sale Order Product Assortment
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 12.0.3.0.1 | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 12.0.2.1.0 | Add secondary unit to recommend products wizard
-[sale_order_revision](sale_order_revision/) | 12.0.1.0.0 | Keep track of revised quotations
+[sale_order_revision](sale_order_revision/) | 12.0.1.0.1 | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 12.0.1.1.0 | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 12.0.1.0.0 | Adds Tags to Sales Orders.
 [sale_order_transmit_method](sale_order_transmit_method/) | 12.0.1.0.0 | Set transmit method (email, post, portal, ...) in sale order and propagate it to invoices
-[sale_order_type](sale_order_type/) | 12.0.1.1.1 | Sale Order Type
+[sale_order_type](sale_order_type/) | 12.0.1.2.1 | Sale Order Type
 [sale_partner_incoterm](sale_partner_incoterm/) | 12.0.1.0.0 | Set the customer preferred incoterm on each sales order
 [sale_procurement_group_by_commitment_date](sale_procurement_group_by_commitment_date/) | 12.0.1.0.0 | Groups pickings based on commitment date of order line
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 12.0.1.0.0 | Base module for multiple procurement group by Sale order
