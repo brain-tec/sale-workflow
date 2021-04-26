@@ -44,12 +44,14 @@ addon | version | summary
 [sale_invoice_plan](sale_invoice_plan/) | 13.0.1.0.2 | Add to sales order, ability to manage future invoice plan
 [sale_isolated_quotation](sale_isolated_quotation/) | 13.0.1.0.0 | Sale Isolated Quotation
 [sale_last_price_info](sale_last_price_info/) | 13.0.1.0.0 | Product Last Price Info - Sale
+[sale_manual_delivery](sale_manual_delivery/) | 13.0.1.0.0 | Create manually your deliveries
 [sale_order_archive](sale_order_archive/) | 13.0.1.0.0 | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 13.0.1.1.0 | Auto assign delivery carrier on sale order confirmation
 [sale_order_general_discount](sale_order_general_discount/) | 13.0.1.0.1 | General discount per sale order
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 13.0.1.0.1 | Sale Order Incoterm Place
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.0 | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 | Adds a commitment date to each sale order line.
+[sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 | Sale order line description
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.0.0 | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.1.0.2 | Sale Order Lot Selection
@@ -57,11 +59,11 @@ addon | version | summary
 [sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.0.0 | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.2.2.0 | Recommend products to sell to customer based on history
-[sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.1.0 | Add secondary unit to recommend products wizard
+[sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.2.0 | Add secondary unit to recommend products wizard
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 13.0.1.1.0 | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 13.0.1.0.1 | Adds Tags to Sales Orders.
-[sale_order_type](sale_order_type/) | 13.0.1.3.7 | Sale Order Type
+[sale_order_type](sale_order_type/) | 13.0.1.4.0 | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 13.0.1.0.0 | Add a popup warning on sale to ensure warning is populated
 [sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.0.1 | Schedule delivery orders according to delivery window preferences
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 | Set the customer preferred incoterm on each sales order
@@ -75,13 +77,14 @@ addon | version | summary
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 13.0.1.0.0 | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 13.0.1.0.1 | Multiple warehouse source locations for Sale order
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 13.0.1.0.3 | Sale Stock Delivery Address
+[sale_stock_picking_blocking](sale_stock_picking_blocking/) | 13.0.1.0.1 | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 13.0.1.0.0 | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 13.0.1.0.0 | Sale Stock Return Request
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 13.0.1.0.0 | Get product quantities in a secondary unit
 [sale_tier_validation](sale_tier_validation/) | 13.0.1.0.0 | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_validity](sale_validity/) | 13.0.1.0.1 | Set a default validity delay on quotations
 [sale_wishlist](sale_wishlist/) | 13.0.1.0.0 | Handle sale wishlist for partners
-[sales_team_security](sales_team_security/) | 13.0.1.1.2 | New group for seeing only sales channel's documents
+[sales_team_security](sales_team_security/) | 13.0.1.2.0 | New group for seeing only sales channel's documents
 
 [//]: # (end addons)
 
