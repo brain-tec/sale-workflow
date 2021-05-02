@@ -3,12 +3,21 @@
 
 {
     "name": "Sale order min quantity",
-    "version": "12.0.1.0.0",
+    "version": "12.0.2.0.0",
     "category": "Sales Management",
     "author": "Akretion, " "Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/sale-workflow/",
     "license": "AGPL-3",
+    "external_dependencies": {
+        'python' : ['openupgradelib'],
+    },
     "depends": ["sale_management"],
-    "data": ["views/product_views.xml", "views/sale_views.xml"],
+    "data": [
+        "views/product_category_views.xml",
+        "views/product_template_views.xml",
+        "views/product_product_views.xml",
+        "views/sale_views.xml",
+    ],
+    "pre_init_hook": "rename_module",
     "installable": True,
 }
