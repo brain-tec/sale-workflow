@@ -23,6 +23,7 @@ addon | version | summary
 [partner_prospect](partner_prospect/) | 12.0.1.0.0 | Partner Prospect
 [partner_sale_pivot](partner_sale_pivot/) | 12.0.1.0.0 | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 12.0.1.1.0 | Allow portal users to see their own documents
+[pricelist_by_category_qty](pricelist_by_category_qty/) | 12.0.1.0.0 | Discount by quantities of product category
 [product_form_sale_link](product_form_sale_link/) | 12.0.1.0.0 | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 12.0.1.1.0 | Loads in every sale order line the customer code defined in the product
 [sale_automatic_workflow](sale_automatic_workflow/) | 12.0.1.1.0 | Sale Automatic Workflow
@@ -46,7 +47,7 @@ addon | version | summary
 [sale_generator](sale_generator/) | 12.0.1.0.1 | Sale Generator
 [sale_global_discount](sale_global_discount/) | 12.0.1.2.0 | Sale Global Discount
 [sale_invoice_group_method](sale_invoice_group_method/) | 12.0.1.0.0 | This module allows you to combine severalSales Orders into a single invoice,if they meet the group criteria defined by the 'Invoice Group Method'
-[sale_invoice_plan](sale_invoice_plan/) | 12.0.2.0.0 | Add to sales order, ability to manage future invoice plan
+[sale_invoice_plan](sale_invoice_plan/) | 12.0.2.1.0 | Add to sales order, ability to manage future invoice plan
 [sale_invoice_policy](sale_invoice_policy/) | 12.0.1.0.0 | Sales Management: let the user choose the invoice policy on the order
 [sale_isolated_quotation](sale_isolated_quotation/) | 12.0.1.1.0 | Sale Isolated Quotation
 [sale_last_price_info](sale_last_price_info/) | 12.0.2.0.0 | Product Last Price Info - Sale
@@ -58,7 +59,7 @@ addon | version | summary
 [sale_order_action_invoice_create_hook](sale_order_action_invoice_create_hook/) | 12.0.1.0.0 | Add more flexibility in the grouping parameters for the creation of invoices
 [sale_order_archive](sale_order_archive/) | 12.0.1.0.0 | Archive Sale Orders
 [sale_order_digitized_signature](sale_order_digitized_signature/) | 12.0.1.0.0 | Capture customer signature on the sales order
-[sale_order_general_discount](sale_order_general_discount/) | 12.0.1.0.1 | General discount per sale order
+[sale_order_general_discount](sale_order_general_discount/) | 12.0.1.1.0 | General discount per sale order
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 12.0.1.0.1 | Sale Order Incoterm Place
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 12.0.1.1.1 | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 12.0.1.0.0 | Adds a commitment date to each sale order line.

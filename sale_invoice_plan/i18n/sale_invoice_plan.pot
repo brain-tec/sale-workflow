@@ -250,14 +250,14 @@ msgid "Plan Date"
 msgstr ""
 
 #. module: sale_invoice_plan
-#: code:addons/sale_invoice_plan/models/sale.py:235
+#: code:addons/sale_invoice_plan/models/sale.py:242
 #, python-format
 msgid "Plan quantity: %s, exceed invoiceable quantity: %s\n"
 "Product should be delivered before invoice"
 msgstr ""
 
 #. module: sale_invoice_plan
-#: code:addons/sale_invoice_plan/models/sale.py:43
+#: code:addons/sale_invoice_plan/models/sale.py:50
 #, python-format
 msgid "Please fill percentage for all invoice plan lines"
 msgstr ""
@@ -336,7 +336,7 @@ msgid "Use Invoice Plan"
 msgstr ""
 
 #. module: sale_invoice_plan
-#: code:addons/sale_invoice_plan/models/sale.py:50
+#: code:addons/sale_invoice_plan/models/sale.py:57
 #, python-format
 msgid "Use Invoice Plan selected, but no plan created"
 msgstr ""
