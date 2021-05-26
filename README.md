@@ -26,8 +26,10 @@ addon | version | summary
 [sale_discount_display_amount](sale_discount_display_amount/) | 14.0.1.0.1 | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_exception](sale_exception/) | 14.0.1.0.1 | Custom exceptions on sale order
 [sale_force_invoiced](sale_force_invoiced/) | 14.0.1.1.1 | Allows to force the invoice status of the sales order to Invoiced
+[sale_invoice_blocking](sale_invoice_blocking/) | 14.0.1.0.0 | Allow you to block the creation of invoices from a sale order.
 [sale_isolated_quotation](sale_isolated_quotation/) | 14.0.1.0.0 | Sale Isolated Quotation
 [sale_last_price_info](sale_last_price_info/) | 14.0.1.0.1 | Product Last Price Info - Sale
+[sale_mrp_bom](sale_mrp_bom/) | 14.0.1.0.0 | Allows define a BOM in the sales lines.
 [sale_order_archive](sale_order_archive/) | 14.0.1.0.0 | Archive Sale Orders
 [sale_order_line_date](sale_order_line_date/) | 14.0.1.0.1 | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 14.0.1.0.0 | Sale order line description
