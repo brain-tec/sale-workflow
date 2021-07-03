@@ -35,6 +35,7 @@ addon | version | summary
 [sale_order_line_description](sale_order_line_description/) | 14.0.1.0.0 | Sale order line description
 [sale_order_line_menu](sale_order_line_menu/) | 14.0.1.0.0 | Adds a Sale Order Lines Menu
 [sale_order_line_note](sale_order_line_note/) | 14.0.1.0.0 | Note on sale order line
+[sale_order_line_price_history](sale_order_line_price_history/) | 14.0.1.0.0 | Sale order line price history
 [sale_order_lot_generator](sale_order_lot_generator/) | 14.0.1.0.1 | Sale Order Lot Generator
 [sale_order_lot_selection](sale_order_lot_selection/) | 14.0.1.0.0 | Sale Order Lot Selection
 [sale_order_note_template](sale_order_note_template/) | 14.0.1.0.0 | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
@@ -42,9 +43,10 @@ addon | version | summary
 [sale_order_revision](sale_order_revision/) | 14.0.1.0.0 | Keep track of revised quotations
 [sale_partner_incoterm](sale_partner_incoterm/) | 14.0.1.0.0 | Set the customer preferred incoterm on each sales order
 [sale_pricelist_from_commitment_date](sale_pricelist_from_commitment_date/) | 14.0.1.0.1 | Use sale order commitment date to compute line price from pricelist
+[sale_product_brand_exception](sale_product_brand_exception/) | 14.0.1.0.0 | Define rules for sale order and brands
 [sale_product_category_menu](sale_product_category_menu/) | 14.0.1.0.1 | Shows 'Product Categories' menu item in Sales
 [sale_product_multi_add](sale_product_multi_add/) | 14.0.1.0.1 | Sale Product Multi Add
-[sale_product_seasonality](sale_product_seasonality/) | 14.0.1.0.1 | Integrates rules for products' seasonal availability with sales
+[sale_product_seasonality](sale_product_seasonality/) | 14.0.1.1.0 | Integrates rules for products' seasonal availability with sales
 [sale_product_set](sale_product_set/) | 14.0.1.2.0 | Sale product set
 [sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 14.0.1.0.0 | Manage packaging and quantities on product set lines
 [sale_quotation_number](sale_quotation_number/) | 14.0.1.0.2 | Different sequence for sale quotations
