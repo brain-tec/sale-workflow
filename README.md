@@ -24,7 +24,7 @@ addon | version | summary
 [partner_sale_pivot](partner_sale_pivot/) | 12.0.1.0.0 | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 12.0.1.1.0 | Allow portal users to see their own documents
 [pricelist_by_category_qty](pricelist_by_category_qty/) | 12.0.1.0.0 | Discount by quantities of product category
-[product_form_sale_link](product_form_sale_link/) | 12.0.1.0.0 | Adds a button on product forms to access Sale Lines
+[product_form_sale_link](product_form_sale_link/) | 12.0.1.1.0 | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 12.0.1.1.0 | Loads in every sale order line the customer code defined in the product
 [sale_automatic_workflow](sale_automatic_workflow/) | 12.0.1.1.0 | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 12.0.1.0.1 | Execute sale automatic workflows in queue jobs
@@ -56,7 +56,7 @@ addon | version | summary
 [sale_milestone_profile_invoicing](sale_milestone_profile_invoicing/) | 12.0.1.0.1 | Inform on delivered and invoiced work by sale order line.
 [sale_mrp_bom](sale_mrp_bom/) | 12.0.1.0.0 | Allows define a BOM in the sales lines.
 [sale_mrp_link](sale_mrp_link/) | 12.0.1.0.1 | Show manufacturing orders generated from sales order
-[sale_order_action_invoice_create_hook](sale_order_action_invoice_create_hook/) | 12.0.1.0.1 | Add more flexibility in the grouping parameters for the creation of invoices
+[sale_order_action_invoice_create_hook](sale_order_action_invoice_create_hook/) | 12.0.1.0.3 | Add more flexibility in the grouping parameters for the creation of invoices
 [sale_order_archive](sale_order_archive/) | 12.0.1.0.0 | Archive Sale Orders
 [sale_order_digitized_signature](sale_order_digitized_signature/) | 12.0.1.0.0 | Capture customer signature on the sales order
 [sale_order_general_discount](sale_order_general_discount/) | 12.0.1.1.0 | General discount per sale order
