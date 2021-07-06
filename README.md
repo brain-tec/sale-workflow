@@ -22,6 +22,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[partner_prospect](partner_prospect/) | 13.0.1.0.0 | Partner Prospect
 [partner_sale_pivot](partner_sale_pivot/) | 13.0.1.0.0 | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 | Portal Sale Personal Data Only
 [sale_automatic_workflow](sale_automatic_workflow/) | 13.0.1.2.2 | Sale Automatic Workflow
@@ -60,7 +61,7 @@ addon | version | summary
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 | Sale order line description
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 | Sale order line price history
-[sale_order_lot_selection](sale_order_lot_selection/) | 13.0.1.0.2 | Sale Order Lot Selection
+[sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.0.0 | Sale Order Lot Selection
 [sale_order_priority](sale_order_priority/) | 13.0.1.0.0 | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.0.0 | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | Show product availability in sales order line product drop-down.
