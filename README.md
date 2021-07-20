@@ -26,6 +26,7 @@ addon | version | summary
 [partner_sale_pivot](partner_sale_pivot/) | 13.0.1.0.0 | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 | Portal Sale Personal Data Only
 [sale_automatic_workflow](sale_automatic_workflow/) | 13.0.1.2.2 | Sale Automatic Workflow
+[sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.0 | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.0.1 | Blanket Orders
 [sale_by_packaging](sale_by_packaging/) | 13.0.1.5.1 | Manage sale of packaging
@@ -39,13 +40,14 @@ addon | version | summary
 [sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 | Prevents in changing currency if multi coupon is in use
 [sale_coupon_product_management](sale_coupon_product_management/) | 13.0.1.0.0 | Improves related product management via sale coupons
 [sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.3.0 | Schedule delivery orders according to cutoff preferences
+[sale_delivery_state](sale_delivery_state/) | 13.0.1.0.0 | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 13.0.1.0.1 | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 13.0.1.0.0 | Set an elaboration for any sale line
 [sale_exception](sale_exception/) | 13.0.1.1.1 | Custom exceptions on sale order
 [sale_fixed_discount](sale_fixed_discount/) | 13.0.1.1.1 | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 13.0.1.1.0 | Allows to force the invoice status of the sales order to Invoiced
 [sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 13.0.1.0.0 | Sale Force Whole Invoiceability
-[sale_global_discount](sale_global_discount/) | 13.0.1.0.0 | Sale Global Discount
+[sale_global_discount](sale_global_discount/) | 13.0.1.0.1 | Sale Global Discount
 [sale_invoice_plan](sale_invoice_plan/) | 13.0.1.0.2 | Add to sales order, ability to manage future invoice plan
 [sale_invoice_policy](sale_invoice_policy/) | 13.0.1.0.1 | Sales Management: let the user choose the invoice policy on the order
 [sale_isolated_quotation](sale_isolated_quotation/) | 13.0.1.0.0 | Sale Isolated Quotation
@@ -60,6 +62,7 @@ addon | version | summary
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.0 | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 | Sale order line description
+[sale_order_line_input](sale_order_line_input/) | 13.0.1.0.0 | Search, create or modify directly sale order lines
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.0.0 | Sale Order Lot Selection
