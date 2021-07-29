@@ -26,7 +26,7 @@ addon | version | summary
 [pricelist_by_category_qty](pricelist_by_category_qty/) | 12.0.1.0.0 | Discount by quantities of product category
 [product_form_sale_link](product_form_sale_link/) | 12.0.1.1.0 | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 12.0.1.1.0 | Loads in every sale order line the customer code defined in the product
-[sale_automatic_workflow](sale_automatic_workflow/) | 12.0.1.1.0 | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 12.0.1.1.1 | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 12.0.1.0.1 | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 12.0.1.0.0 | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 12.0.1.0.1 | Blanket Orders
@@ -79,6 +79,7 @@ addon | version | summary
 [sale_order_tag](sale_order_tag/) | 12.0.1.0.0 | Adds Tags to Sales Orders.
 [sale_order_transmit_method](sale_order_transmit_method/) | 12.0.1.0.0 | Set transmit method (email, post, portal, ...) in sale order and propagate it to invoices
 [sale_order_type](sale_order_type/) | 12.0.1.2.2 | Sale Order Type
+[sale_order_weight](sale_order_weight/) | 12.0.1.0.1 | Sale Order Weight
 [sale_partner_incoterm](sale_partner_incoterm/) | 12.0.1.0.0 | Set the customer preferred incoterm on each sales order
 [sale_procurement_group_by_commitment_date](sale_procurement_group_by_commitment_date/) | 12.0.1.0.0 | Groups pickings based on commitment date of order line
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 12.0.1.0.0 | Base module for multiple procurement group by Sale order
