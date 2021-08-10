@@ -19,6 +19,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 14.0.1.0.1 | Loads in every sale order line the customer code defined in the product
 [sale_advance_payment](sale_advance_payment/) | 14.0.1.0.0 | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 14.0.1.1.2 | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 14.0.1.0.0 | Glue module for sale_automatic_workflow and sale_delivery_state
@@ -36,6 +37,7 @@ addon | version | summary
 [sale_last_price_info](sale_last_price_info/) | 14.0.1.0.1 | Product Last Price Info - Sale
 [sale_mrp_bom](sale_mrp_bom/) | 14.0.1.0.0 | Allows define a BOM in the sales lines.
 [sale_order_archive](sale_order_archive/) | 14.0.1.0.0 | Archive Sale Orders
+[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 14.0.1.0.1 | Auto assign delivery carrier on sale order confirmation
 [sale_order_general_discount](sale_order_general_discount/) | 14.0.1.0.0 | General discount per sale order
 [sale_order_line_date](sale_order_line_date/) | 14.0.1.0.1 | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 14.0.1.0.0 | Sale order line description
