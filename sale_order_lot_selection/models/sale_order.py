@@ -1,10 +1,12 @@
 from odoo import _, api, models
 from odoo.exceptions import UserError
 
-# TODO: This whole file was deleted in OCA https://github.com/OCA/sale-workflow/pull/1525/files
-# but left in the project branch as we had some custom changes and we didn't have time to fully check
-# the side-effects of deleting it in MindFR.
+# TODO: This whole file was deleted in OCA
+# https://github.com/OCA/sale-workflow/pull/1525/files
+# but left in the project branch as we had some custom changes and we
+# didn't have time to fully check the side-effects of deleting it in MindFR.
 # Please, for next migration, double check if it can be deleted safely
+
 
 class SaleOrder(models.Model):
     _inherit = "sale.order"
