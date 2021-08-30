@@ -1,0 +1,73 @@
+from odoo import _, api, models
+from odoo.exceptions import UserError
+
+# TODO: This whole file was deleted in OCA https://github.com/OCA/sale-workflow/pull/1525/files
+# but left in the project branch as we had some custom changes and we didn't have time to fully check
+# the side-effects of deleting it in MindFR.
+# Please, for next migration, double check if it can be deleted safely
+
+class SaleOrder(models.Model):
+    _inherit = "sale.order"
+
+    @api.model
+    def get_move_from_line(self, line):
+        move = self.env["stock.move"]
+        # i create this counter to check lot's univocity on move line
+        lot_count = 0
+        for m in line.order_id.picking_ids.mapped("move_lines"):
+            move_line_id = m.move_line_ids.filtered(lambda line: line.lot_id)
+            if move_line_id and line.lot_id == move_line_id[0].lot_id:
+                move = m
+                lot_count += 1
+                # if counter is 0 or > 1 means that something goes wrong
+                if lot_count != 1:
+                    raise UserError(_("Can't retrieve lot on stock"))
+        return move
+
+    @api.model
+    def _check_move_state(self, line):
+        if self.env.context.get("skip_check_lot_selection_move", False):
+            return True
+        if line.lot_id:
+            move = self.get_move_from_line(line)
+            if move.state == "confirmed":
+                move._action_assign()
+                move.refresh()
+            if move.state != "assigned":
+                raise UserError(
+                    _("Can't reserve products for lot %s") % line.lot_id.name
+                )
+        return True
+
+    def action_confirm(self):
+        res = super(SaleOrder, self.with_context(sol_lot_id=True)).action_confirm()
+        self._check_related_moves()
+        return res
+
+    def _check_related_moves(self):
+        if self.env.context.get("skip_check_lot_selection_qty", False):
+            return True
+
+        # When the reservation mode in the Stock Settings is set to
+        # Immediately, we need to check for unreserved moves.
+        # ('1', 'Immediately after sales order confirmation')  module installed
+        # ('0', 'Manually or based on automatic scheduler')  module uninstalled
+        procurement_jit_module = (
+            self.env["ir.module.module"]
+            .sudo()
+            .search([("name", "=", "procurement_jit")])
+        )
+        if procurement_jit_module and procurement_jit_module.state == "installed":
+            for line in self.order_line:
+                if line.lot_id:
+                    moves = line.move_ids._get_assigned_move_ids()
+                    unreserved_moves = moves.filtered(
+                        lambda move: move.product_uom_qty != move.reserved_availability
+                    )
+                    if unreserved_moves:
+                        raise UserError(
+                            _("Can't reserve products for lot %s") % line.lot_id.name
+                        )
+                self._check_move_state(line)
+
+        return True
