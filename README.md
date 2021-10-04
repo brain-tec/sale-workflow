@@ -22,14 +22,16 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[partner_contact_sale_info_propagation](partner_contact_sale_info_propagation/) | 13.0.1.0.0 |  | Propagate Salesperson and Sales Channel from Company to Contacts
 [partner_prospect](partner_prospect/) | 13.0.1.0.0 |  | Partner Prospect
 [partner_sale_pivot](partner_sale_pivot/) | 13.0.1.1.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 |  | Portal Sale Personal Data Only
 [product_form_sale_link](product_form_sale_link/) | 13.0.1.0.1 |  | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 13.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
-[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.1.2.2 |  | Sale Automatic Workflow
-[sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.0 |  | Glue module for sale_automatic_workflow and sale_delivery_state
+[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.0.0 |  | Sale Automatic Workflow
+[sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.1 |  | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
+[sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.0 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.0.1 |  | Blanket Orders
 [sale_by_packaging](sale_by_packaging/) | 13.0.1.5.1 |  | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 |  | Sale Cancel Reason
@@ -41,8 +43,8 @@ addon | version | maintainers | summary
 [sale_coupon_multi_use](sale_coupon_multi_use/) | 13.0.1.0.1 |  | Allow to use same coupon multiple times
 [sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 |  | Prevents in changing currency if multi coupon is in use
 [sale_coupon_product_management](sale_coupon_product_management/) | 13.0.1.0.0 |  | Improves related product management via sale coupons
-[sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.3.0 |  | Schedule delivery orders according to cutoff preferences
-[sale_delivery_state](sale_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order
+[sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.4.0 |  | Schedule delivery orders according to cutoff preferences
+[sale_delivery_state](sale_delivery_state/) | 13.0.1.0.1 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 13.0.1.0.2 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 13.0.1.0.0 |  | Set an elaboration for any sale line
 [sale_exception](sale_exception/) | 13.0.1.2.0 |  | Custom exceptions on sale order
@@ -79,7 +81,7 @@ addon | version | maintainers | summary
 [sale_order_tag](sale_order_tag/) | 13.0.1.0.1 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds Tags to Sales Orders.
 [sale_order_type](sale_order_type/) | 13.0.1.4.0 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 13.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
-[sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.2.0 |  | Schedule delivery orders according to delivery window preferences
+[sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.3.0 |  | Schedule delivery orders according to delivery window preferences
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 |  | Set the customer preferred incoterm on each sales order
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 13.0.1.0.4 |  | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 13.0.1.0.1 |  | Shows 'Product Categories' menu item in Sales
@@ -92,7 +94,7 @@ addon | version | maintainers | summary
 [sale_sourced_by_line](sale_sourced_by_line/) | 13.0.1.0.1 |  | Multiple warehouse source locations for Sale order
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 13.0.1.0.3 |  | Sale Stock Delivery Address
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 13.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
-[sale_stock_picking_note](sale_stock_picking_note/) | 13.0.1.0.0 |  | Add picking note in sale and purchase order
+[sale_stock_picking_note](sale_stock_picking_note/) | 13.0.2.0.0 |  | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 13.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 13.0.1.0.0 |  | Get product quantities in a secondary unit
 [sale_tier_validation](sale_tier_validation/) | 13.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
