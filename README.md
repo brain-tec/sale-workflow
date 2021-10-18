@@ -65,6 +65,7 @@ addon | version | maintainers | summary
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 13.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 |  | Adds a commitment date to each sale order line.
+[sale_order_line_delivery_state](sale_order_line_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 |  | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 13.0.1.0.3 |  | Search, create or modify directly sale order lines
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 |  | Define quantities according to product packaging on sale order lines
@@ -88,6 +89,7 @@ addon | version | maintainers | summary
 [sale_product_multi_add](sale_product_multi_add/) | 13.0.1.0.1 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 13.0.1.2.1 |  | Sale product set
 [sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 13.0.1.0.1 |  | Manage packaging and quantities on product set lines
+[sale_product_set_sale_by_packaging](sale_product_set_sale_by_packaging/) | 13.0.1.1.0 |  | Glue module between `sale_by_packaging` and `sale_product_set_packaging_qty`.
 [sale_quotation_number](sale_quotation_number/) | 13.0.1.0.0 |  | Different sequence for sale quotations
 [sale_secondary_salesperson](sale_secondary_salesperson/) | 13.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Secondary Salesperson
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 13.0.1.0.0 |  | Add shipping amounts on sale order

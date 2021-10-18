@@ -51,6 +51,7 @@ setuptools.setup(
         'odoo13-addon-sale_order_invoice_amount',
         'odoo13-addon-sale_order_invoicing_finished_task',
         'odoo13-addon-sale_order_line_date',
+        'odoo13-addon-sale_order_line_delivery_state',
         'odoo13-addon-sale_order_line_description',
         'odoo13-addon-sale_order_line_input',
         'odoo13-addon-sale_order_line_packaging_qty',
@@ -74,6 +75,7 @@ setuptools.setup(
         'odoo13-addon-sale_product_multi_add',
         'odoo13-addon-sale_product_set',
         'odoo13-addon-sale_product_set_packaging_qty',
+        'odoo13-addon-sale_product_set_sale_by_packaging',
         'odoo13-addon-sale_quotation_number',
         'odoo13-addon-sale_secondary_salesperson',
         'odoo13-addon-sale_shipping_info_helper',
@@ -91,5 +93,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 13.0',
     ]
 )
