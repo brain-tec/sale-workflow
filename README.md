@@ -29,7 +29,7 @@ addon | version | maintainers | summary
 [sale_cancel_confirm](sale_cancel_confirm/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Sales Cancel Confirm
 [sale_commercial_partner](sale_commercial_partner/) | 14.0.1.0.1 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_commitment_date_mandatory](sale_commitment_date_mandatory/) | 14.0.1.0.0 |  | Set commitment data mandatory and don't allowto add lines unless this field is filled
-[sale_delivery_state](sale_delivery_state/) | 14.0.1.0.0 |  | Show the delivery state on the sale order
+[sale_delivery_state](sale_delivery_state/) | 14.0.1.1.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 14.0.1.0.2 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_exception](sale_exception/) | 14.0.1.0.1 |  | Custom exceptions on sale order
 [sale_force_invoiced](sale_force_invoiced/) | 14.0.1.1.1 |  | Allows to force the invoice status of the sales order to Invoiced
@@ -53,6 +53,7 @@ addon | version | maintainers | summary
 [sale_order_lot_selection](sale_order_lot_selection/) | 14.0.1.0.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_note_template](sale_order_note_template/) | 14.0.1.0.0 |  | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 14.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
+[sale_order_report_without_price](sale_order_report_without_price/) | 14.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
 [sale_order_revision](sale_order_revision/) | 14.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_type](sale_order_type/) | 14.0.1.1.1 |  | Sale Order Type
 [sale_partner_incoterm](sale_partner_incoterm/) | 14.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
