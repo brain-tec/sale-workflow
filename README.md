@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.0 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.0.1 |  | Blanket Orders
-[sale_by_packaging](sale_by_packaging/) | 13.0.1.5.1 |  | Manage sale of packaging
+[sale_by_packaging](sale_by_packaging/) | 13.0.1.5.2 |  | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 13.0.1.0.0 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 |  | Define ordering contact type
@@ -43,7 +43,7 @@ addon | version | maintainers | summary
 [sale_coupon_multi_use](sale_coupon_multi_use/) | 13.0.1.0.1 |  | Allow to use same coupon multiple times
 [sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 |  | Prevents in changing currency if multi coupon is in use
 [sale_coupon_product_management](sale_coupon_product_management/) | 13.0.1.0.0 |  | Improves related product management via sale coupons
-[sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.4.0 |  | Schedule delivery orders according to cutoff preferences
+[sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.4.1 |  | Schedule delivery orders according to cutoff preferences
 [sale_delivery_state](sale_delivery_state/) | 13.0.1.0.1 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 13.0.1.0.2 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 13.0.1.0.0 |  | Set an elaboration for any sale line
@@ -64,6 +64,7 @@ addon | version | maintainers | summary
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 13.0.1.0.1 |  | Sale Order Incoterm Place
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 13.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_line_chained_move](sale_order_line_chained_move/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module adds a field on sale order line to get all related move lines
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 |  | Sale order line description
