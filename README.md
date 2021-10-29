@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.0 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.0.1 |  | Blanket Orders
-[sale_by_packaging](sale_by_packaging/) | 13.0.1.5.1 |  | Manage sale of packaging
+[sale_by_packaging](sale_by_packaging/) | 13.0.1.5.2 |  | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 13.0.1.0.0 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 |  | Define ordering contact type
@@ -43,7 +43,7 @@ addon | version | maintainers | summary
 [sale_coupon_multi_use](sale_coupon_multi_use/) | 13.0.1.0.1 |  | Allow to use same coupon multiple times
 [sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 |  | Prevents in changing currency if multi coupon is in use
 [sale_coupon_product_management](sale_coupon_product_management/) | 13.0.1.0.0 |  | Improves related product management via sale coupons
-[sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.4.0 |  | Schedule delivery orders according to cutoff preferences
+[sale_cutoff_time_delivery](sale_cutoff_time_delivery/) | 13.0.1.4.1 |  | Schedule delivery orders according to cutoff preferences
 [sale_delivery_state](sale_delivery_state/) | 13.0.1.0.1 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 13.0.1.0.2 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 13.0.1.0.0 |  | Set an elaboration for any sale line
@@ -64,10 +64,11 @@ addon | version | maintainers | summary
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 13.0.1.0.1 |  | Sale Order Incoterm Place
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 13.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_line_chained_move](sale_order_line_chained_move/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module adds a field on sale order line to get all related move lines
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 |  | Sale order line description
-[sale_order_line_input](sale_order_line_input/) | 13.0.1.0.3 |  | Search, create or modify directly sale order lines
+[sale_order_line_input](sale_order_line_input/) | 13.0.1.1.0 |  | Search, create or modify directly sale order lines
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 |  | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.0.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
@@ -95,6 +96,7 @@ addon | version | maintainers | summary
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 13.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 13.0.1.0.1 |  | Multiple warehouse source locations for Sale order
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 13.0.1.0.3 |  | Sale Stock Delivery Address
+[sale_stock_last_date](sale_stock_last_date/) | 13.0.1.0.0 |  | Displays last delivery date in sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 13.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 13.0.2.0.0 |  | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 13.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
