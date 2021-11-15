@@ -1,5 +1,5 @@
 To be able to handle global discounts, you need first to give to your user the
- "Manage Global Discounts" permission.
+"Manage Global Discounts" permission.
 
 Then, you need to:
 
