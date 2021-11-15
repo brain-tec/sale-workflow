@@ -3,6 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 import odoo.tests.common as test_common
+from odoo.exceptions import UserError
 
 
 class TestSaleOrderLotSelection(test_common.SingleTransactionCase):
@@ -266,13 +267,8 @@ class TestSaleOrderLotSelection(test_common.SingleTransactionCase):
         self.sol3.lot_id = lot10.id
         # I'll try to confirm it to check lot reservation:
         # lot10 was delivered by order1
-        lot10_qty_available = self._stock_quantity(
-            self.product_57, lot10, self.stock_location
-        )
-        self.order3.action_confirm()
-        self.assertEqual(self.order3.state, "sale")
-        # products are not available for reservation (lot unavailable)
-        self.assertEqual(self.order3.picking_ids[0].state, "confirmed")
+        with self.assertRaises(UserError):
+            self.order3.action_confirm()
 
         # also test on_change for order2
         onchange_res = self.sol2a._onchange_product_id_set_lot_domain()
@@ -301,7 +297,5 @@ class TestSaleOrderLotSelection(test_common.SingleTransactionCase):
         self.assertEqual(lot12_qty_available, 0)
         # I'll try to confirm it to check lot reservation:
         # lot11 has 1 availability and order4 has quantity 2
-        self.order4.action_confirm()
-        self.assertEqual(self.order4.state, "sale")
-        # products are reserved
-        self.assertEqual(self.order4.picking_ids[0].state, "assigned")
+        with self.assertRaises(UserError):
+            self.order4.action_confirm()
