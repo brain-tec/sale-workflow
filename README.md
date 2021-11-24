@@ -28,10 +28,10 @@ addon | version | maintainers | summary
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 |  | Portal Sale Personal Data Only
 [product_form_sale_link](product_form_sale_link/) | 13.0.1.0.1 |  | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 13.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
-[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.0.0 |  | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.0.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.1 |  | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
-[sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.0 |  | Sale Automatic Workflow - Payment Mode
+[sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.1.0 |  | Blanket Orders
 [sale_by_packaging](sale_by_packaging/) | 13.0.1.5.2 |  | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 |  | Sale Cancel Reason
