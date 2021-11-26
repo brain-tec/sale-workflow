@@ -58,6 +58,7 @@ addon | version | maintainers | summary
 [sale_order_report_without_price](sale_order_report_without_price/) | 14.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
 [sale_order_revision](sale_order_revision/) | 14.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_type](sale_order_type/) | 14.0.1.1.1 |  | Sale Order Type
+[sale_order_warn_message](sale_order_warn_message/) | 14.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_incoterm](sale_partner_incoterm/) | 14.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_version](sale_partner_version/) | 14.0.1.0.0 |  | Sale Partner Version
 [sale_pricelist_from_commitment_date](sale_pricelist_from_commitment_date/) | 14.0.1.0.1 |  | Use sale order commitment date to compute line price from pricelist
@@ -73,6 +74,7 @@ addon | version | maintainers | summary
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 14.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_start_end_dates](sale_start_end_dates/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 14.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
+[sale_stock_picking_note](sale_stock_picking_note/) | 14.0.1.0.0 |  | Add picking note in sale and purchase order
 [sale_tier_validation](sale_tier_validation/) | 14.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_transaction_form_link](sale_transaction_form_link/) | 14.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allows to display a link to payment transactions on Sale Order form view.
 [sale_validity](sale_validity/) | 14.0.1.0.2 |  | Set a default validity delay on quotations
