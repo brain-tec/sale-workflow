@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 14.0.1.0.1 |  | Loads in every sale order line the customer code defined in the product
 [sale_advance_payment](sale_advance_payment/) | 14.0.1.1.0 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_amount_payment_link](sale_amount_payment_link/) | 14.0.1.0.0 |  | Reduce Amount to be paid while Payment Link is generated on Sale Order, depending on done Transactions.
-[sale_automatic_workflow](sale_automatic_workflow/) | 14.0.1.1.4 |  | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 14.0.1.2.0 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 14.0.1.0.0 |  | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 14.0.1.0.0 |  | Sale Automatic Workflow - Payment Mode
 [sale_by_packaging](sale_by_packaging/) | 14.0.1.0.1 |  | Manage sale of packaging
@@ -52,7 +52,7 @@ addon | version | maintainers | summary
 [sale_order_line_description](sale_order_line_description/) | 14.0.1.0.0 |  | Sale order line description
 [sale_order_line_menu](sale_order_line_menu/) | 14.0.1.0.0 |  | Adds a Sale Order Lines Menu
 [sale_order_line_note](sale_order_line_note/) | 14.0.1.0.0 |  | Note on sale order line
-[sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 14.0.1.0.0 |  | Define quantities according to product packaging on sale order lines
+[sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 14.0.1.0.1 |  | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 14.0.1.0.0 |  | Sale order line price history
 [sale_order_lot_generator](sale_order_lot_generator/) | 14.0.1.0.1 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Sale Order Lot Generator
 [sale_order_lot_selection](sale_order_lot_selection/) | 14.0.1.0.1 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
@@ -71,7 +71,7 @@ addon | version | maintainers | summary
 [sale_product_rating_verified](sale_product_rating_verified/) | 14.0.1.0.1 |  | Verify if a user has previously bought a product
 [sale_product_seasonality](sale_product_seasonality/) | 14.0.1.1.0 |  | Integrates rules for products' seasonal availability with sales
 [sale_product_set](sale_product_set/) | 14.0.1.3.0 |  | Sale product set
-[sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 14.0.1.0.0 |  | Manage packaging and quantities on product set lines
+[sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 14.0.1.1.0 |  | Manage packaging and quantities on product set lines
 [sale_product_set_sale_by_packaging](sale_product_set_sale_by_packaging/) | 14.0.1.0.0 |  | Glue module between `sale_by_packaging` and `sale_product_set_packaging_qty`.
 [sale_quotation_number](sale_quotation_number/) | 14.0.2.0.0 |  | Different sequence for sale quotations
 [sale_rental](sale_rental/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Manage Rental of Products
