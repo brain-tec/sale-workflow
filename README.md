@@ -73,9 +73,9 @@ addon | version | maintainers | summary
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_priority](sale_order_priority/) | 13.0.1.0.0 |  | Define priority on sale orders
-[sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.1.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
+[sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.2.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.3.0.2 |  | Recommend products to sell to customer based on history
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.3.1.0 |  | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.2.0 |  | Add secondary unit to recommend products wizard
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 13.0.1.0.3 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 |  | Keep track of revised quotations
@@ -85,7 +85,7 @@ addon | version | maintainers | summary
 [sale_order_warn_message](sale_order_warn_message/) | 13.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.3.0 |  | Schedule delivery orders according to delivery window preferences
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 |  | Set the customer preferred incoterm on each sales order
-[sale_partner_selectable_option](sale_partner_selectable_option/) | 13.0.2.1.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
+[sale_partner_selectable_option](sale_partner_selectable_option/) | 13.0.2.2.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_payment_sheet](sale_payment_sheet/) | 13.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Allow to create invoice payments to commercial users without accounting permissions
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 13.0.1.0.4 |  | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 13.0.1.0.1 |  | Shows 'Product Categories' menu item in Sales
@@ -97,6 +97,7 @@ addon | version | maintainers | summary
 [sale_secondary_salesperson](sale_secondary_salesperson/) | 13.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Secondary Salesperson
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 13.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 13.0.1.0.1 |  | Multiple warehouse source locations for Sale order
+[sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 13.0.1.0.0 |  | Sale Stock Cancel Restriction
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 13.0.1.0.3 |  | Sale Stock Delivery Address
 [sale_stock_last_date](sale_stock_last_date/) | 13.0.1.0.0 |  | Displays last delivery date in sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 13.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
