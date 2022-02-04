@@ -24,6 +24,7 @@ addon | version | maintainers | summary
 [sale_cancel_reason](sale_cancel_reason/) | 9.0.1.0.0 |  | Sale Cancel Reason
 [sale_delivery_block](sale_delivery_block/) | 9.0.1.0.0 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_delivery_block_proc_group_by_line](sale_delivery_block_proc_group_by_line/) | 9.0.1.0.0 |  | Module that allows module sale_delivery_block to work with sale_procurement_group_by_line
+[sale_discount_display_amount](sale_discount_display_amount/) | 9.0.1.0.1 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_double_validation](sale_double_validation/) | 9.0.1.0.0 |  | Double validation for Sales
 [sale_exception](sale_exception/) | 9.0.1.1.0 |  | Custom exceptions on sale order
 [sale_fixed_discount](sale_fixed_discount/) | 9.0.1.0.0 |  | Allows to apply fixed amount discounts in sales orders.
@@ -43,6 +44,7 @@ addon | version | maintainers | summary
 [sale_product_set](sale_product_set/) | 9.0.1.0.1 |  | Sale product set
 [sale_rental](sale_rental/) | 9.0.1.0.0 |  | Manage Rental of Products
 [sale_revert_done](sale_revert_done/) | 9.0.1.0.0 |  | This module extends the functionality of sales to allow you to set a sales order done back to state 'Sale Order'.
+[sale_shipping_info_helper](sale_shipping_info_helper/) | 9.0.1.0.1 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 9.0.1.0.0 |  | Multiple warehouse source locations for Sale order
 [sale_start_end_dates](sale_start_end_dates/) | 9.0.1.0.0 |  | Adds start date and end date on sale order lines
 [sale_validity](sale_validity/) | 9.0.1.0.0 |  | Set a default validity delay on quotations
