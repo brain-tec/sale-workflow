@@ -26,7 +26,9 @@ class SaleOrder(models.Model):
 
     @api.model
     def _default_type_id(self):
-        return self.env["sale.order.type"].search([], limit=1)
+        return self.env["sale.order.type"].search(
+            [("company_id", "in", [self.env.company.id, False])], limit=1
+        )
 
     @api.depends("partner_id", "company_id")
     def _compute_sale_type_id(self):
@@ -65,6 +67,8 @@ class SaleOrder(models.Model):
                 vals.update({"pricelist_id": order_type.pricelist_id})
             if order_type.incoterm_id:
                 vals.update({"incoterm": order_type.incoterm_id})
+            if order_type.analytic_account_id:
+                vals.update({"analytic_account_id": order_type.analytic_account_id})
             if vals:
                 order.update(vals)
             # Order line values
