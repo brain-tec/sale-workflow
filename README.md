@@ -23,7 +23,7 @@ addon | version | maintainers | summary
 [pricelist_cache](pricelist_cache/) | 14.0.1.0.1 |  | Provide a new model to cache price lists and update it, to make it easier to retrieve them.
 [pricelist_cache_rest](pricelist_cache_rest/) | 14.0.1.0.0 |  | Provides an endpoint to get product prices for a given customer
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 14.0.1.0.1 |  | Loads in every sale order line the customer code defined in the product
-[sale_advance_payment](sale_advance_payment/) | 14.0.1.1.0 |  | Allow to add advance payments on sales and then use them on invoices
+[sale_advance_payment](sale_advance_payment/) | 14.0.1.1.1 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_amount_payment_link](sale_amount_payment_link/) | 14.0.1.0.0 |  | Reduce Amount to be paid while Payment Link is generated on Sale Order, depending on done Transactions.
 [sale_automatic_workflow](sale_automatic_workflow/) | 14.0.1.3.0 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 14.0.1.0.0 |  | Glue module for sale_automatic_workflow and sale_delivery_state
@@ -50,11 +50,12 @@ addon | version | maintainers | summary
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 14.0.1.0.1 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 14.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
 [sale_order_general_discount](sale_order_general_discount/) | 14.0.1.0.1 |  | General discount per sale order
+[sale_order_invoice_amount](sale_order_invoice_amount/) | 14.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_line_chained_move](sale_order_line_chained_move/) | 14.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module adds a field on sale order line to get all related move lines
 [sale_order_line_date](sale_order_line_date/) | 14.0.1.0.1 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 14.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 14.0.1.0.0 |  | Sale order line description
-[sale_order_line_discount_validation](sale_order_line_discount_validation/) | 14.0.1.0.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Review discounts before sales order are printed, sent or confirmed
+[sale_order_line_discount_validation](sale_order_line_discount_validation/) | 14.0.2.0.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Review discounts before sales order are printed, sent or confirmed
 [sale_order_line_input](sale_order_line_input/) | 14.0.1.0.0 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 14.0.1.0.0 |  | Adds a Sale Order Lines Menu
 [sale_order_line_note](sale_order_line_note/) | 14.0.1.0.0 |  | Note on sale order line
@@ -66,7 +67,7 @@ addon | version | maintainers | summary
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 14.0.1.0.2 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_report_without_price](sale_order_report_without_price/) | 14.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
 [sale_order_revision](sale_order_revision/) | 14.0.1.0.1 |  | Keep track of revised quotations
-[sale_order_type](sale_order_type/) | 14.0.2.0.1 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 14.0.3.0.0 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 14.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_incoterm](sale_partner_incoterm/) | 14.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_version](sale_partner_version/) | 14.0.2.0.0 |  | Sale Partner Version
