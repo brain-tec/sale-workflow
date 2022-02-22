@@ -28,7 +28,7 @@ addon | version | maintainers | summary
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 |  | Portal Sale Personal Data Only
 [product_form_sale_link](product_form_sale_link/) | 13.0.1.0.1 |  | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 13.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
-[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.1.0 |  | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.1.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.1 |  | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
@@ -63,7 +63,7 @@ addon | version | maintainers | summary
 [sale_order_general_discount](sale_order_general_discount/) | 13.0.1.0.1 |  | General discount per sale order
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 13.0.1.0.1 |  | Sale Order Incoterm Place
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 13.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
-[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.1 |  | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.1.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_chained_move](sale_order_line_chained_move/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module adds a field on sale order line to get all related move lines
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order line
