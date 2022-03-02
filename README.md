@@ -28,18 +28,18 @@ addon | version | maintainers | summary
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 13.0.1.1.0 |  | Portal Sale Personal Data Only
 [product_form_sale_link](product_form_sale_link/) | 13.0.1.0.1 |  | Adds a button on product forms to access Sale Lines
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 13.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
-[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.0.1 |  | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.1.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.1 |  | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.1.0 |  | Blanket Orders
-[sale_by_packaging](sale_by_packaging/) | 13.0.1.5.2 |  | Manage sale of packaging
+[sale_by_packaging](sale_by_packaging/) | 13.0.1.6.0 |  | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 13.0.1.0.0 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 |  | Define ordering contact type
 [sale_coupon_most_expensive](sale_coupon_most_expensive/) | 13.0.1.0.1 |  | Extra Discount Apply option - On Most Expensive Product
 [sale_coupon_most_expensive_delivery](sale_coupon_most_expensive_delivery/) | 13.0.1.0.1 |  | Bridge for Most Expensive program and shipping costs
-[sale_coupon_multi_currency](sale_coupon_multi_currency/) | 13.0.1.0.1 |  | Allow to use custom currency on coupon/promotion program
+[sale_coupon_multi_currency](sale_coupon_multi_currency/) | 13.0.1.0.2 |  | Allow to use custom currency on coupon/promotion program
 [sale_coupon_multi_use](sale_coupon_multi_use/) | 13.0.1.0.2 |  | Allow to use same coupon multiple times
 [sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 |  | Prevents in changing currency if multi coupon is in use
 [sale_coupon_product_management](sale_coupon_product_management/) | 13.0.1.0.0 |  | Improves related product management via sale coupons
@@ -63,13 +63,13 @@ addon | version | maintainers | summary
 [sale_order_general_discount](sale_order_general_discount/) | 13.0.1.0.1 |  | General discount per sale order
 [sale_order_incoterm_place](sale_order_incoterm_place/) | 13.0.1.0.1 |  | Sale Order Incoterm Place
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 13.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
-[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.0.1 |  | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 13.0.1.1.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_chained_move](sale_order_line_chained_move/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module adds a field on sale order line to get all related move lines
 [sale_order_line_date](sale_order_line_date/) | 13.0.1.1.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 |  | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 13.0.1.1.1 |  | Search, create or modify directly sale order lines
-[sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.2.2 |  | Define quantities according to product packaging on sale order lines
+[sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.3.0 |  | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 13.0.1.0.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
@@ -80,9 +80,9 @@ addon | version | maintainers | summary
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.2.0 |  | Add secondary unit to recommend products wizard
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 13.0.1.0.3 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 |  | Keep track of revised quotations
-[sale_order_secondary_unit](sale_order_secondary_unit/) | 13.0.1.1.0 |  | Sale product in a secondary unit
+[sale_order_secondary_unit](sale_order_secondary_unit/) | 13.0.1.1.1 |  | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 13.0.1.0.1 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds Tags to Sales Orders.
-[sale_order_type](sale_order_type/) | 13.0.1.6.0 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 13.0.1.7.0 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 13.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.3.0 |  | Schedule delivery orders according to delivery window preferences
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 |  | Set the customer preferred incoterm on each sales order
