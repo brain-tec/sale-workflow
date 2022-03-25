@@ -69,10 +69,11 @@ addon | version | maintainers | summary
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 13.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 13.0.1.0.0 |  | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 13.0.1.1.1 |  | Search, create or modify directly sale order lines
-[sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.3.0 |  | Define quantities according to product packaging on sale order lines
+[sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.3.1 |  | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 13.0.1.0.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
+[sale_order_price_recalculation](sale_order_price_recalculation/) | 13.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_priority](sale_order_priority/) | 13.0.1.0.0 |  | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.2.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
@@ -82,7 +83,7 @@ addon | version | maintainers | summary
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 13.0.1.1.1 |  | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 13.0.1.0.1 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds Tags to Sales Orders.
-[sale_order_type](sale_order_type/) | 13.0.1.7.1 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 13.0.1.7.2 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 13.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.3.0 |  | Schedule delivery orders according to delivery window preferences
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 |  | Set the customer preferred incoterm on each sales order
@@ -91,7 +92,7 @@ addon | version | maintainers | summary
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 13.0.1.0.4 |  | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 13.0.1.0.1 |  | Shows 'Product Categories' menu item in Sales
 [sale_product_multi_add](sale_product_multi_add/) | 13.0.1.0.1 |  | Sale Product Multi Add
-[sale_product_set](sale_product_set/) | 13.0.1.3.0 |  | Sale product set
+[sale_product_set](sale_product_set/) | 13.0.1.4.1 |  | Sale product set
 [sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 13.0.1.0.1 |  | Manage packaging and quantities on product set lines
 [sale_product_set_sale_by_packaging](sale_product_set_sale_by_packaging/) | 13.0.1.1.0 |  | Glue module between `sale_by_packaging` and `sale_product_set_packaging_qty`.
 [sale_quotation_number](sale_quotation_number/) | 13.0.1.0.0 |  | Different sequence for sale quotations
@@ -104,6 +105,7 @@ addon | version | maintainers | summary
 [sale_stock_last_date](sale_stock_last_date/) | 13.0.1.0.0 |  | Displays last delivery date in sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 13.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 13.0.2.0.0 |  | Add picking note in sale and purchase order
+[sale_stock_picking_validation_blocking](sale_stock_picking_validation_blocking/) | 13.0.1.0.1 |  | This module adds the opportunity to prevent the validation of delivery order from the SO.
 [sale_stock_return_request](sale_stock_return_request/) | 13.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 13.0.1.0.0 |  | Get product quantities in a secondary unit
 [sale_tier_validation](sale_tier_validation/) | 13.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
