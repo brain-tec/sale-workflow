@@ -1,9 +1,13 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/167/13.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-sale-workflow-167)
-[![Build Status](https://travis-ci.org/OCA/sale-workflow.svg?branch=13.0)](https://travis-ci.org/OCA/sale-workflow)
-[![codecov](https://codecov.io/gh/OCA/sale-workflow/branch/13.0/graph/badge.svg)](https://codecov.io/gh/OCA/sale-workflow)
 
-Odoo Sales, Workflow and Organization
-======================================
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/sale-workflow&target_branch=13.0)
+[![Pre-commit Status](https://github.com/OCA/sale-workflow/actions/workflows/pre-commit.yml/badge.svg?branch=13.0)](https://github.com/OCA/sale-workflow/actions/workflows/pre-commit.yml?query=branch%3A13.0)
+[![Build Status](https://github.com/OCA/sale-workflow/actions/workflows/test.yml/badge.svg?branch=13.0)](https://github.com/OCA/sale-workflow/actions/workflows/test.yml?query=branch%3A13.0)
+[![codecov](https://codecov.io/gh/OCA/sale-workflow/branch/13.0/graph/badge.svg)](https://codecov.io/gh/OCA/sale-workflow)
+[![Translation Status](https://translation.odoo-community.org/widgets/sale-workflow-13-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/sale-workflow-13-0/?utm_source=widget)
+
+<!-- /!\ do not modify above this line -->
+
+# Odoo Sales, Workflow and Organization
 
 This project aim to deal with modules related to manage sale and their related workflow. You'll find modules that:
 
@@ -13,8 +17,9 @@ This project aim to deal with modules related to manage sale and their related w
  - Easy the cancellation of SO
  - ...
 
+<!-- /!\ do not modify below this line -->
 
-
+<!-- prettier-ignore-start -->
 
 [//]: # (addons)
 
@@ -34,7 +39,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.1.0 |  | Blanket Orders
-[sale_by_packaging](sale_by_packaging/) | 13.0.1.6.0 |  | Manage sale of packaging
+[sale_by_packaging](sale_by_packaging/) | 13.0.1.6.1 |  | Manage sale of packaging
 [sale_cancel_reason](sale_cancel_reason/) | 13.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 13.0.1.0.0 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 |  | Define ordering contact type
@@ -55,7 +60,7 @@ addon | version | maintainers | summary
 [sale_global_discount](sale_global_discount/) | 13.0.1.0.3 |  | Sale Global Discount
 [sale_invoice_plan](sale_invoice_plan/) | 13.0.1.0.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
 [sale_invoice_policy](sale_invoice_policy/) | 13.0.1.0.1 |  | Sales Management: let the user choose the invoice policy on the order
-[sale_isolated_quotation](sale_isolated_quotation/) | 13.0.1.0.0 |  | Sale Isolated Quotation
+[sale_isolated_quotation](sale_isolated_quotation/) | 13.0.1.1.0 |  | Sale Isolated Quotation
 [sale_last_price_info](sale_last_price_info/) | 13.0.1.0.0 |  | Product Last Price Info - Sale
 [sale_manual_delivery](sale_manual_delivery/) | 13.0.1.0.2 |  | Create manually your deliveries
 [sale_order_archive](sale_order_archive/) | 13.0.1.0.0 |  | Archive Sale Orders
@@ -91,7 +96,7 @@ addon | version | maintainers | summary
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 13.0.2.3.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_payment_sheet](sale_payment_sheet/) | 13.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Allow to create invoice payments to commercial users without accounting permissions
-[sale_procurement_amendment](sale_procurement_amendment/) | 13.0.1.0.1 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allow to reflect confirmed sale lines quantity amendments to procurements
+[sale_procurement_amendment](sale_procurement_amendment/) | 13.0.1.0.2 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allow to reflect confirmed sale lines quantity amendments to procurements
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 13.0.1.0.4 |  | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 13.0.1.0.1 |  | Shows 'Product Categories' menu item in Sales
 [sale_product_multi_add](sale_product_multi_add/) | 13.0.1.0.1 |  | Sale Product Multi Add
@@ -104,12 +109,12 @@ addon | version | maintainers | summary
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 13.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 13.0.1.0.1 |  | Multiple warehouse source locations for Sale order
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 13.0.1.0.0 |  | Sale Stock Cancel Restriction
-[sale_stock_delivery_address](sale_stock_delivery_address/) | 13.0.1.0.3 |  | Sale Stock Delivery Address
+[sale_stock_delivery_address](sale_stock_delivery_address/) | 13.0.1.0.4 |  | Sale Stock Delivery Address
 [sale_stock_last_date](sale_stock_last_date/) | 13.0.1.0.0 |  | Displays last delivery date in sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 13.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 13.0.2.0.0 |  | Add picking note in sale and purchase order
 [sale_stock_picking_validation_blocking](sale_stock_picking_validation_blocking/) | 13.0.1.0.1 |  | This module adds the opportunity to prevent the validation of delivery order from the SO.
-[sale_stock_return_request](sale_stock_return_request/) | 13.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
+[sale_stock_return_request](sale_stock_return_request/) | 13.0.1.0.1 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 13.0.1.0.1 |  | Get product quantities in a secondary unit
 [sale_tier_validation](sale_tier_validation/) | 13.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_validity](sale_validity/) | 13.0.1.0.1 |  | Set a default validity delay on quotations
@@ -118,13 +123,17 @@ addon | version | maintainers | summary
 
 [//]: # (end addons)
 
+<!-- prettier-ignore-end -->
 
-Translation Status
-------------------
+## Licenses
 
-[![Translation status](https://translation.odoo-community.org/widgets/sale-workflow-13-0/-/multi-auto.svg)](https://translation.odoo-community.org/engage/sale-workflow-13-0/?utm_source=widget)
+This repository is licensed under [AGPL-3.0](LICENSE).
+
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
+policy. Consult each module's `__manifest__.py` file, which contains a `license` key
+that explains its license.
 
 ----
-OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
+organization whose mission is to support the collaborative development of Odoo features
+and promote its widespread use.
