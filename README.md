@@ -55,7 +55,7 @@ addon | version | maintainers | summary
 [sale_elaboration](sale_elaboration/) | 13.0.1.1.0 |  | Set an elaboration for any sale line
 [sale_exception](sale_exception/) | 13.0.1.2.0 |  | Custom exceptions on sale order
 [sale_fixed_discount](sale_fixed_discount/) | 13.0.1.1.1 |  | Allows to apply fixed amount discounts in sales orders.
-[sale_force_invoiced](sale_force_invoiced/) | 13.0.1.1.0 |  | Allows to force the invoice status of the sales order to Invoiced
+[sale_force_invoiced](sale_force_invoiced/) | 13.0.1.2.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 13.0.1.0.0 |  | Sale Force Whole Invoiceability
 [sale_global_discount](sale_global_discount/) | 13.0.1.0.3 |  | Sale Global Discount
 [sale_invoice_plan](sale_invoice_plan/) | 13.0.1.0.3 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
@@ -79,12 +79,12 @@ addon | version | maintainers | summary
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 13.0.1.0.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
-[sale_order_price_recalculation](sale_order_price_recalculation/) | 13.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
+[sale_order_price_recalculation](sale_order_price_recalculation/) | 13.0.1.1.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_pricelist_tracking](sale_order_pricelist_tracking/) | 13.0.1.0.0 |  | Track sale order pricelist changes
 [sale_order_priority](sale_order_priority/) | 13.0.1.0.0 |  | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.2.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.3.1.0 |  | Recommend products to sell to customer based on history
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.3.1.1 |  | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.2.0 |  | Add secondary unit to recommend products wizard
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 13.0.1.0.3 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 |  | Keep track of revised quotations
