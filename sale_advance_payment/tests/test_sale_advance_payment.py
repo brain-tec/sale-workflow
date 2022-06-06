@@ -71,7 +71,7 @@ class TestSaleAdvancePayment(common.SavepointCase):
         cls.currency_euro = cls.env["res.currency"].search([("name", "=", "EUR")])
         cls.currency_usd = cls.env["res.currency"].search([("name", "=", "USD")])
         cls.currency_rate = cls.env["res.currency.rate"].create(
-            {"rate": 1.20, "currency_id": cls.currency_usd.id}
+            {"name": "USD2", "rate": 1.20, "currency_id": cls.currency_usd.id}
         )
 
         cls.journal_eur_bank = cls.env["account.journal"].create(
