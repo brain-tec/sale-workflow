@@ -75,8 +75,8 @@ class TestSaleAdvancePayment(common.SavepointCase):
         cls.currency_rate = cls.env["res.currency.rate"].search(
             [
                 ("currency_id", "=", cls.currency_usd.id),
-                ("name", "=", fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT)),
-            ]
+                ("name", "<=", fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT)),
+            ], limit=1
         )
         cls.currency_rate.rate = 1.20
 
