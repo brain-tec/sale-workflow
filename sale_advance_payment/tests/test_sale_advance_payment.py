@@ -90,7 +90,13 @@ class TestSaleAdvancePayment(common.TransactionCase):
             [
                 ("currency_id", "=", cls.currency_usd.id),
                 ("name", "=", fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT)),
-            ]
+                (
+                    "name",
+                    "<=",
+                    fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT),
+                ),
+            ],
+            limit=1,
         )
         cls.currency_rate.rate = 1.20
 
