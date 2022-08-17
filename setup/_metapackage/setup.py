@@ -9,8 +9,10 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo-addon-partner_contact_sale_info_propagation>=15.0dev,<15.1dev',
+        'odoo-addon-partner_sale_pivot>=15.0dev,<15.1dev',
         'odoo-addon-sale_advance_payment>=15.0dev,<15.1dev',
         'odoo-addon-sale_automatic_workflow>=15.0dev,<15.1dev',
+        'odoo-addon-sale_automatic_workflow_job>=15.0dev,<15.1dev',
         'odoo-addon-sale_blanket_order>=15.0dev,<15.1dev',
         'odoo-addon-sale_commercial_partner>=15.0dev,<15.1dev',
         'odoo-addon-sale_delivery_state>=15.0dev,<15.1dev',
@@ -27,6 +29,7 @@ setuptools.setup(
         'odoo-addon-sale_order_product_availability_inline>=15.0dev,<15.1dev',
         'odoo-addon-sale_order_product_recommendation>=15.0dev,<15.1dev',
         'odoo-addon-sale_order_qty_change_no_recompute>=15.0dev,<15.1dev',
+        'odoo-addon-sale_order_secondary_unit>=15.0dev,<15.1dev',
         'odoo-addon-sale_order_type>=15.0dev,<15.1dev',
         'odoo-addon-sale_partner_selectable_option>=15.0dev,<15.1dev',
         'odoo-addon-sale_procurement_group_by_line>=15.0dev,<15.1dev',

@@ -22,8 +22,10 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [partner_contact_sale_info_propagation](partner_contact_sale_info_propagation/) | 15.0.1.0.0 |  | Propagate Salesperson and Sales Channel from Company to Contacts
-[sale_advance_payment](sale_advance_payment/) | 15.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
+[partner_sale_pivot](partner_sale_pivot/) | 15.0.1.0.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Sales analysis from customer form view
+[sale_advance_payment](sale_advance_payment/) | 15.0.1.0.1 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 15.0.1.0.1 |  | Sale Automatic Workflow
+[sale_automatic_workflow_job](sale_automatic_workflow_job/) | 15.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_blanket_order](sale_blanket_order/) | 15.0.1.0.0 |  | Blanket Orders
 [sale_commercial_partner](sale_commercial_partner/) | 15.0.1.0.1 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_delivery_state](sale_delivery_state/) | 15.0.1.0.0 |  | Show the delivery state on the sale order
@@ -40,6 +42,7 @@ addon | version | maintainers | summary
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 15.0.1.0.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.0.0 |  | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
+[sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.0.0 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 15.0.2.0.0 |  | Sale Order Type
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 15.0.1.0.1 |  | Base module for multiple procurement group by Sale order
