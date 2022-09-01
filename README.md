@@ -26,7 +26,7 @@ addon | version | maintainers | summary
 [sale_advance_payment](sale_advance_payment/) | 15.0.1.0.1 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 15.0.1.0.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 15.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
-[sale_blanket_order](sale_blanket_order/) | 15.0.1.0.1 |  | Blanket Orders
+[sale_blanket_order](sale_blanket_order/) | 15.0.1.1.0 |  | Blanket Orders
 [sale_commercial_partner](sale_commercial_partner/) | 15.0.1.0.1 |  | Add stored related field 'Commercial Entity' on sale orders
 [sale_delivery_state](sale_delivery_state/) | 15.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 15.0.1.0.1 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
@@ -57,6 +57,7 @@ addon | version | maintainers | summary
 [sale_sourced_by_line](sale_sourced_by_line/) | 15.0.1.0.1 |  | Multiple warehouse source locations for Sale order
 [sale_start_end_dates](sale_start_end_dates/) | 15.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 15.0.1.0.0 |  | Sale Stock Cancel Restriction
+[sale_stock_invoice_plan](sale_stock_invoice_plan/) | 15.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 15.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 15.0.1.0.0 |  | Add picking note in sale and purchase order
 [sale_tier_validation](sale_tier_validation/) | 15.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
