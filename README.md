@@ -36,6 +36,7 @@ addon | version | maintainers | summary
 [sale_advance_payment](sale_advance_payment/) | 13.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 13.0.2.1.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 13.0.1.0.1 |  | Glue module for sale_automatic_workflow and sale_delivery_state
+[sale_automatic_workflow_job](sale_automatic_workflow_job/) | 13.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment](sale_automatic_workflow_payment/) | 13.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Assign a workflow if a transaction is created for a sale order with an acquirer with a workflow
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 13.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 13.0.1.2.1 |  | Blanket Orders
@@ -45,7 +46,7 @@ addon | version | maintainers | summary
 [sale_contact_type](sale_contact_type/) | 13.0.1.0.0 |  | Define ordering contact type
 [sale_coupon_most_expensive](sale_coupon_most_expensive/) | 13.0.1.0.1 |  | Extra Discount Apply option - On Most Expensive Product
 [sale_coupon_most_expensive_delivery](sale_coupon_most_expensive_delivery/) | 13.0.1.0.1 |  | Bridge for Most Expensive program and shipping costs
-[sale_coupon_multi_currency](sale_coupon_multi_currency/) | 13.0.1.0.2 |  | Allow to use custom currency on coupon/promotion program
+[sale_coupon_multi_currency](sale_coupon_multi_currency/) | 13.0.1.0.3 |  | Allow to use custom currency on coupon/promotion program
 [sale_coupon_multi_use](sale_coupon_multi_use/) | 13.0.1.0.2 |  | Allow to use same coupon multiple times
 [sale_coupon_multi_use_currency](sale_coupon_multi_use_currency/) | 13.0.1.0.1 |  | Prevents in changing currency if multi coupon is in use
 [sale_coupon_product_management](sale_coupon_product_management/) | 13.0.1.0.0 |  | Improves related product management via sale coupons
