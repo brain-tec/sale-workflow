@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [sale_discount_display_amount](sale_discount_display_amount/) | 15.0.1.0.1 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_force_invoiced](sale_force_invoiced/) | 15.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_invoice_blocking](sale_invoice_blocking/) | 15.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
-[sale_invoice_plan](sale_invoice_plan/) | 15.0.1.3.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
+[sale_invoice_plan](sale_invoice_plan/) | 15.0.1.3.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
 [sale_invoice_policy](sale_invoice_policy/) | 15.0.1.0.0 |  | Sales Management: let the user choose the invoice policy on the order
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 15.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 15.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
@@ -66,6 +66,7 @@ addon | version | maintainers | summary
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 15.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 15.0.1.0.0 |  | Add picking note in sale and purchase order
 [sale_tier_validation](sale_tier_validation/) | 15.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
+[sale_wishlist](sale_wishlist/) | 15.0.1.0.0 |  | Handle sale wishlist for partners
 [sales_team_security](sales_team_security/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | New group for seeing only sales channel's documents
 [sales_team_security_crm](sales_team_security_crm/) | 15.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Integrates sales_team_security with crm
 [sales_team_security_sale](sales_team_security_sale/) | 15.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Integrates sales_team_security with sale
