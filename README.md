@@ -7,6 +7,9 @@
 
 <!-- /!\ do not modify above this line -->
 
+# BT Customizations
+FIX: Adapt the sale order state's name in _state_from and _state_to to 15.0 version 
+
 # sale-workflow
 
 TODO: add repo description.
