@@ -57,7 +57,7 @@ addon | version | maintainers | summary
 [sale_order_archive](sale_order_archive/) | 14.0.1.0.0 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 14.0.1.0.1 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 14.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
-[sale_order_general_discount](sale_order_general_discount/) | 14.0.1.0.1 |  | General discount per sale order
+[sale_order_general_discount](sale_order_general_discount/) | 14.0.2.0.0 |  | General discount per sale order
 [sale_order_general_discount_triple](sale_order_general_discount_triple/) | 14.0.1.0.2 | [![ashishhirapara](https://github.com/ashishhirapara.png?size=30px)](https://github.com/ashishhirapara) | General discount per sale order with triple
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 14.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 14.0.1.1.0 |  | Control invoice order lines if their related task has been set to invoiceable
@@ -108,7 +108,7 @@ addon | version | maintainers | summary
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 14.0.1.0.2 |  | Sale Stock Delivery Address
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 14.0.1.1.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 14.0.1.0.0 |  | Add picking note in sale and purchase order
-[sale_tier_validation](sale_tier_validation/) | 14.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
+[sale_tier_validation](sale_tier_validation/) | 14.0.1.1.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_transaction_form_link](sale_transaction_form_link/) | 14.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allows to display a link to payment transactions on Sale Order form view.
 [sale_triple_discount](sale_triple_discount/) | 14.0.1.0.0 |  | Manage triple discount on sale order lines
 [sale_validity](sale_validity/) | 14.0.1.0.2 |  | Set a default validity delay on quotations
