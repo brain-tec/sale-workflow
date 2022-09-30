@@ -34,11 +34,14 @@ addon | version | maintainers | summary
 [sale_exception](sale_exception/) | 15.0.1.0.0 |  | Custom exceptions on sale order
 [sale_force_invoiced](sale_force_invoiced/) | 15.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_invoice_blocking](sale_invoice_blocking/) | 15.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
-[sale_invoice_plan](sale_invoice_plan/) | 15.0.1.3.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
+[sale_invoice_plan](sale_invoice_plan/) | 15.0.1.3.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
 [sale_invoice_policy](sale_invoice_policy/) | 15.0.1.0.0 |  | Sales Management: let the user choose the invoice policy on the order
+[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 15.0.1.0.1 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 15.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 15.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 15.0.1.1.0 |  | Adds a commitment date to each sale order line.
+[sale_order_line_delivery_state](sale_order_line_delivery_state/) | 15.0.1.0.1 |  | Show the delivery state on the sale order line
+[sale_order_line_description](sale_order_line_description/) | 15.0.1.0.0 |  | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 15.0.1.0.0 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 15.0.1.0.1 |  | Adds a Sale Order Lines Menu
 [sale_order_line_price_history](sale_order_line_price_history/) | 15.0.1.0.0 |  | Sale order line price history
