@@ -5,7 +5,7 @@
 
 {
     "name": "Sale order revisions",
-    "version": "11.0.1.0.0",
+    "version": "11.0.1.0.1",
     "category": "Sale Management",
     "author": "Agile Business Group,"
               "Dreambits,"
@@ -13,7 +13,7 @@
               "Akretion,"
               "Odoo Community Association (OCA), "
               "Serpent Consulting Services Pvt. Ltd.",
-    "website": "http://www.agilebg.com",
+    "website": "https://github.com/OCA/sale-workflow",
     "license": "AGPL-3",
     "depends": [
         "sale_management",
