@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 {
     'name': 'Sale Automatic Workflow - Payment Mode',
-    'version': '10.0.1.0.2',
+    'version': '10.0.1.0.3',
     'author': 'Camptocamp,Sodexis,Odoo Community Association (OCA)',
     'license': 'AGPL-3',
     'category': 'Sales Management',
@@ -11,7 +11,7 @@
         'sale_automatic_workflow',
         'account_payment_sale',  # oca/bank-payment
     ],
-    'website': 'http://www.camptocamp.com',
+    'website': 'https://github.com/OCA/sale-workflow',
     'data': [
         'data/automatic_workflow_data.xml',
         'views/account_payment_mode_views.xml',

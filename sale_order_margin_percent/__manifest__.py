@@ -5,9 +5,9 @@
 {
     "name": "Sale Order Margin Percent",
     "summary": "Show Percent in sale order",
-    "version": "10.0.1.0.0",
+    "version": "10.0.1.0.1",
     "category": "Sales",
-    "website": "http://www.pesol.es",
+    "website": "https://github.com/OCA/sale-workflow",
     "author": "PESOL, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "application": False,

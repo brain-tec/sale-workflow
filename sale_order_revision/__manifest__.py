@@ -5,14 +5,14 @@
 
 {
     "name": "Sale order revisions",
-    "version": "10.0.1.0.1",
+    "version": "10.0.1.0.2",
     "category": "Sale Management",
     "author": "Agile Business Group,"
               "Camptocamp,"
               "Akretion,"
               "Odoo Community Association (OCA), "
               "Serpent Consulting Services Pvt. Ltd.",
-    "website": "http://www.agilebg.com",
+    "website": "https://github.com/OCA/sale-workflow",
     "license": "AGPL-3",
     "depends": [
         "sale",

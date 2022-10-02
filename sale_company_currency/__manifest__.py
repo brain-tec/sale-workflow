@@ -4,10 +4,10 @@
 
 {
     'name': "Company currency in sale orders",
-    'version': "10.0.1.0.0",
+    'version': "10.0.1.0.1",
     'author': "Camptocamp, "
               "Odoo Community Association (OCA) ",
-    'website': "https://odoo-community.org/",
+    'website': "https://github.com/OCA/sale-workflow",
     'category': "Sale",
     'license': "AGPL-3",
     'depends': ["sale"],

@@ -8,9 +8,9 @@
 
 {
     "name": "Price recalculation in sales orders",
-    "version": "10.0.1.0.1",
+    "version": "10.0.1.0.2",
     "category": "Sales Management",
-    "website": "http://github.com/OCA/sale-workflow",
+    "website": "https://github.com/OCA/sale-workflow",
     "author": "AvanzOSC,"
               "Grupo Vermon,"
               "Tecnativa,"

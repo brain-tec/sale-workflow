@@ -3,13 +3,13 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 
 {'name': 'Sale Layout Hidden Sections',
- 'version': '10.0.1.0.1',
+ 'version': '10.0.1.0.2',
  'author': 'Camptocamp, Odoo Community Association (OCA)',
  'license': 'AGPL-3',
  'category': 'category',
  'depends': ['sale',
              ],
- 'website': 'https://www.camptocamp.com',
+ 'website': 'https://github.com/OCA/sale-workflow',
  'data': [
      'views/sale_layout_category_views.xml',
  ],

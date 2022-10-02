@@ -7,13 +7,13 @@
 
 {
     'name': 'Sale Triple Discount',
-    'version': '10.0.1.1.2',
+    'version': '10.0.1.1.3',
     'category': 'Sales Management',
     'author': 'ADHOC SA, '
               'Agile Business Group, '
               'Tecnativa, '
               'Odoo Community Association (OCA)',
-    'website': 'https://odoo-community.org',
+    'website': 'https://github.com/OCA/sale-workflow',
     'license': 'AGPL-3',
     'summary': 'Manage triple discount on sale order lines',
     'depends': [

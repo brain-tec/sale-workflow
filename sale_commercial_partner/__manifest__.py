@@ -4,12 +4,12 @@
 
 {
     'name': 'Sale Commercial Partner',
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.0.2',
     'category': 'Sales Management',
     'license': 'AGPL-3',
     'summary': "Add stored related field 'Commercial Entity' on sale orders",
     'author': 'Akretion,Odoo Community Association (OCA)',
-    'website': 'http://www.akretion.com',
+    'website': 'https://github.com/OCA/sale-workflow',
     'depends': ['sale'],
     'data': [
         'views/sale.xml',
