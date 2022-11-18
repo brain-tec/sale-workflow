@@ -35,6 +35,7 @@ addon | version | maintainers | summary
 [sale_elaboration](sale_elaboration/) | 15.0.1.0.0 |  | Set an elaboration for any sale line
 [sale_exception](sale_exception/) | 15.0.1.0.0 |  | Custom exceptions on sale order
 [sale_force_invoiced](sale_force_invoiced/) | 15.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
+[sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 15.0.1.0.0 |  | Sale Force Whole Invoiceability
 [sale_invoice_blocking](sale_invoice_blocking/) | 15.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
 [sale_invoice_no_mail](sale_invoice_no_mail/) | 15.0.1.0.1 |  | Sale Invoice No Mail
 [sale_invoice_plan](sale_invoice_plan/) | 15.0.1.3.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
@@ -51,12 +52,13 @@ addon | version | maintainers | summary
 [sale_order_line_price_history](sale_order_line_price_history/) | 15.0.1.0.0 |  | Sale order line price history
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 15.0.1.0.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 15.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
+[sale_order_priority](sale_order_priority/) | 15.0.1.0.1 |  | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 15.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 15.0.1.0.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.0.1 |  | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.1.0 |  | Sale product in a secondary unit
-[sale_order_type](sale_order_type/) | 15.0.2.0.1 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 15.0.2.0.2 |  | Sale Order Type
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 15.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_payment_sheet](sale_payment_sheet/) | 15.0.1.1.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Allow to create invoice payments to commercial users without accounting permissions
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 15.0.1.1.0 |  | Base module for multiple procurement group by Sale order
