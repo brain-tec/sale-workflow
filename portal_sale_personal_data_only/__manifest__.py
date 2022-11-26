@@ -3,8 +3,8 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
     'name': 'Portal Sale Personal Data Only',
-    'description': 'Allow portal users to see their own documents',
-    'version': '10.0.1.0.1',
+    'summary': 'Allow portal users to see their own documents',
+    'version': '10.0.1.0.2',
     'category': 'Sale',
     'author': 'Tecnativa,'
               'Odoo Community Association (OCA)',
