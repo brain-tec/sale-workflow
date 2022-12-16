@@ -4,10 +4,10 @@
 {
     "name": "Sell resource bookings",
     "summary": "Link resource bookings with sales",
-    "version": "12.0.1.0.0",
+    "version": "12.0.1.0.1",
     "development_status": "Beta",
     "category": "Appointments",
-    "website": "https://github.com/OCA/sale",
+    "website": "https://github.com/OCA/sale-workflow",
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "maintainers": ["Yajo"],
     "license": "AGPL-3",

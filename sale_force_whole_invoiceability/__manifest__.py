@@ -2,11 +2,11 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 {
     "name": "Sale Force Whole Invoiceability",
-    "version": "12.0.1.1.0",
+    "version": "12.0.1.1.1",
     "category": "Sales",
     "author": "Tecnativa,"
               "Odoo Community Association (OCA)",
-    "website": "https://www.github.com/OCA/sale-workflow",
+    "website": "https://github.com/OCA/sale-workflow",
     "license": "AGPL-3",
     "depends": [
         "sale",

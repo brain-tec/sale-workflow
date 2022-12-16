@@ -3,11 +3,11 @@
 {
     'name': 'Portal Sale Personal Data Only',
     'summary': 'Allow portal users to see their own documents',
-    'version': '12.0.1.1.0',
+    'version': '12.0.1.1.1',
     'category': 'Sale',
     'author': 'Tecnativa,'
               'Odoo Community Association (OCA)',
-    'website': 'https://www.github.com/OCA/sale-workflow',
+    'website': 'https://github.com/OCA/sale-workflow',
     "license": "AGPL-3",
     'depends': [
         'sale',
