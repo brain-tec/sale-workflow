@@ -81,13 +81,14 @@ addon | version | maintainers | summary
 [sale_order_line_input](sale_order_line_input/) | 13.0.1.1.2 |  | Search, create or modify directly sale order lines
 [sale_order_line_packaging_qty](sale_order_line_packaging_qty/) | 13.0.1.3.1 |  | Define quantities according to product packaging on sale order lines
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
-[sale_order_line_sequence](sale_order_line_sequence/) | 13.0.1.0.1 |  | Propagates SO line sequence to invoices and stock picking.
+[sale_order_line_sequence](sale_order_line_sequence/) | 13.0.1.0.2 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 13.0.1.0.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 13.0.1.1.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_pricelist_tracking](sale_order_pricelist_tracking/) | 13.0.1.0.0 |  | Track sale order pricelist changes
 [sale_order_priority](sale_order_priority/) | 13.0.1.0.0 |  | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 13.0.1.2.1 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
+[sale_order_product_assortment_availability_inline](sale_order_product_assortment_availability_inline/) | 13.0.1.0.0 | [![Sergio-teruel](https://github.com/Sergio-teruel.png?size=30px)](https://github.com/Sergio-teruel) | Glue module to display stock available when an assortment is defined for a partner
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 13.0.1.1.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 13.0.3.1.1 |  | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_secondary_unit](sale_order_product_recommendation_secondary_unit/) | 13.0.2.2.0 |  | Add secondary unit to recommend products wizard
