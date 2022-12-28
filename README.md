@@ -83,6 +83,7 @@ addon | version | maintainers | summary
 [sale_order_line_price_history](sale_order_line_price_history/) | 13.0.1.1.0 |  | Sale order line price history
 [sale_order_line_sequence](sale_order_line_sequence/) | 13.0.1.0.2 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_lot_selection](sale_order_lot_selection/) | 13.0.2.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
+[sale_order_partner_no_autofollow](sale_order_partner_no_autofollow/) | 13.0.1.0.0 | [![dessanhemrayev](https://github.com/dessanhemrayev.png?size=30px)](https://github.com/dessanhemrayev) [![CetmixGitDrone](https://github.com/CetmixGitDrone.png?size=30px)](https://github.com/CetmixGitDrone) | Do not add customer as follower in Sales Orders
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 13.0.1.0.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 13.0.1.1.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_pricelist_tracking](sale_order_pricelist_tracking/) | 13.0.1.0.0 |  | Track sale order pricelist changes
@@ -96,7 +97,7 @@ addon | version | maintainers | summary
 [sale_order_revision](sale_order_revision/) | 13.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 13.0.1.3.0 |  | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 13.0.1.0.1 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds Tags to Sales Orders.
-[sale_order_type](sale_order_type/) | 13.0.1.7.3 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 13.0.1.7.4 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 13.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_delivery_window](sale_partner_delivery_window/) | 13.0.1.3.0 |  | Schedule delivery orders according to delivery window preferences
 [sale_partner_incoterm](sale_partner_incoterm/) | 13.0.1.0.1 |  | Set the customer preferred incoterm on each sales order
