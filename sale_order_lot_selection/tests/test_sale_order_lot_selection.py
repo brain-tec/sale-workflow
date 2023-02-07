@@ -4,6 +4,7 @@
 import odoo.tests.common as test_common
 from odoo.exceptions import UserError
 
+
 class TestSaleOrderLotSelection(test_common.SingleTransactionCase):
     def setUp(self):
         """
