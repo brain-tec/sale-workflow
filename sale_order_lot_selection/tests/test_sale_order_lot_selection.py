@@ -295,6 +295,7 @@ class TestSaleOrderLotSelection(test_common.SingleTransactionCase):
         self.assertEqual(self.order3.state, "sale")
         # products are not available for reservation (lot unavailable)
         self.assertEqual(self.order3.picking_ids[0].state, "confirmed")
+        self.order3.state = "done"
         with self.assertRaises(UserError):
             self.order3.action_confirm()
 
@@ -326,5 +327,6 @@ class TestSaleOrderLotSelection(test_common.SingleTransactionCase):
         self.assertEqual(self.order4.state, "sale")
         # products are reserved
         self.assertEqual(self.order4.picking_ids[0].state, "assigned")
+        self.order4.state = "cancel"
         with self.assertRaises(UserError):
             self.order4.action_confirm()
