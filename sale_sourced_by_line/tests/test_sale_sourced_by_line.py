@@ -27,6 +27,7 @@ class TestSaleSourcedByLine(TransactionCase):
         cls.sale_order_model = cls.env["sale.order"].with_user(cls.user)
         cls.sale_order_line_model = cls.env["sale.order.line"].with_user(cls.user)
         cls.stock_move_model = cls.env["stock.move"]
+        cls.stock_warehouse_model = cls.env["stock.warehouse"]
 
         # Refs
         cls.customer = cls.env.ref("base.res_partner_2")
