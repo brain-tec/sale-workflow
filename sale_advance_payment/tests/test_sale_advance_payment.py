@@ -6,6 +6,7 @@ import json
 from odoo import fields
 from odoo.exceptions import ValidationError
 from odoo.tests import common
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
 
 class TestSaleAdvancePayment(common.TransactionCase):
@@ -85,13 +86,18 @@ class TestSaleAdvancePayment(common.TransactionCase):
             cls.currency_euro.active = True
             cls.active_euro = True
         cls.currency_usd = cls.env["res.currency"].search([("name", "=", "USD")])
-        cls.currency_rate = cls.env["res.currency.rate"].create(
-            {
-                "rate": 1.20,
-                "currency_id": cls.currency_usd.id,
-            }
+        cls.currency_rate = cls.env["res.currency.rate"].search(
+            [
+                ("currency_id", "=", cls.currency_usd.id),
+                (
+                    "name",
+                    "<=",
+                    fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT),
+                ),
+            ],
+            limit=1,
         )
-
+        cls.currency_rate.rate = 1.20
         cls.journal_eur_bank = cls.env["account.journal"].create(
             {
                 "name": "Journal Euro Bank",

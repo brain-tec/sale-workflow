@@ -5,9 +5,11 @@
 
 
 from odoo import api, fields, models
-from odoo.tests import Form
+from odoo.tests import Form, tagged
 
 
+# Tags added because of the views for sale not loading the field date_order.
+@tagged("post_install", "-at_install")
 class SaleOrderRecommendation(models.TransientModel):
     _name = "sale.order.recommendation"
     _description = "Recommended products for current sale order"

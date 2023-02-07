@@ -7,21 +7,55 @@ from odoo.tests.common import TransactionCase
 
 
 class TestSaleSourcedByLine(TransactionCase):
-    def setUp(self):
-        super(TestSaleSourcedByLine, self).setUp()
-        self.sale_order_model = self.env["sale.order"]
-        self.sale_order_line_model = self.env["sale.order.line"]
-        self.stock_move_model = self.env["stock.move"]
-        self.stock_warehouse_model = self.env["stock.warehouse"]
+    @classmethod
+    def setUpClass(cls):
+        super(TestSaleSourcedByLine, cls).setUpClass()
+        cls.env(context=dict(cls.env.context, tracking_disable=True))
+        cls.company = cls.env.ref("base.main_company")
+        cls.company_shop = cls.env.ref("stock.res_company_1")
+
+        cls.user = cls.env["res.users"].create(
+            {
+                "login": "Salesman Chicago Sourced By Line",
+                "email": "test@test.com",
+                "name": "Salesman Chicago Sourced By Line",
+                "groups_id": [(4, cls.env.ref("sales_team.group_sale_salesman").id)],
+                "company_ids": [(6, 0, (cls.company | cls.company_shop).ids)],
+                "company_id": cls.company_shop.id,
+            }
+        )
+        cls.sale_order_model = cls.env["sale.order"].with_user(cls.user)
+        cls.sale_order_line_model = cls.env["sale.order.line"].with_user(cls.user)
+        cls.stock_move_model = cls.env["stock.move"]
 
         # Refs
-        self.customer = self.env.ref("base.res_partner_2")
-        self.product_1 = self.env.ref("product.product_product_27")
-        self.product_2 = self.env.ref("product.product_product_24")
-        self.warehouse0 = self.env.ref("stock.warehouse0")
-        self.warehouse1 = self.stock_warehouse_model.create(
+        cls.customer = cls.env.ref("base.res_partner_2")
+        cls.product_1 = cls.env.ref("product.product_product_27")
+        cls.product_2 = cls.env.ref("product.product_product_24")
+        cls.warehouse_shop0 = cls.env.ref("stock.stock_warehouse_shop0")
+        cls.warehouse0 = cls.env.ref("stock.warehouse0")
+        cls.warehouse1 = cls.stock_warehouse_model.create(
             {"name": "Test Warehouse", "code": "TWH"}
         )
+
+        # # TODO: Two tests failed because of a product not having a route set.
+        # #       But with it the last test fails because the stock.move
+        # #       doesn't have a warehouse associated.
+        # route_1 = self.env["stock.location.route"].create({
+        #     "name": "SO -> Customer",
+        #     "product_selectable": True,
+        #     "sale_selectable": True,
+        #     "rule_ids": [
+        #         (0, 0, {
+        #             'name': 'SO -> Customer',
+        #             'action': 'pull_push',
+        #             'picking_type_id': self.env.ref('stock.picking_type_out').id,
+        #             'location_src_id': self.warehouse0.lot_stock_id.id,
+        #             'location_id': self.env.ref('stock.stock_location_customers').id,
+        #         }),
+        #     ],
+        # })
+        # self.product_1.route_ids = [(6, 0, route_1.ids)]
 
     def test_sales_order_multi_source(self):
         so = self.sale_order_model.create(
