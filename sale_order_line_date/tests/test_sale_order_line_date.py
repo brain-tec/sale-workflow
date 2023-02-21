@@ -86,9 +86,9 @@ class TestSaleOrderLineDates(TransactionCase):
         self.assertEqual(self.sale1.commitment_date, self.dt2)
         self.sale1.write({"commitment_date": self.dt3})
         self.sale1._onchange_commitment_date()
-        self.assertEqual(self.sale_line1.commitment_date, self.dt1)
-        self.assertEqual(self.sale_line2.commitment_date, self.dt2)
-        self.assertEqual(self.sale_line3.commitment_date, self.dt3)
+        self._assert_equal_dates(self.sale_line1.commitment_date, self.dt1)
+        self._assert_equal_dates(self.sale_line2.commitment_date, self.dt2)
+        self._assert_equal_dates(self.sale_line3.commitment_date, self.dt3)
 
     def test_02_shipping_policies(self):
         """Test if dates are propagated correctly taking into
