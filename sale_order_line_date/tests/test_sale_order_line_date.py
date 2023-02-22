@@ -97,7 +97,7 @@ class TestSaleOrderLineDates(TransactionCase):
         picking = self.sale1.picking_ids
         self.assertEqual(len(picking), 1)
         # it should be the earliest (3 line commitment_date is not set) -> dt1
-        self.assertEqual(picking.scheduled_date, self.dt1 - datetime.timedelta(days=1))
+        self._assert_equal_dates(picking.scheduled_date, self.dt1 - datetime.timedelta(days=1))
         self.assertEqual(picking.date_deadline, self.dt1)
         self.assertEqual(self.sale2.picking_policy, "direct")
         self.sale2.picking_policy = "one"
