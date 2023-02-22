@@ -107,7 +107,9 @@ class TestSaleOrderLineDates(TransactionCase):
         picking = self.sale2.picking_ids
         self.assertEqual(len(picking), 1)
         # It should be the latest -> dt2
-        self._assert_equal_dates(picking.scheduled_date, self.dt2 - datetime.timedelta(days=1))
+        self._assert_equal_dates(
+            picking.scheduled_date, self.dt2 - datetime.timedelta(days=1)
+        )
         self._assert_equal_dates(picking.date_deadline, self.dt2)
         # security_lead 1 day.
         self._assert_equal_dates(
