@@ -75,7 +75,7 @@ class TestSaleProcurementGroupByLine(TransactionCase):
         self.picking_ids = self.env["stock.picking"].search(
             [("group_id", "in", self.line2.procurement_group_id.ids)]
         )
-        self.picking_ids.move_lines.write({"quantity_done": 5})
+        self.picking_ids.move_ids.write({"quantity_done": 5})
         wiz_act = self.picking_ids.button_validate()
         wiz = Form(
             self.env[wiz_act["res_model"]].with_context(**wiz_act["context"])
