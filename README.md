@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [product_supplierinfo_for_customer_elaboration](product_supplierinfo_for_customer_elaboration/) | 15.0.2.0.0 |  | Allows to define default elaborations and elaboration notes on product customerinfos
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 15.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
 [sale_advance_payment](sale_advance_payment/) | 15.0.1.0.1 |  | Allow to add advance payments on sales and then use them on invoices
+[sale_attached_product](sale_attached_product/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Define products that will be added automatically when adding another in a sales order
 [sale_automatic_workflow](sale_automatic_workflow/) | 15.0.1.0.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 15.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 15.0.1.0.0 |  | Sale Automatic Workflow - Payment Mode
@@ -43,9 +44,9 @@ addon | version | maintainers | summary
 [sale_invoice_blocking](sale_invoice_blocking/) | 15.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
 [sale_invoice_no_mail](sale_invoice_no_mail/) | 15.0.1.0.1 |  | Sale Invoice No Mail
 [sale_invoice_plan](sale_invoice_plan/) | 15.0.1.3.2 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
-[sale_invoice_policy](sale_invoice_policy/) | 15.0.1.0.0 |  | Sales Management: let the user choose the invoice policy on the order
+[sale_invoice_policy](sale_invoice_policy/) | 15.0.1.0.1 |  | Sales Management: let the user choose the invoice policy on the order
 [sale_last_price_info](sale_last_price_info/) | 15.0.1.0.1 |  | Product Last Price Info - Sale
-[sale_missing_tracking](sale_missing_tracking/) | 15.0.1.0.0 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Tracking sale missing products
+[sale_missing_tracking](sale_missing_tracking/) | 15.0.1.0.1 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Tracking sale missing products
 [sale_order_archive](sale_order_archive/) | 15.0.1.0.1 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 15.0.1.0.1 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_general_discount](sale_order_general_discount/) | 15.0.1.0.0 |  | General discount per sale order
@@ -63,9 +64,9 @@ addon | version | maintainers | summary
 [sale_order_priority](sale_order_priority/) | 15.0.1.0.1 |  | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 15.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 15.0.1.0.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.0.2 |  | Recommend products to sell to customer based on history
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.1.0 |  | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
-[sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.1.0 |  | Sale product in a secondary unit
+[sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.1.1 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 15.0.2.0.3 |  | Sale Order Type
 [sale_partner_incoterm](sale_partner_incoterm/) | 15.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 15.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
@@ -83,12 +84,12 @@ addon | version | maintainers | summary
 [sale_start_end_dates](sale_start_end_dates/) | 15.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 15.0.1.0.1 |  | Sale Stock Cancel Restriction
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 15.0.1.0.0 |  | Sale Stock Delivery Address
-[sale_stock_invoice_plan](sale_stock_invoice_plan/) | 15.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
+[sale_stock_invoice_plan](sale_stock_invoice_plan/) | 15.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
 [sale_stock_last_date](sale_stock_last_date/) | 15.0.1.0.0 |  | Displays last delivery date in sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 15.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 15.0.1.0.0 |  | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
-[sale_stock_secondary_unit](sale_stock_secondary_unit/) | 15.0.1.0.0 |  | Get product quantities in a secondary unit
+[sale_stock_secondary_unit](sale_stock_secondary_unit/) | 15.0.1.0.1 |  | Get product quantities in a secondary unit
 [sale_substate](sale_substate/) | 15.0.1.0.0 |  | Sale Sub State
 [sale_tier_validation](sale_tier_validation/) | 15.0.1.1.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
 [sale_triple_discount](sale_triple_discount/) | 15.0.1.0.1 |  | Manage triple discount on sale order lines
