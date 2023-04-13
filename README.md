@@ -7,6 +7,10 @@
 
 <!-- /!\ do not modify above this line -->
 
+# BT Customizations
+Open OCA PRs merged
+- (https://github.com/OCA/sale-workflow/pull/2343) sale_global_discount
+
 # sale-workflow
 
 TODO: add repo description.
