@@ -1,0 +1,32 @@
+git_repositories:
+  - repository: git@github.com:brain-tec/odoo.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/enterprise.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/sale-workflow.git
+    branch: 15.0
+    mainrepo: True
+
+  # Content of the oca_dependencies.txt, recursively.
+  - repository: git@github.com:brain-tec/product-attribute.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/stock-logistics-warehouse.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/account-invoicing.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/server-tools.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/server-env.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/server-ux.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/web.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/queue.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/wms.git
+    branch: 15.0
+  - repository: git@github.com:brain-tec/stock-logistics-workflow.git
+    branch: 15.0
+
+postgres: 13.5
