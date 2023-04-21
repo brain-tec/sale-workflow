@@ -6,6 +6,7 @@ import json
 from odoo import fields
 from odoo.exceptions import ValidationError
 from odoo.tests import common
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
 
 class TestSaleAdvancePayment(common.TransactionCase):
@@ -28,7 +29,7 @@ class TestSaleAdvancePayment(common.TransactionCase):
             {"name": "Conference Chair", "invoice_policy": "order"}
         )
         cls.product_3 = cls.env["product.product"].create(
-            {"name": "Repair Services", "invoice_policy": "order"}
+            {"name": "Repair Services", "type": "service", "invoice_policy": "order"}
         )
 
         cls.tax = cls.env["account.tax"].create(
@@ -41,7 +42,7 @@ class TestSaleAdvancePayment(common.TransactionCase):
 
         # Sale Order
         cls.sale_order_1 = cls.env["sale.order"].create(
-            {"partner_id": cls.res_partner_1.id}
+            {"name": "/", "partner_id": cls.res_partner_1.id}
         )
         cls.order_line_1 = cls.env["sale.order.line"].create(
             {
@@ -85,12 +86,18 @@ class TestSaleAdvancePayment(common.TransactionCase):
             cls.currency_euro.active = True
             cls.active_euro = True
         cls.currency_usd = cls.env["res.currency"].search([("name", "=", "USD")])
-        cls.currency_rate = cls.env["res.currency.rate"].create(
-            {
-                "rate": 1.20,
-                "currency_id": cls.currency_usd.id,
-            }
+        cls.currency_rate = cls.env["res.currency.rate"].search(
+            [
+                ("currency_id", "=", cls.currency_usd.id),
+                (
+                    "name",
+                    "<=",
+                    fields.Date.today().strftime(DEFAULT_SERVER_DATE_FORMAT),
+                ),
+            ],
+            limit=1,
         )
+        cls.currency_rate.rate = 1.20
 
         cls.journal_eur_bank = cls.env["account.journal"].create(
             {
