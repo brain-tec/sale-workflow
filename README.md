@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [partner_sale_pivot](partner_sale_pivot/) | 15.0.1.0.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Sales analysis from customer form view
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 15.0.1.0.0 |  | Portal Sale Personal Data Only
 [product_supplierinfo_for_customer_elaboration](product_supplierinfo_for_customer_elaboration/) | 15.0.2.0.0 |  | Allows to define default elaborations and elaboration notes on product customerinfos
-[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 15.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
+[product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 15.0.1.1.0 |  | Loads in every sale order line the customer code defined in the product
 [sale_advance_payment](sale_advance_payment/) | 15.0.1.0.1 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_attached_product](sale_attached_product/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Define products that will be added automatically when adding another in a sales order
 [sale_automatic_workflow](sale_automatic_workflow/) | 15.0.1.0.1 |  | Sale Automatic Workflow
@@ -33,7 +33,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 15.0.1.0.0 |  | Sale Automatic Workflow - Payment Mode
 [sale_blanket_order](sale_blanket_order/) | 15.0.1.2.0 |  | Blanket Orders
 [sale_commercial_partner](sale_commercial_partner/) | 15.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Entity' on sale orders
-[sale_credit_point](sale_credit_point/) | 15.0.1.0.0 |  | Sale Credit Points
+[sale_credit_point](sale_credit_point/) | 15.0.1.0.1 |  | Sale Credit Points
 [sale_delivery_split_date](sale_delivery_split_date/) | 15.0.1.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 15.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 15.0.1.0.1 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
@@ -49,6 +49,7 @@ addon | version | maintainers | summary
 [sale_missing_tracking](sale_missing_tracking/) | 15.0.1.0.1 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Tracking sale missing products
 [sale_order_archive](sale_order_archive/) | 15.0.1.0.1 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 15.0.1.0.1 |  | Auto assign delivery carrier on sale order confirmation
+[sale_order_discount_invoicing](sale_order_discount_invoicing/) | 15.0.1.0.0 |  | Sale Discount Invoicing
 [sale_order_general_discount](sale_order_general_discount/) | 15.0.1.0.0 |  | General discount per sale order
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 15.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 15.0.1.0.1 |  | Control invoice order lines if their related task has been set to invoiceable
@@ -66,7 +67,7 @@ addon | version | maintainers | summary
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 15.0.1.0.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.1.0 |  | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
-[sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.1.1 |  | Sale product in a secondary unit
+[sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.2.0 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 15.0.2.0.3 |  | Sale Order Type
 [sale_partner_incoterm](sale_partner_incoterm/) | 15.0.1.1.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 15.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
@@ -79,6 +80,7 @@ addon | version | maintainers | summary
 [sale_product_set_layout](sale_product_set_layout/) | 15.0.1.0.1 |  | This module allows to add sections with product sets
 [sale_quotation_number](sale_quotation_number/) | 15.0.1.0.1 |  | Different sequence for sale quotations
 [sale_rental](sale_rental/) | 15.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Manage Rental of Products
+[sale_resource_booking](sale_resource_booking/) | 15.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Link resource bookings with sales
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 15.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 15.0.1.1.0 |  | Multiple warehouse source locations for Sale order
 [sale_start_end_dates](sale_start_end_dates/) | 15.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
