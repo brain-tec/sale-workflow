@@ -56,7 +56,7 @@ addon | version | maintainers | summary
 [sale_order_line_date](sale_order_line_date/) | 15.0.1.1.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 15.0.1.0.1 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 15.0.1.0.0 |  | Sale order line description
-[sale_order_line_input](sale_order_line_input/) | 15.0.1.0.0 |  | Search, create or modify directly sale order lines
+[sale_order_line_input](sale_order_line_input/) | 15.0.1.0.1 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 15.0.1.0.1 |  | Adds a Sale Order Lines Menu
 [sale_order_line_price_history](sale_order_line_price_history/) | 15.0.1.0.0 |  | Sale order line price history
 [sale_order_line_sequence](sale_order_line_sequence/) | 15.0.1.0.0 |  | Propagates SO line sequence to invoices and stock picking.
@@ -67,6 +67,7 @@ addon | version | maintainers | summary
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 15.0.1.0.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.1.0 |  | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
+[sale_order_revision](sale_order_revision/) | 15.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.1.2.0 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 15.0.2.0.3 |  | Sale Order Type
 [sale_partner_incoterm](sale_partner_incoterm/) | 15.0.1.1.0 |  | Set the customer preferred incoterm on each sales order
