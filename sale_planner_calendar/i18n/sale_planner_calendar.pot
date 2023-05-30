@@ -338,6 +338,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__event_type_id
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__event_type_id
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__event_type_id
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
 msgid "Event type"
 msgstr ""
 
@@ -383,9 +384,8 @@ msgid "Friday"
 msgstr ""
 
 #. module: sale_planner_calendar
-#: code:addons/sale_planner_calendar/models/res_partner.py:0
-#, python-format
-msgid "Go to the planner wizard"
+#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
+msgid "Group By"
 msgstr ""
 
 #. module: sale_planner_calendar
