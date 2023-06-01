@@ -37,7 +37,7 @@ addon | version | maintainers | summary
 [sale_delivery_split_date](sale_delivery_split_date/) | 15.0.1.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 15.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 15.0.1.0.1 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
-[sale_elaboration](sale_elaboration/) | 15.0.3.1.0 |  | Set an elaboration for any sale line
+[sale_elaboration](sale_elaboration/) | 15.0.3.1.1 |  | Set an elaboration for any sale line
 [sale_exception](sale_exception/) | 15.0.1.0.0 |  | Custom exceptions on sale order
 [sale_force_invoiced](sale_force_invoiced/) | 15.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_force_whole_invoiceability](sale_force_whole_invoiceability/) | 15.0.1.0.0 |  | Sale Force Whole Invoiceability
@@ -90,7 +90,7 @@ addon | version | maintainers | summary
 [sale_stock_invoice_plan](sale_stock_invoice_plan/) | 15.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to sales order, ability to manage future invoice plan
 [sale_stock_last_date](sale_stock_last_date/) | 15.0.1.0.0 |  | Displays last delivery date in sale order lines
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 15.0.1.0.1 |  | Allow you to block the creation of deliveries from a sale order.
-[sale_stock_picking_note](sale_stock_picking_note/) | 15.0.1.0.0 |  | Add picking note in sale and purchase order
+[sale_stock_picking_note](sale_stock_picking_note/) | 15.0.1.0.1 |  | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Sale Stock Return Request
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 15.0.1.0.1 |  | Get product quantities in a secondary unit
 [sale_substate](sale_substate/) | 15.0.1.0.0 |  | Sale Sub State
