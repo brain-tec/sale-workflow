@@ -97,7 +97,16 @@ class TestSaleAdvancePayment(common.TransactionCase):
             ],
             limit=1,
         )
-        cls.currency_rate.rate = 1.20
+        if cls.currency_rate:
+            cls.currency_rate.write({"rate": 1.20})
+        else:
+            cls.currency_rate = cls.env["res.currency.rate"].create(
+                {
+                    "rate": 1.20,
+                    "currency_id": cls.currency_usd.id,
+                    "name": fields.Date.today(),
+                }
+            )
 
         cls.journal_eur_bank = cls.env["account.journal"].create(
             {
@@ -235,6 +244,23 @@ class TestSaleAdvancePayment(common.TransactionCase):
         )
         advance_payment_4.make_advance_payment()
         self.assertEqual(self.sale_order_1.amount_residual, 2580)
+
+        # Check that the outbound amount is not greated than the
+        # amount paid in advanced (in EUR)
+        with self.assertRaises(ValidationError):
+            advance_payment_5 = (
+                self.env["account.voucher.wizard"]
+                .with_context(**context_payment)
+                .create(
+                    {
+                        "journal_id": self.journal_eur_bank.id,
+                        "payment_type": "outbound",
+                        "amount_advance": 850.01,
+                        "order_id": self.sale_order_1.id,
+                    }
+                )
+            )
+            advance_payment_5.make_advance_payment()
 
         # Confirm Sale Order
         self.sale_order_1.action_confirm()
