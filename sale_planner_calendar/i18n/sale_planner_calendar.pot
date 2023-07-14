@@ -164,6 +164,11 @@ msgid "Clock"
 msgstr ""
 
 #. module: sale_planner_calendar
+#: model:sale.planner.calendar.issue.type,name:sale_planner_calendar.event_planner_issue_type_close
+msgid "Closed"
+msgstr ""
+
+#. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_event__comment
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__comment
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
@@ -194,6 +199,11 @@ msgstr ""
 #. module: sale_planner_calendar
 #: model:ir.model,name:sale_planner_calendar.model_res_config_settings
 msgid "Config Settings"
+msgstr ""
+
+#. module: sale_planner_calendar
+#: model:ir.ui.menu,name:sale_planner_calendar.menu_calendar_event_configuration_root
+msgid "Configuration"
 msgstr ""
 
 #. module: sale_planner_calendar
@@ -474,6 +484,12 @@ msgid "Issue"
 msgstr ""
 
 #. module: sale_planner_calendar
+#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_issue_type
+#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_issue_type
+msgid "Issue types"
+msgstr ""
+
+#. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
 msgid "Issues"
 msgstr ""
@@ -529,6 +545,11 @@ msgid "Messages"
 msgstr ""
 
 #. module: sale_planner_calendar
+#: model:sale.planner.calendar.issue.type,name:sale_planner_calendar.event_planner_issue_type_missing
+msgid "Missing"
+msgstr ""
+
+#. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__target_partner_mobile
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_kanban
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
@@ -565,6 +586,13 @@ msgstr ""
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__new_end
 msgid "New End"
+msgstr ""
+
+#. module: sale_planner_calendar
+#. openerp-web
+#: code:addons/sale_planner_calendar/static/src/xml/sale_planner_calendar_event_sales.xml:0
+#, python-format
+msgid "New Quotation"
 msgstr ""
 
 #. module: sale_planner_calendar
@@ -1122,11 +1150,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__week_list
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__week_list
 msgid "Weekday"
-msgstr ""
-
-#. module: sale_planner_calendar
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_calendar_event_wizard_root
-msgid "Wizards"
 msgstr ""
 
 #. module: sale_planner_calendar
