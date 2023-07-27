@@ -35,7 +35,7 @@ addon | version | maintainers | summary
 [sale_blanket_order](sale_blanket_order/) | 15.0.1.2.0 |  | Blanket Orders
 [sale_cancel_reason](sale_cancel_reason/) | 15.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 15.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Entity' on sale orders
-[sale_credit_point](sale_credit_point/) | 15.0.1.0.1 |  | Sale Credit Points
+[sale_credit_point](sale_credit_point/) | 15.0.1.0.2 |  | Sale Credit Points
 [sale_delivery_split_date](sale_delivery_split_date/) | 15.0.1.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 15.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 15.0.1.0.1 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
@@ -71,7 +71,7 @@ addon | version | maintainers | summary
 [sale_order_product_recommendation](sale_order_product_recommendation/) | 15.0.1.2.0 |  | Recommend products to sell to customer based on history
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 15.0.2.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_report_without_price](sale_order_report_without_price/) | 15.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
-[sale_order_revision](sale_order_revision/) | 15.0.1.0.0 |  | Keep track of revised quotations
+[sale_order_revision](sale_order_revision/) | 15.0.1.0.1 |  | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 15.0.2.0.0 |  | Sale product in a secondary unit
 [sale_order_type](sale_order_type/) | 15.0.2.0.5 |  | Sale Order Type
 [sale_partner_incoterm](sale_partner_incoterm/) | 15.0.1.1.0 |  | Set the customer preferred incoterm on each sales order
