@@ -47,7 +47,7 @@ addon | version | maintainers | summary
 [sale_delivery_date](sale_delivery_date/) | 14.0.1.1.0 | [![mmequignon](https://github.com/mmequignon.png?size=30px)](https://github.com/mmequignon) | Postpones delivery dates based on customer preferences, and/or warehouse configuration.
 [sale_delivery_split_date](sale_delivery_split_date/) | 14.0.1.0.1 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 14.0.1.1.0 |  | Show the delivery state on the sale order
-[sale_discount_display_amount](sale_discount_display_amount/) | 14.0.1.3.0 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
+[sale_discount_display_amount](sale_discount_display_amount/) | 14.0.2.0.0 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 14.0.1.0.0 |  | Set an elaboration for any sale line
 [sale_exception](sale_exception/) | 14.0.1.1.0 |  | Custom exceptions on sale order
 [sale_exception_product_sale_manufactured_for](sale_exception_product_sale_manufactured_for/) | 14.0.1.1.0 |  | The partner set in the sales order can order only if he/she has a commercial entity that is listed as one of the partners for which the products can be manufactured for.
@@ -70,6 +70,7 @@ addon | version | maintainers | summary
 [sale_order_digitized_signature](sale_order_digitized_signature/) | 14.0.1.0.0 | [![mgosai](https://github.com/mgosai.png?size=30px)](https://github.com/mgosai) | Capture customer signature on the sales order
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 14.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
 [sale_order_general_discount](sale_order_general_discount/) | 14.0.2.0.1 |  | General discount per sale order
+[sale_order_general_discount_payment_term](sale_order_general_discount_payment_term/) | 14.0.1.0.0 | [![odooNextev](https://github.com/odooNextev.png?size=30px)](https://github.com/odooNextev) | General discount per sale order set on payment term
 [sale_order_general_discount_triple](sale_order_general_discount_triple/) | 14.0.1.0.3 | [![ashishhirapara](https://github.com/ashishhirapara.png?size=30px)](https://github.com/ashishhirapara) | General discount per sale order with triple
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 14.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 14.0.1.1.1 |  | Control invoice order lines if their related task has been set to invoiceable
