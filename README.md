@@ -100,7 +100,7 @@ addon | version | maintainers | summary
 [sale_order_revision](sale_order_revision/) | 14.0.1.1.1 |  | Keep track of revised quotations
 [sale_order_secondary_unit](sale_order_secondary_unit/) | 14.0.1.0.0 |  | Sale product in a secondary unit
 [sale_order_tag](sale_order_tag/) | 14.0.1.0.1 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds Tags to Sales Orders.
-[sale_order_type](sale_order_type/) | 14.0.3.1.0 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 14.0.3.1.1 |  | Sale Order Type
 [sale_order_warn_message](sale_order_warn_message/) | 14.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_approval](sale_partner_approval/) | 14.0.2.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Control Partners that can be used in Sales Orders
 [sale_partner_incoterm](sale_partner_incoterm/) | 14.0.1.2.0 |  | Set the customer preferred incoterm on each sales order
@@ -125,7 +125,7 @@ addon | version | maintainers | summary
 [sale_purchase_requisition](sale_purchase_requisition/) | 14.0.1.0.1 | [![shide](https://github.com/shide.png?size=30px)](https://github.com/shide) [![anddago78](https://github.com/anddago78.png?size=30px)](https://github.com/anddago78) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Connect your quotations with a purchase agreement
 [sale_quick](sale_quick/) | 14.0.1.0.2 |  | Quick Sale order
 [sale_quick_seasonality](sale_quick_seasonality/) | 14.0.1.0.0 |  | Quick Sale order seasonality
-[sale_quotation_number](sale_quotation_number/) | 14.0.2.0.0 |  | Different sequence for sale quotations
+[sale_quotation_number](sale_quotation_number/) | 14.0.2.0.1 |  | Different sequence for sale quotations
 [sale_quotation_template_product_multi_add](sale_quotation_template_product_multi_add/) | 14.0.1.0.1 |  | Feature to add multiple products to quotation template
 [sale_rental](sale_rental/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Manage Rental of Products
 [sale_restricted_qty](sale_restricted_qty/) | 14.0.1.1.1 | [![ashishhirapara](https://github.com/ashishhirapara.png?size=30px)](https://github.com/ashishhirapara) | Sale order min quantity
