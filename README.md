@@ -29,12 +29,13 @@ addon | version | maintainers | summary
 [product_supplierinfo_for_customer_sale](product_supplierinfo_for_customer_sale/) | 14.0.1.1.0 |  | Loads in every sale order line the customer code defined in the product
 [sale_advance_payment](sale_advance_payment/) | 14.0.1.1.3 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_amount_payment_link](sale_amount_payment_link/) | 14.0.1.0.1 |  | Reduce Amount to be paid while Payment Link is generated on Sale Order, depending on done Transactions.
-[sale_automatic_workflow](sale_automatic_workflow/) | 14.0.1.3.5 |  | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 14.0.1.4.0 |  | Sale Automatic Workflow
 [sale_automatic_workflow_delivery_state](sale_automatic_workflow_delivery_state/) | 14.0.1.0.0 |  | Glue module for sale_automatic_workflow and sale_delivery_state
 [sale_automatic_workflow_ignore_exception](sale_automatic_workflow_ignore_exception/) | 14.0.1.0.2 |  | Sale automatic workflow ignore exception
 [sale_automatic_workflow_invoice_default_value](sale_automatic_workflow_invoice_default_value/) | 14.0.1.0.0 |  | Sale automatic workflow invoice default values
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 14.0.1.0.2 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 14.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
+[sale_automatic_workflow_periodicity](sale_automatic_workflow_periodicity/) | 14.0.1.1.0 | [![TDu](https://github.com/TDu.png?size=30px)](https://github.com/TDu) | Adds a period for the execution of a workflow.
 [sale_blanket_order](sale_blanket_order/) | 14.0.1.1.0 |  | Blanket Orders
 [sale_by_packaging](sale_by_packaging/) | 14.0.2.0.0 |  | Manage sale of packaging
 [sale_cancel_confirm](sale_cancel_confirm/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Sales Cancel Confirm
@@ -95,7 +96,7 @@ addon | version | maintainers | summary
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 14.0.1.1.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 14.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_priority](sale_order_priority/) | 14.0.1.0.0 |  | Define priority on sale orders
-[sale_order_product_assortment](sale_order_product_assortment/) | 14.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
+[sale_order_product_assortment](sale_order_product_assortment/) | 14.0.1.0.1 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) | Module that allows to use the assortments on sale orders
 [sale_order_product_assortment_quick](sale_order_product_assortment_quick/) | 14.0.1.0.0 | [![renda-dev](https://github.com/renda-dev.png?size=30px)](https://github.com/renda-dev) [![pytech-bot](https://github.com/pytech-bot.png?size=30px)](https://github.com/pytech-bot) | Bridge module between sale_order_product_assortment and sale_quick
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 14.0.1.0.2 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_report_without_price](sale_order_report_without_price/) | 14.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
