@@ -93,7 +93,7 @@ addon | version | maintainers | summary
 [sale_order_line_sequence](sale_order_line_sequence/) | 14.0.2.0.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_lot_generator](sale_order_lot_generator/) | 14.0.1.0.2 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Sale Order Lot Generator
 [sale_order_lot_selection](sale_order_lot_selection/) | 14.0.1.1.0 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
-[sale_order_lot_selection_by_quant](sale_order_lot_selection_by_quant/) | 14.0.1.0.0 |  | Sale Order Lot Selection By Quant
+[sale_order_lot_selection_by_quant](sale_order_lot_selection_by_quant/) | 14.0.1.0.1 | [![aleuffre](https://github.com/aleuffre.png?size=30px)](https://github.com/aleuffre) | Sale Order Lot Selection By Quant
 [sale_order_mass_action](sale_order_mass_action/) | 14.0.1.0.0 |  | Allows to easy mass operations on sale orders.
 [sale_order_note_template](sale_order_note_template/) | 14.0.1.0.0 |  | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
 [sale_order_partner_restrict](sale_order_partner_restrict/) | 14.0.1.1.0 | [![OriolVForgeFlow](https://github.com/OriolVForgeFlow.png?size=30px)](https://github.com/OriolVForgeFlow) | Apply restrictions when selecting from the list of customers on SO.
@@ -110,7 +110,7 @@ addon | version | maintainers | summary
 [sale_order_warn_message](sale_order_warn_message/) | 14.0.1.1.0 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_approval](sale_partner_approval/) | 14.0.2.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Control Partners that can be used in Sales Orders
 [sale_partner_incoterm](sale_partner_incoterm/) | 14.0.1.2.0 |  | Set the customer preferred incoterm on each sales order
-[sale_partner_shipping_invoice_domain](sale_partner_shipping_invoice_domain/) | 14.0.1.0.1 |  | Adds a sensible domain to the shipping and invoicing addresses on sale form view
+[sale_partner_shipping_invoice_domain](sale_partner_shipping_invoice_domain/) | 14.0.1.0.2 |  | Adds a sensible domain to the shipping and invoicing addresses on sale form view
 [sale_partner_version](sale_partner_version/) | 14.0.2.0.0 |  | Sale Partner Version
 [sale_pricelist_discount_decimal_precision](sale_pricelist_discount_decimal_precision/) | 14.0.1.0.1 |  | Use Discount decimal precision for pricelist items
 [sale_pricelist_from_commitment_date](sale_pricelist_from_commitment_date/) | 14.0.1.0.2 |  | Use sale order commitment date to compute line price from pricelist
