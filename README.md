@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow](sale_automatic_workflow/) | 16.0.1.0.2 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 16.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 16.0.1.0.0 |  | Sale Automatic Workflow - Payment Mode
+[sale_blanket_order](sale_blanket_order/) | 16.0.1.0.0 |  | Blanket Orders
 [sale_cancel_reason](sale_cancel_reason/) | 16.0.1.0.1 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Entity' on sale orders
 [sale_company_currency](sale_company_currency/) | 16.0.1.0.0 |  | Company Currency in Sale Orders
@@ -53,11 +54,12 @@ addon | version | maintainers | summary
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 16.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 16.0.1.0.1 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_invoicing_picking_filter](sale_order_invoicing_picking_filter/) | 16.0.1.0.0 |  | Create invoices from sale orders based on the products in pickings.
-[sale_order_line_date](sale_order_line_date/) | 16.0.1.0.0 |  | Adds a commitment date to each sale order line.
+[sale_order_line_date](sale_order_line_date/) | 16.0.1.1.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 16.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_field_from_product_attribute](sale_order_line_field_from_product_attribute/) | 16.0.1.0.0 |  | Store Attribute value sis Sales Order line fields
+[sale_order_line_input](sale_order_line_input/) | 16.0.1.0.0 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 16.0.1.3.1 |  | Adds a Sale Order Lines Menu
-[sale_order_line_price_history](sale_order_line_price_history/) | 16.0.1.0.0 |  | Sale order line price history
+[sale_order_line_price_history](sale_order_line_price_history/) | 16.0.1.1.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Sale order line price history
 [sale_order_line_sequence](sale_order_line_sequence/) | 16.0.2.0.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_tag](sale_order_line_tag/) | 16.0.1.0.0 | [![smaciaosi](https://github.com/smaciaosi.png?size=30px)](https://github.com/smaciaosi) [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) [![ckolobow](https://github.com/ckolobow.png?size=30px)](https://github.com/ckolobow) | Add tags to classify sales order line reasons
 [sale_order_lot_generator](sale_order_lot_generator/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Sale Order Lot Generator
@@ -65,9 +67,10 @@ addon | version | maintainers | summary
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 16.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 16.0.1.0.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
 [sale_order_product_picker](sale_order_product_picker/) | 16.0.1.1.1 |  | Sale Order Product Picker
-[sale_order_product_recommendation](sale_order_product_recommendation/) | 16.0.1.3.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Recommend products to sell to customer based on history
+[sale_order_product_recommendation](sale_order_product_recommendation/) | 16.0.1.4.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Recommend products to sell to customer based on history
 [sale_order_product_recommendation_elaboration](sale_order_product_recommendation_elaboration/) | 16.0.1.0.2 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Include elaborations when generating or accepting sale order product recommendations
 [sale_order_product_recommendation_packaging_default](sale_order_product_recommendation_packaging_default/) | 16.0.2.1.1 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Quickly add recommended products to sale order by packagings
+[sale_order_product_recommendation_quick_add](sale_order_product_recommendation_quick_add/) | 16.0.1.0.0 |  | Add recommended products to sale order in a single click
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_revision](sale_order_revision/) | 16.0.1.0.1 |  | Keep track of revised quotations
 [sale_order_type](sale_order_type/) | 16.0.1.1.0 |  | Sale Order Type
@@ -77,6 +80,8 @@ addon | version | maintainers | summary
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_payment_sheet](sale_payment_sheet/) | 16.0.1.0.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Allow to create invoice payments to commercial users without accounting permissions
 [sale_pricelist_from_commitment_date](sale_pricelist_from_commitment_date/) | 16.0.1.0.0 |  | Use sale order commitment date to compute line price from pricelist
+[sale_pricelist_technical](sale_pricelist_technical/) | 16.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Prevent some pricelists from being selected on order and customer forms
+[sale_procurement_customer](sale_procurement_customer/) | 16.0.1.0.0 |  | Allows to transmit the customer to the procurement group
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 16.0.1.0.0 |  | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 16.0.1.0.0 |  | Shows 'Product Categories' menu item in Sales
 [sale_product_multi_add](sale_product_multi_add/) | 16.0.1.0.0 |  | Sale Product Multi Add
