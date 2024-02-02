@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 14.0.1.0.3 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 14.0.1.1.1 |  | Sale Automatic Workflow - Payment Mode
 [sale_automatic_workflow_periodicity](sale_automatic_workflow_periodicity/) | 14.0.1.1.0 | [![TDu](https://github.com/TDu.png?size=30px)](https://github.com/TDu) | Adds a period for the execution of a workflow.
-[sale_blanket_order](sale_blanket_order/) | 14.0.1.2.1 | [![aleuffre](https://github.com/aleuffre.png?size=30px)](https://github.com/aleuffre) [![renda-dev](https://github.com/renda-dev.png?size=30px)](https://github.com/renda-dev) [![PicchiSeba](https://github.com/PicchiSeba.png?size=30px)](https://github.com/PicchiSeba) | Blanket Orders
+[sale_blanket_order](sale_blanket_order/) | 14.0.1.2.2 | [![aleuffre](https://github.com/aleuffre.png?size=30px)](https://github.com/aleuffre) [![renda-dev](https://github.com/renda-dev.png?size=30px)](https://github.com/renda-dev) [![PicchiSeba](https://github.com/PicchiSeba.png?size=30px)](https://github.com/PicchiSeba) | Blanket Orders
 [sale_by_packaging](sale_by_packaging/) | 14.0.2.0.0 |  | Manage sale of packaging
 [sale_cancel_confirm](sale_cancel_confirm/) | 14.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Sales Cancel Confirm
 [sale_cancel_reason](sale_cancel_reason/) | 14.0.1.1.1 |  | Sale Cancel Reason
@@ -133,6 +133,7 @@ addon | version | maintainers | summary
 [sale_promotion_rule_display_discount_amount](sale_promotion_rule_display_discount_amount/) | 14.0.1.0.1 |  | This addon allows you to display the amount of the discount applied by the sale promotion rules on the sale order
 [sale_purchase_requisition](sale_purchase_requisition/) | 14.0.1.0.1 | [![shide](https://github.com/shide.png?size=30px)](https://github.com/shide) [![anddago78](https://github.com/anddago78.png?size=30px)](https://github.com/anddago78) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Connect your quotations with a purchase agreement
 [sale_quick](sale_quick/) | 14.0.1.0.4 |  | Quick Sale order
+[sale_quick_blanket_order](sale_quick_blanket_order/) | 14.0.1.0.1 | [![PicchiSeba](https://github.com/PicchiSeba.png?size=30px)](https://github.com/PicchiSeba) [![aleuffre](https://github.com/aleuffre.png?size=30px)](https://github.com/aleuffre) | Quick Sale Blanket Orders
 [sale_quick_seasonality](sale_quick_seasonality/) | 14.0.1.0.0 |  | Quick Sale order seasonality
 [sale_quotation_number](sale_quotation_number/) | 14.0.2.0.1 |  | Different sequence for sale quotations
 [sale_quotation_template_product_multi_add](sale_quotation_template_product_multi_add/) | 14.0.1.0.1 |  | Feature to add multiple products to quotation template
