@@ -52,6 +52,7 @@ addon | version | maintainers | summary
 [sale_invoice_policy](sale_invoice_policy/) | 15.0.1.0.1 |  | Sales Management: let the user choose the invoice policy on the order
 [sale_last_price_info](sale_last_price_info/) | 15.0.1.0.1 |  | Product Last Price Info - Sale
 [sale_missing_tracking](sale_missing_tracking/) | 15.0.1.0.2 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Tracking sale missing products
+[sale_missing_tracking_tier_validation](sale_missing_tracking_tier_validation/) | 15.0.1.0.0 |  | Extends the functionality of Sale missing tracking exceptions to support a tier validation process.
 [sale_order_archive](sale_order_archive/) | 15.0.1.0.1 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 15.0.1.0.1 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_discount_invoicing](sale_order_discount_invoicing/) | 15.0.1.0.0 |  | Sale Discount Invoicing
@@ -90,7 +91,7 @@ addon | version | maintainers | summary
 [sale_product_set](sale_product_set/) | 15.0.1.0.1 |  | Sale product set
 [sale_product_set_layout](sale_product_set_layout/) | 15.0.1.0.1 |  | This module allows to add sections with product sets
 [sale_purchase_procurement_group_by_line](sale_purchase_procurement_group_by_line/) | 15.0.1.0.0 |  | Glue module between 'MTO Sale <-> Purchase' and 'Sale Procurement Group by Line'
-[sale_quotation_number](sale_quotation_number/) | 15.0.2.0.1 |  | Different sequence for sale quotations
+[sale_quotation_number](sale_quotation_number/) | 15.0.2.1.0 |  | Different sequence for sale quotations
 [sale_rental](sale_rental/) | 15.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Manage Rental of Products
 [sale_resource_booking](sale_resource_booking/) | 15.0.1.0.1 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Link resource bookings with sales
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 15.0.1.0.0 |  | Add shipping amounts on sale order
