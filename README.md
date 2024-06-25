@@ -29,17 +29,21 @@ addon | version | maintainers | summary
 [sale_delivery_state](sale_delivery_state/) | 17.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 17.0.1.0.0 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_exception](sale_exception/) | 17.0.1.0.0 |  | Custom exceptions on sale order
-[sale_fixed_discount](sale_fixed_discount/) | 17.0.1.0.2 |  | Allows to apply fixed amount discounts in sales orders.
+[sale_fixed_discount](sale_fixed_discount/) | 17.0.2.0.0 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 17.0.1.1.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_invoice_policy](sale_invoice_policy/) | 17.0.1.0.0 |  | Sales Management: let the user choose the invoice policy on the order
 [sale_manual_delivery](sale_manual_delivery/) | 17.0.1.0.0 |  | Create manually your deliveries
 [sale_order_archive](sale_order_archive/) | 17.0.1.0.0 |  | Archive Sale Orders
+[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 17.0.1.0.0 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_line_menu](sale_order_line_menu/) | 17.0.1.0.0 |  | Adds a Sale Order Lines Menu
+[sale_order_line_sequence](sale_order_line_sequence/) | 17.0.1.0.0 |  | Propagates SO line sequence to invoices and stock picking.
+[sale_order_line_tag](sale_order_line_tag/) | 17.0.1.0.0 | [![smaciaosi](https://github.com/smaciaosi.png?size=30px)](https://github.com/smaciaosi) [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) [![ckolobow](https://github.com/ckolobow.png?size=30px)](https://github.com/ckolobow) | Add tags to classify sales order line reasons
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 17.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_qty_change_no_recompute](sale_order_qty_change_no_recompute/) | 17.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Prevent recompute if only quantity has changed in sale order line
 [sale_order_revision](sale_order_revision/) | 17.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_type](sale_order_type/) | 17.0.1.0.0 |  | Sale Order Type
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 17.0.1.0.0 |  | Base module for multiple procurement group by Sale order
+[sale_product_multi_add](sale_product_multi_add/) | 17.0.1.0.0 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 17.0.1.0.0 |  | Sale product set
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 17.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_start_end_dates](sale_start_end_dates/) | 17.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
