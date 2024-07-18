@@ -69,7 +69,7 @@ addon | version | maintainers | summary
 [sale_order_line_input](sale_order_line_input/) | 16.0.1.0.0 |  | Search, create or modify directly sale order lines
 [sale_order_line_menu](sale_order_line_menu/) | 16.0.1.3.1 |  | Adds a Sale Order Lines Menu
 [sale_order_line_price_history](sale_order_line_price_history/) | 16.0.1.1.1 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Sale order line price history
-[sale_order_line_sequence](sale_order_line_sequence/) | 16.0.2.0.0 |  | Propagates SO line sequence to invoices and stock picking.
+[sale_order_line_sequence](sale_order_line_sequence/) | 16.0.2.1.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_tag](sale_order_line_tag/) | 16.0.1.0.0 | [![smaciaosi](https://github.com/smaciaosi.png?size=30px)](https://github.com/smaciaosi) [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) [![ckolobow](https://github.com/ckolobow.png?size=30px)](https://github.com/ckolobow) | Add tags to classify sales order line reasons
 [sale_order_lot_generator](sale_order_lot_generator/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Sale Order Lot Generator
 [sale_order_lot_selection](sale_order_lot_selection/) | 16.0.1.0.1 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
@@ -91,6 +91,7 @@ addon | version | maintainers | summary
 [sale_partner_pricelist](sale_partner_pricelist/) | 16.0.1.0.0 |  | Sale Partner Pricelist
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 16.0.1.1.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_payment_sheet](sale_payment_sheet/) | 16.0.1.1.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Allow to create invoice payments to commercial users without accounting permissions
+[sale_planner_calendar](sale_planner_calendar/) | 16.0.1.0.0 |  | Sale planner calendar
 [sale_pricelist_from_commitment_date](sale_pricelist_from_commitment_date/) | 16.0.1.0.0 |  | Use sale order commitment date to compute line price from pricelist
 [sale_pricelist_technical](sale_pricelist_technical/) | 16.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Prevent some pricelists from being selected on order and customer forms
 [sale_procurement_customer](sale_procurement_customer/) | 16.0.1.0.0 |  | Allows to transmit the customer to the procurement group
