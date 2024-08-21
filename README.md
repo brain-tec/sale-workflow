@@ -37,7 +37,7 @@ addon | version | maintainers | summary
 [sale_cancel_reason](sale_cancel_reason/) | 16.0.1.0.1 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Entity' on sale orders
 [sale_company_currency](sale_company_currency/) | 16.0.1.0.1 |  | Company Currency in Sale Orders
-[sale_delivery_split_date](sale_delivery_split_date/) | 16.0.1.0.0 |  | Sale Deliveries split by date
+[sale_delivery_split_date](sale_delivery_split_date/) | 16.0.2.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 16.0.1.0.1 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 16.0.1.1.0 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_elaboration](sale_elaboration/) | 16.0.1.7.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Set an elaboration for any sale line
@@ -45,6 +45,7 @@ addon | version | maintainers | summary
 [sale_exception_holidays_public](sale_exception_holidays_public/) | 16.0.1.0.1 | [![jbaudoux](https://github.com/jbaudoux.png?size=30px)](https://github.com/jbaudoux) | Raise a sale exception if there is a commitment_date on the SO and this date is a public holidays for the shipping partner address
 [sale_fixed_discount](sale_fixed_discount/) | 16.0.1.0.3 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 16.0.2.1.1 |  | Allows to force the invoice status of the sales order to Invoiced
+[sale_force_invoiced_quantity](sale_force_invoiced_quantity/) | 16.0.1.0.0 |  | Add manual invoice quantity in sales order lines
 [sale_global_discount](sale_global_discount/) | 16.0.1.0.0 |  | Sale Global Discount
 [sale_invoice_frequency](sale_invoice_frequency/) | 16.0.1.2.1 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Define the invoice frequency for customers
 [sale_invoice_policy](sale_invoice_policy/) | 16.0.2.0.0 |  | Sales Management: let the user choose the invoice policy on the order
