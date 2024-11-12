@@ -63,7 +63,7 @@ addon | version | maintainers | summary
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 15.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 15.0.1.0.2 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_chained_move](sale_order_line_chained_move/) | 15.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | This module adds a field on sale order line to get all related move lines
-[sale_order_line_date](sale_order_line_date/) | 15.0.1.1.0 |  | Adds a commitment date to each sale order line.
+[sale_order_line_date](sale_order_line_date/) | 15.0.1.1.1 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 15.0.1.0.1 |  | Show the delivery state on the sale order line
 [sale_order_line_description](sale_order_line_description/) | 15.0.1.0.0 |  | Sale order line description
 [sale_order_line_input](sale_order_line_input/) | 15.0.1.1.0 |  | Search, create or modify directly sale order lines
@@ -92,8 +92,8 @@ addon | version | maintainers | summary
 [sale_partner_incoterm](sale_partner_incoterm/) | 15.0.1.1.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 15.0.1.0.2 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_payment_sheet](sale_payment_sheet/) | 15.0.1.3.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Allow to create invoice payments to commercial users without accounting permissions
-[sale_planner_calendar](sale_planner_calendar/) | 15.0.2.2.0 |  | Sale planner calendar
-[sale_pricelist_global_rule](sale_pricelist_global_rule/) | 15.0.1.0.1 |  | Apply a global rule to all sale order
+[sale_planner_calendar](sale_planner_calendar/) | 15.0.2.3.0 |  | Sale planner calendar
+[sale_pricelist_global_rule](sale_pricelist_global_rule/) | 15.0.1.0.3 |  | Apply a global rule to all sale order
 [sale_procurement_group_by_commitment_date](sale_procurement_group_by_commitment_date/) | 15.0.1.0.0 |  | Groups pickings based on commitment date of order line
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 15.0.1.2.0 |  | Base module for multiple procurement group by Sale order
 [sale_product_category_menu](sale_product_category_menu/) | 15.0.1.0.0 |  | Shows 'Product Categories' menu item in Sales
