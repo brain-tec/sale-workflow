@@ -30,6 +30,7 @@ addon | version | maintainers | summary
 [sale_blanket_order](sale_blanket_order/) | 17.0.1.1.0 |  | Blanket Orders
 [sale_cancel_reason](sale_cancel_reason/) | 17.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 17.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Entity' on sale orders
+[sale_delivery_split_date](sale_delivery_split_date/) | 17.0.1.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 17.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_discount_display_amount](sale_discount_display_amount/) | 17.0.1.1.0 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_exception](sale_exception/) | 17.0.1.0.0 |  | Custom exceptions on sale order
@@ -58,7 +59,7 @@ addon | version | maintainers | summary
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 17.0.1.0.0 |  | Base module for multiple procurement group by Sale order
 [sale_product_multi_add](sale_product_multi_add/) | 17.0.1.0.0 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 17.0.1.0.0 |  | Sale product set
-[sale_quotation_number](sale_quotation_number/) | 17.0.1.0.0 |  | Different sequence for sale quotations
+[sale_quotation_number](sale_quotation_number/) | 17.0.1.0.1 |  | Different sequence for sale quotations
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 17.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 17.0.1.0.0 |  | Multiple warehouse source locations for Sale order
 [sale_start_end_dates](sale_start_end_dates/) | 17.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
