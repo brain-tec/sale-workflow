@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-sale-workflow Odoo addons",
     version=version,
     install_requires=[
+        'odoo14-addon-partner_prospect',
         'odoo14-addon-portal_sale_personal_data_only',
         'odoo14-addon-pricelist_cache',
         'odoo14-addon-pricelist_cache_rest',

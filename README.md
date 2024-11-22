@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[partner_prospect](partner_prospect/) | 14.0.1.0.0 |  | Partner Prospect
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 14.0.1.0.0 |  | Portal Sale Personal Data Only
 [pricelist_cache](pricelist_cache/) | 14.0.1.6.0 |  | Provide a new model to cache price lists and update it, to make it easier to retrieve them.
 [pricelist_cache_rest](pricelist_cache_rest/) | 14.0.1.0.0 |  | Provides an endpoint to get product prices for a given customer
