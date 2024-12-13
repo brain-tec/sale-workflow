@@ -11,10 +11,7 @@
             </pivot>
         </field>
     </record>
-    <!--
-     In V13.0 the field confirmation_date has been removed. Now the field
-     date_order is the confirmation date for orders in 'sale' and 'done' state
-    -->
+
     <record id="sale_report_action" model="ir.actions.act_window">
         <field name="name">Sales Analysis</field>
         <field name="res_model">sale.report</field>
