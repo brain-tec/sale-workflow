@@ -26,6 +26,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow_stock](sale_automatic_workflow_stock/) | 18.0.1.0.0 |  | Sale Automatic Workflow Stock
 [sale_cancel_reason](sale_cancel_reason/) | 18.0.1.0.0 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 18.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Entity' on sale orders
+[sale_discount_display_amount](sale_discount_display_amount/) | 18.0.1.0.0 |  | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 [sale_exception](sale_exception/) | 18.0.1.0.0 |  | Custom exceptions on sale order
 [sale_exception_product_sale_manufactured_for](sale_exception_product_sale_manufactured_for/) | 18.0.1.0.0 |  | The partner set in the sales order can order only if he/she has a commercial entity that is listed as one of the partners for which the products can be manufactured for.
 [sale_force_invoiced](sale_force_invoiced/) | 18.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
@@ -35,6 +36,7 @@ addon | version | maintainers | summary
 [sale_order_line_note](sale_order_line_note/) | 18.0.1.0.0 |  | Note on sale order line
 [sale_order_line_price_history](sale_order_line_price_history/) | 18.0.1.0.0 | [![CarlosRoca13](https://github.com/CarlosRoca13.png?size=30px)](https://github.com/CarlosRoca13) [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Sale order line price history
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 18.0.1.0.0 | [![ernestotejeda](https://github.com/ernestotejeda.png?size=30px)](https://github.com/ernestotejeda) | Show product availability in sales order line product drop-down.
+[sale_order_revision](sale_order_revision/) | 18.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_type](sale_order_type/) | 18.0.1.0.0 |  | Sale Order Type
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 18.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 18.0.1.0.0 |  | Base module for multiple procurement group by Sale order
@@ -44,6 +46,7 @@ addon | version | maintainers | summary
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 18.0.1.0.0 |  | Sale Stock Cancel Restriction
 [sale_stock_line_customer_ref](sale_stock_line_customer_ref/) | 18.0.1.0.0 | [![sebalix](https://github.com/sebalix.png?size=30px)](https://github.com/sebalix) | Allow you to add a customer reference on order lines propagaged to move operations.
 [sale_tier_validation](sale_tier_validation/) | 18.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
+[sales_team_security](sales_team_security/) | 18.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | New group for seeing only sales channel's documents
 
 [//]: # (end addons)
 
