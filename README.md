@@ -44,7 +44,7 @@ addon | version | maintainers | summary
 [sale_manual_delivery](sale_manual_delivery/) | 17.0.1.0.0 |  | Create manually your deliveries
 [sale_multi_template_application](sale_multi_template_application/) | 17.0.1.0.0 |  | Sale multi template application
 [sale_order_archive](sale_order_archive/) | 17.0.1.0.0 |  | Archive Sale Orders
-[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 17.0.1.0.0 |  | Auto assign delivery carrier on sale order confirmation
+[sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 17.0.1.1.0 |  | Auto assign delivery carrier on sale order confirmation
 [sale_order_general_discount](sale_order_general_discount/) | 17.0.1.0.0 |  | General discount per sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 17.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 17.0.1.0.0 |  | Adds a commitment date to each sale order line.
@@ -68,8 +68,9 @@ addon | version | maintainers | summary
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 17.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Partner Selectable Option
 [sale_pricelist_global_rule](sale_pricelist_global_rule/) | 17.0.1.0.0 |  | Apply a global rule to all sale order
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 17.0.1.0.0 |  | Base module for multiple procurement group by Sale order
-[sale_product_multi_add](sale_product_multi_add/) | 17.0.1.0.0 |  | Sale Product Multi Add
+[sale_product_multi_add](sale_product_multi_add/) | 17.0.1.0.1 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 17.0.1.0.0 |  | Sale product set
+[sale_promotion_rule](sale_promotion_rule/) | 17.0.1.0.0 |  | Module to manage promotion rule on sale order
 [sale_quotation_number](sale_quotation_number/) | 17.0.1.1.2 |  | Different sequence for sale quotations
 [sale_readonly_security](sale_readonly_security/) | 17.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Readonly Security
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 17.0.1.0.0 |  | Add shipping amounts on sale order
