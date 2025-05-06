@@ -117,6 +117,7 @@ addon | version | maintainers | summary
 [sale_start_end_dates](sale_start_end_dates/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Adds start date and end date on sale order lines
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 16.0.1.0.0 |  | Sale Stock Cancel Restriction
 [sale_stock_delivery_state](sale_stock_delivery_state/) | 16.0.1.0.1 |  | Change the way to compute the delivery state
+[sale_stock_expiry_date_on_qty_at_date_widget](sale_stock_expiry_date_on_qty_at_date_widget/) | 16.0.1.0.1 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) | Show next Expiry Date on Qty at Date Widget
 [sale_stock_line_sequence](sale_stock_line_sequence/) | 16.0.1.0.0 |  | Glue Module for Sale Order Line Sequence and Stock Picking Line Sequence
 [sale_stock_partner_warehouse](sale_stock_partner_warehouse/) | 16.0.1.0.0 |  | Allow to choose by default a warehouse on SO based on a Partner parameter
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 16.0.1.2.0 |  | Allow you to block the creation of deliveries from a sale order.
