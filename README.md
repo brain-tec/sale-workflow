@@ -82,6 +82,7 @@ addon | version | maintainers | summary
 [sale_order_lot_generator](sale_order_lot_generator/) | 16.0.1.0.0 | [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![bealdav](https://github.com/bealdav.png?size=30px)](https://github.com/bealdav) | Sale Order Lot Generator
 [sale_order_lot_selection](sale_order_lot_selection/) | 16.0.1.0.1 | [![bodedra](https://github.com/bodedra.png?size=30px)](https://github.com/bodedra) | Sale Order Lot Selection
 [sale_order_mass_action](sale_order_mass_action/) | 16.0.1.0.0 |  | Allows to easy mass operations on sale orders.
+[sale_order_note_template](sale_order_note_template/) | 16.0.1.0.0 |  | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
 [sale_order_ordered_weight](sale_order_ordered_weight/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Add Ordered weights on sale order and sale order line levels
 [sale_order_partner_no_autofollow](sale_order_partner_no_autofollow/) | 16.0.1.0.0 |  | Do not add customer as follower in Sales Orders
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 16.0.1.1.0 |  | Recalculate prices / Reset descriptions on sale order lines
