@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[portal_sale_personal_data_only](portal_sale_personal_data_only/) | 18.0.1.0.0 |  | Portal Sale Personal Data Only
 [pricelist_cache](pricelist_cache/) | 18.0.1.0.0 |  | Provide a new model to cache price lists and update it, to make it easier to retrieve them.
 [product_customerinfo_sale](product_customerinfo_sale/) | 18.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
 [product_form_sale_link](product_form_sale_link/) | 18.0.1.0.1 |  | Adds a button on product forms to access Sale Lines
@@ -43,7 +44,7 @@ addon | version | maintainers | summary
 [sale_fixed_discount](sale_fixed_discount/) | 18.0.1.0.0 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 18.0.1.0.1 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_invoice_frequency](sale_invoice_frequency/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Define the invoice frequency for customers
-[sale_invoice_policy](sale_invoice_policy/) | 18.0.1.0.0 |  | Sales Management: let the user choose the invoice policy on the order
+[sale_invoice_policy](sale_invoice_policy/) | 18.0.1.1.0 |  | Sales Management: let the user choose the invoice policy on the order
 [sale_mail_autosubscribe](sale_mail_autosubscribe/) | 18.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Automatically subscribe partners to their company's sale orders
 [sale_manual_delivery](sale_manual_delivery/) | 18.0.1.0.0 |  | Create manually your deliveries
 [sale_order_archive](sale_order_archive/) | 18.0.1.0.0 |  | Archive Sale Orders
@@ -65,6 +66,7 @@ addon | version | maintainers | summary
 [sale_order_report_without_price](sale_order_report_without_price/) | 18.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
 [sale_order_requested_delivery](sale_order_requested_delivery/) | 18.0.1.0.0 |  | This module adds two new fields `requested_delivery_period_start` and `requested_delivery_period_end` to both the `sale.order` and `sale.order.line` models.
 [sale_order_revision](sale_order_revision/) | 18.0.1.0.0 |  | Keep track of revised quotations
+[sale_order_secondary_unit](sale_order_secondary_unit/) | 18.0.1.0.0 |  | Sale product in a secondary unit
 [sale_order_split_strategy](sale_order_split_strategy/) | 18.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Define strategies to split sales orders
 [sale_order_tag](sale_order_tag/) | 18.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds Tags to Sales Orders.
 [sale_order_type](sale_order_type/) | 18.0.1.0.0 |  | Sale Order Type
@@ -86,6 +88,7 @@ addon | version | maintainers | summary
 [sale_stock_picking_note](sale_stock_picking_note/) | 18.0.1.0.0 | <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add picking note in sale and purchase order
 [sale_stock_return_request](sale_stock_return_request/) | 18.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Sale Stock Return Request
 [sale_tier_validation](sale_tier_validation/) | 18.0.1.0.0 |  | Extends the functionality of Sale Orders to support a tier validation process.
+[sale_transaction_form_link](sale_transaction_form_link/) | 18.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | Allows to display a link to payment transactions on Sale Order form view.
 [sale_wishlist](sale_wishlist/) | 18.0.1.0.0 |  | Handle sale wishlist for partners
 [sales_team_security](sales_team_security/) | 18.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | New group for seeing only sales channel's documents
 [sell_only_by_packaging](sell_only_by_packaging/) | 18.0.1.0.1 |  | Manage sale of packaging
