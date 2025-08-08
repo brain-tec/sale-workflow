@@ -53,6 +53,7 @@ addon | version | maintainers | summary
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 18.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 18.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
 [sale_order_general_discount](sale_order_general_discount/) | 18.0.1.0.0 |  | General discount per sale order
+[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 18.0.1.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_line_date](sale_order_line_date/) | 18.0.1.0.1 |  | Adds a commitment date to each sale order line.
 [sale_order_line_delivery_state](sale_order_line_delivery_state/) | 18.0.1.0.0 |  | Show the delivery state on the sale order line
 [sale_order_line_input](sale_order_line_input/) | 18.0.1.0.0 |  | Search, create or modify directly sale order lines
@@ -74,7 +75,7 @@ addon | version | maintainers | summary
 [sale_order_split_strategy](sale_order_split_strategy/) | 18.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Define strategies to split sales orders
 [sale_order_tag](sale_order_tag/) | 18.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds Tags to Sales Orders.
 [sale_order_type](sale_order_type/) | 18.0.1.0.0 |  | Sale Order Type
-[sale_order_warn_message](sale_order_warn_message/) | 18.0.1.0.0 |  | Add a popup warning on sale to ensure warning is populated
+[sale_order_warn_message](sale_order_warn_message/) | 18.0.1.0.1 |  | Add a popup warning on sale to ensure warning is populated
 [sale_partner_address_restrict](sale_partner_address_restrict/) | 18.0.1.0.0 |  | Restrict addresses domain in the sales order form taking into account the partner selected
 [sale_partner_incoterm](sale_partner_incoterm/) | 18.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Partner Selectable Option
