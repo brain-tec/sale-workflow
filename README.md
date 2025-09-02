@@ -34,7 +34,7 @@ addon | version | maintainers | summary
 [sale_automatic_workflow](sale_automatic_workflow/) | 16.0.1.1.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 16.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 16.0.1.0.0 |  | Sale Automatic Workflow - Payment Mode
-[sale_blanket_order](sale_blanket_order/) | 16.0.1.3.1 |  | Blanket Orders
+[sale_blanket_order](sale_blanket_order/) | 16.0.2.0.0 |  | Blanket Orders
 [sale_block_no_stock](sale_block_no_stock/) | 16.0.2.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Block Sales if products has not enough Quantity based on a chosen field
 [sale_cancel_reason](sale_cancel_reason/) | 16.0.1.0.1 |  | Sale Cancel Reason
 [sale_commercial_partner](sale_commercial_partner/) | 16.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add stored related field 'Commercial Entity' on sale orders
@@ -67,7 +67,7 @@ addon | version | maintainers | summary
 [sale_order_general_discount](sale_order_general_discount/) | 16.0.1.1.0 |  | General discount per sale order
 [sale_order_general_discount_triple](sale_order_general_discount_triple/) | 16.0.2.0.1 | <a href='https://github.com/ashishhirapara'><img src='https://github.com/ashishhirapara.png' width='32' height='32' style='border-radius:50%;' alt='ashishhirapara'/></a> | General discount per sale order with triple
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 16.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
-[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 16.0.1.0.2 |  | Control invoice order lines if their related task has been set to invoiceable
+[sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 16.0.2.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_invoicing_picking_filter](sale_order_invoicing_picking_filter/) | 16.0.1.1.0 |  | Create invoices from sale orders based on the products in pickings.
 [sale_order_line_cancel](sale_order_line_cancel/) | 16.0.1.3.1 |  | Sale cancel remaining
 [sale_order_line_date](sale_order_line_date/) | 16.0.1.1.1 |  | Adds a commitment date to each sale order line.
@@ -86,6 +86,7 @@ addon | version | maintainers | summary
 [sale_order_lot_generator](sale_order_lot_generator/) | 16.0.1.0.0 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> <a href='https://github.com/mourad-ehm'><img src='https://github.com/mourad-ehm.png' width='32' height='32' style='border-radius:50%;' alt='mourad-ehm'/></a> <a href='https://github.com/bealdav'><img src='https://github.com/bealdav.png' width='32' height='32' style='border-radius:50%;' alt='bealdav'/></a> | Sale Order Lot Generator
 [sale_order_lot_selection](sale_order_lot_selection/) | 16.0.1.0.1 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Sale Order Lot Selection
 [sale_order_mass_action](sale_order_mass_action/) | 16.0.1.0.0 |  | Allows to easy mass operations on sale orders.
+[sale_order_minimum_amount](sale_order_minimum_amount/) | 16.0.1.0.0 |  | Restrict confirmation of sales orders below a configured minimum total amount
 [sale_order_note_template](sale_order_note_template/) | 16.0.1.0.0 |  | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
 [sale_order_ordered_weight](sale_order_ordered_weight/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add Ordered weights on sale order and sale order line levels
 [sale_order_partner_no_autofollow](sale_order_partner_no_autofollow/) | 16.0.1.0.0 |  | Do not add customer as follower in Sales Orders
@@ -115,6 +116,7 @@ addon | version | maintainers | summary
 [sale_planner_calendar](sale_planner_calendar/) | 16.0.3.0.0 |  | Sale planner calendar
 [sale_pricelist_display_surcharge](sale_pricelist_display_surcharge/) | 16.0.1.0.0 |  | This module shows to the customer the surcharges if wanted.
 [sale_pricelist_from_commitment_date](sale_pricelist_from_commitment_date/) | 16.0.1.0.0 |  | Use sale order commitment date to compute line price from pricelist
+[sale_pricelist_item_advanced](sale_pricelist_item_advanced/) | 16.0.1.0.0 |  | Pricelist items menu
 [sale_pricelist_technical](sale_pricelist_technical/) | 16.0.1.0.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Prevent some pricelists from being selected on order and customer forms
 [sale_pricelist_triple_discount](sale_pricelist_triple_discount/) | 16.0.1.0.0 |  | Sale Pricelist Triple Discount
 [sale_procurement_customer](sale_procurement_customer/) | 16.0.1.0.0 |  | Allows to transmit the customer to the procurement group
