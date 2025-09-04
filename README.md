@@ -64,6 +64,7 @@ addon | version | maintainers | summary
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 16.0.1.2.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
 [sale_order_country_allowed_product](sale_order_country_allowed_product/) | 16.0.1.0.0 |  | Restrict products in sales by country
 [sale_order_currency_rate](sale_order_currency_rate/) | 16.0.1.0.0 |  | Currency Rate in Sale Order
+[sale_order_end_user](sale_order_end_user/) | 16.0.1.0.0 |  | Allows to define the end user in sale orders if there is an intermediate between shipping and this end user
 [sale_order_general_discount](sale_order_general_discount/) | 16.0.1.1.0 |  | General discount per sale order
 [sale_order_general_discount_triple](sale_order_general_discount_triple/) | 16.0.2.0.1 | <a href='https://github.com/ashishhirapara'><img src='https://github.com/ashishhirapara.png' width='32' height='32' style='border-radius:50%;' alt='ashishhirapara'/></a> | General discount per sale order with triple
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 16.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
