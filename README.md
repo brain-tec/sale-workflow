@@ -69,7 +69,7 @@ addon | version | maintainers | summary
 [sale_order_line_sequence](sale_order_line_sequence/) | 18.0.1.0.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_stock_move_history](sale_order_line_stock_move_history/) | 18.0.1.0.0 | <a href='https://github.com/ppyczko'><img src='https://github.com/ppyczko.png' width='32' height='32' style='border-radius:50%;' alt='ppyczko'/></a> | Show stock moves history for sale order lines
 [sale_order_line_tag](sale_order_line_tag/) | 18.0.1.0.0 | <a href='https://github.com/smaciaosi'><img src='https://github.com/smaciaosi.png' width='32' height='32' style='border-radius:50%;' alt='smaciaosi'/></a> <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> <a href='https://github.com/ckolobow'><img src='https://github.com/ckolobow.png' width='32' height='32' style='border-radius:50%;' alt='ckolobow'/></a> | Add tags to classify sales order line reasons
-[sale_order_lot_selection](sale_order_lot_selection/) | 18.0.1.0.2 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Sale Order Lot Selection
+[sale_order_lot_selection](sale_order_lot_selection/) | 18.0.1.1.0 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Sale Order Lot Selection
 [sale_order_note_template](sale_order_note_template/) | 18.0.1.0.0 |  | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 18.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_priority](sale_order_priority/) | 18.0.1.0.0 |  | Define priority on sale orders
@@ -91,7 +91,7 @@ addon | version | maintainers | summary
 [sale_partner_primeship](sale_partner_primeship/) | 18.0.1.0.0 | <a href='https://github.com/nayatec'><img src='https://github.com/nayatec.png' width='32' height='32' style='border-radius:50%;' alt='nayatec'/></a> <a href='https://github.com/paradoxxxzero'><img src='https://github.com/paradoxxxzero.png' width='32' height='32' style='border-radius:50%;' alt='paradoxxxzero'/></a> | Allow you to manage time limited prime memberships and prime membership activation products.
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Partner Selectable Option
 [sale_pricelist_display_surcharge](sale_pricelist_display_surcharge/) | 18.0.1.0.0 |  | This module shows to the customer the surcharges if wanted.
-[sale_procurement_group_by_line](sale_procurement_group_by_line/) | 18.0.1.0.0 |  | Base module for multiple procurement group by Sale order
+[sale_procurement_group_by_line](sale_procurement_group_by_line/) | 18.0.1.0.1 |  | Base module for multiple procurement group by Sale order
 [sale_product_identification](sale_product_identification/) | 18.0.1.0.0 |  | Sale Product Identification Numbers
 [sale_product_set](sale_product_set/) | 18.0.1.0.0 |  | Sales product set
 [sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 18.0.1.0.0 |  | Manage packaging and quantities on product set lines
