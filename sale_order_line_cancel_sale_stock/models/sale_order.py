@@ -5,11 +5,9 @@ from odoo import models
 
 
 class SaleOrder(models.Model):
-
     _inherit = "sale.order"
 
-    def action_draft(self):
-        res = super().action_draft()
-        orders = self.filtered(lambda s: s.state == "draft")
-        orders.order_line.write({"product_qty_canceled": 0})
+    def _action_cancel(self):
+        new_self = self.with_context(ignore_sale_order_line_cancel=True)
+        res = super(SaleOrder, new_self)._action_cancel()
         return res
