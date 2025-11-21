@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [sale_exception_product_sale_manufactured_for](sale_exception_product_sale_manufactured_for/) | 18.0.1.0.0 |  | The partner set in the sales order can order only if he/she has a commercial entity that is listed as one of the partners for which the products can be manufactured for.
 [sale_fixed_discount](sale_fixed_discount/) | 18.0.1.0.0 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 18.0.1.0.1 |  | Allows to force the invoice status of the sales order to Invoiced
+[sale_force_invoiced_quantity](sale_force_invoiced_quantity/) | 18.0.1.0.0 |  | Add manual invoice quantity in sales order lines
 [sale_global_discount](sale_global_discount/) | 18.0.1.0.0 |  | Sale Global Discount
 [sale_invoice_blocking](sale_invoice_blocking/) | 18.0.1.0.0 |  | Allow you to block the creation of invoices from a sale order.
 [sale_invoice_frequency](sale_invoice_frequency/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Define the invoice frequency for customers
@@ -68,6 +69,7 @@ addon | version | maintainers | summary
 [sale_order_line_menu](sale_order_line_menu/) | 18.0.1.0.0 |  | Adds a Sale Order Lines Menu
 [sale_order_line_note](sale_order_line_note/) | 18.0.1.0.0 |  | Note on sale order line
 [sale_order_line_price_history](sale_order_line_price_history/) | 18.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Sale order line price history
+[sale_order_line_product_attribute_values](sale_order_line_product_attribute_values/) | 18.0.1.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Store Product Attribute Values in Sale Order Lines
 [sale_order_line_remove](sale_order_line_remove/) | 18.0.1.0.0 |  | Allows removal of sale order lines from confirmed orders if not invoiced or received
 [sale_order_line_sequence](sale_order_line_sequence/) | 18.0.1.1.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_stock_move_history](sale_order_line_stock_move_history/) | 18.0.1.0.0 | <a href='https://github.com/ppyczko'><img src='https://github.com/ppyczko.png' width='32' height='32' style='border-radius:50%;' alt='ppyczko'/></a> | Show stock moves history for sale order lines
@@ -97,11 +99,13 @@ addon | version | maintainers | summary
 [sale_pricelist_display_surcharge](sale_pricelist_display_surcharge/) | 18.0.1.0.0 |  | This module shows to the customer the surcharges if wanted.
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 18.0.1.0.1 |  | Base module for multiple procurement group by Sale order
 [sale_product_identification](sale_product_identification/) | 18.0.1.0.0 |  | Sale Product Identification Numbers
+[sale_product_multi_add](sale_product_multi_add/) | 18.0.1.0.0 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 18.0.1.0.0 |  | Sales product set
 [sale_product_set_packaging_qty](sale_product_set_packaging_qty/) | 18.0.1.0.0 |  | Manage packaging and quantities on product set lines
 [sale_quotation_number](sale_quotation_number/) | 18.0.1.0.0 |  | Different sequence for sale quotations
 [sale_readonly_security](sale_readonly_security/) | 18.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Readonly Security
 [sale_require_po_doc](sale_require_po_doc/) | 18.0.1.0.0 |  | Sale Orders Require PO or Sales Documentation
+[sale_resource_booking](sale_resource_booking/) | 18.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Link resource bookings with sales
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 18.0.1.0.0 |  | Add shipping amounts on sale order
 [sale_sourced_by_line](sale_sourced_by_line/) | 18.0.1.0.1 |  | Multiple warehouse source locations for Sale order
 [sale_stock_cancel_restriction](sale_stock_cancel_restriction/) | 18.0.1.0.0 |  | Sale Stock Cancel Restriction
