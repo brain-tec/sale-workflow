@@ -73,7 +73,7 @@ addon | version | maintainers | summary
 [sale_order_end_user](sale_order_end_user/) | 16.0.1.0.0 |  | Allows to define the end user in sale orders if there is an intermediate between shipping and this end user
 [sale_order_general_discount](sale_order_general_discount/) | 16.0.1.1.0 |  | General discount per sale order
 [sale_order_general_discount_triple](sale_order_general_discount_triple/) | 16.0.2.0.1 | <a href='https://github.com/ashishhirapara'><img src='https://github.com/ashishhirapara.png' width='32' height='32' style='border-radius:50%;' alt='ashishhirapara'/></a> | General discount per sale order with triple
-[sale_order_invoice_amount](sale_order_invoice_amount/) | 16.0.1.0.1 |  | Display the invoiced and uninvoiced total in the sale order
+[sale_order_invoice_amount](sale_order_invoice_amount/) | 16.0.1.0.2 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_invoicing_finished_task](sale_order_invoicing_finished_task/) | 16.0.2.0.0 |  | Control invoice order lines if their related task has been set to invoiceable
 [sale_order_invoicing_picking_filter](sale_order_invoicing_picking_filter/) | 16.0.1.1.0 |  | Create invoices from sale orders based on the products in pickings.
 [sale_order_line_cancel](sale_order_line_cancel/) | 16.0.2.0.0 |  | Sale cancel remaining
@@ -101,6 +101,7 @@ addon | version | maintainers | summary
 [sale_order_ordered_weight](sale_order_ordered_weight/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add Ordered weights on sale order and sale order line levels
 [sale_order_partner_no_autofollow](sale_order_partner_no_autofollow/) | 16.0.1.0.0 |  | Do not add customer as follower in Sales Orders
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 16.0.1.1.0 |  | Recalculate prices / Reset descriptions on sale order lines
+[sale_order_priority](sale_order_priority/) | 16.0.1.0.0 |  | Define priority on sale orders
 [sale_order_product_assortment](sale_order_product_assortment/) | 16.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> | Module that allows to use the assortments on sale orders
 [sale_order_product_availability_inline](sale_order_product_availability_inline/) | 16.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Show product availability in sales order line product drop-down.
 [sale_order_product_picker](sale_order_product_picker/) | 16.0.1.2.1 |  | Sale Order Product Picker
