@@ -26,7 +26,9 @@ addon | version | maintainers | summary
 [sale_automatic_workflow](sale_automatic_workflow/) | 19.0.1.0.0 |  | Sale Automatic Workflow
 [sale_cancel_restrict](sale_cancel_restrict/) | 19.0.1.0.0 |  | Sale Cancel Restrict
 [sale_commercial_partner](sale_commercial_partner/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add stored related field 'Commercial Entity' on sale orders
+[sale_confirm_group](sale_confirm_group/) | 19.0.1.0.0 |  | Allows configuring a list of groups per-company who are granted permission to confirm sale orders
 [sale_delivery_split_date](sale_delivery_split_date/) | 19.0.1.0.0 |  | Sale Deliveries split by date
+[sale_delivery_state](sale_delivery_state/) | 19.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_exception](sale_exception/) | 19.0.1.0.0 |  | Custom exceptions on sale order
 [sale_fixed_discount](sale_fixed_discount/) | 19.0.1.0.0 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 19.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
@@ -42,6 +44,7 @@ addon | version | maintainers | summary
 [sale_order_line_menu](sale_order_line_menu/) | 19.0.1.0.0 |  | Adds a Sale Order Lines Menu
 [sale_order_line_note](sale_order_line_note/) | 19.0.1.0.0 |  | Note on sale order line
 [sale_order_line_price_history](sale_order_line_price_history/) | 19.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Sale order line price history
+[sale_order_line_sequence](sale_order_line_sequence/) | 19.0.1.0.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_tag](sale_order_line_tag/) | 19.0.1.0.0 | <a href='https://github.com/smaciaosi'><img src='https://github.com/smaciaosi.png' width='32' height='32' style='border-radius:50%;' alt='smaciaosi'/></a> <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> <a href='https://github.com/ckolobow'><img src='https://github.com/ckolobow.png' width='32' height='32' style='border-radius:50%;' alt='ckolobow'/></a> | Add tags to classify sales order line reasons
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 19.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
 [sale_order_priority](sale_order_priority/) | 19.0.1.0.0 |  | Define priority on sale orders
