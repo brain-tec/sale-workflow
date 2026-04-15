@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-04-02 11:54+0000\n"
+"PO-Revision-Date: 2026-04-14 20:45+0000\n"
 "Last-Translator: Cristiano Mafra Junior <cristiano.mafracontanto@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -123,7 +123,7 @@ msgstr "Adicionar um produto"
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a section"
-msgstr "Adicionar uma seÃ§Ã£o"
+msgstr "Adicionar uma sessão"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
