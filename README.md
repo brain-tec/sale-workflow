@@ -32,7 +32,7 @@ addon | version | maintainers | summary
 [sale_delivery_split_date](sale_delivery_split_date/) | 19.0.1.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 19.0.1.0.0 |  | Show the delivery state on the sale order
 [sale_exception](sale_exception/) | 19.0.1.0.0 |  | Custom exceptions on sale order
-[sale_fixed_discount](sale_fixed_discount/) | 19.0.1.0.0 |  | Allows to apply fixed amount discounts in sales orders.
+[sale_fixed_discount](sale_fixed_discount/) | 19.0.1.0.1 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 19.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_fully_invoiced](sale_fully_invoiced/) | 19.0.1.0.0 | <a href='https://github.com/AaronHForgeFlow'><img src='https://github.com/AaronHForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='AaronHForgeFlow'/></a> | Useful filters in Sales to know the actual status of invoices.
 [sale_global_discount](sale_global_discount/) | 19.0.1.0.1 |  | Sale Global Discount
@@ -60,10 +60,12 @@ addon | version | maintainers | summary
 [sale_order_report_without_price](sale_order_report_without_price/) | 19.0.1.0.0 |  | Allow you to generate quotation and order reports without price.
 [sale_order_revision](sale_order_revision/) | 19.0.1.0.0 |  | Keep track of revised quotations
 [sale_order_split_strategy](sale_order_split_strategy/) | 19.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Define strategies to split sales orders
-[sale_order_type](sale_order_type/) | 19.0.1.4.0 |  | Sale Order Type
+[sale_order_tag](sale_order_tag/) | 19.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds Tags to Sales Orders.
+[sale_order_type](sale_order_type/) | 19.0.1.5.0 |  | Sale Order Type
 [sale_partner_delay](sale_partner_delay/) | 19.0.1.0.0 |  | Add customer-specific delivery lead time
 [sale_partner_incoterm](sale_partner_incoterm/) | 19.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_product_multi_add](sale_product_multi_add/) | 19.0.1.0.0 |  | Sale Product Multi Add
+[sale_product_set](sale_product_set/) | 19.0.1.0.0 |  | Sales product set
 [sale_require_po_doc](sale_require_po_doc/) | 19.0.1.0.0 |  | Sale Orders Require PO or Sales Documentation
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 19.0.1.0.0 |  | Sale Stock Delivery Address
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 19.0.1.0.0 |  | Allow you to block the creation of deliveries from a sale order.
