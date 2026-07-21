@@ -27,7 +27,7 @@ addon | version | maintainers | summary
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 19.0.1.0.0 |  | Portal Sale Personal Data Only
 [product_form_sale_link](product_form_sale_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Sale Lines
 [sale_advance_payment](sale_advance_payment/) | 19.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
-[sale_automatic_workflow](sale_automatic_workflow/) | 19.0.1.1.0 |  | Sale Automatic Workflow
+[sale_automatic_workflow](sale_automatic_workflow/) | 19.0.1.1.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 19.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_cancel_restrict](sale_cancel_restrict/) | 19.0.1.0.0 |  | Sale Cancel Restrict
 [sale_commercial_partner](sale_commercial_partner/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add stored related field 'Commercial Entity' on sale orders
@@ -48,7 +48,7 @@ addon | version | maintainers | summary
 [sale_order_archive](sale_order_archive/) | 19.0.1.0.0 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 19.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 19.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
-[sale_order_general_discount](sale_order_general_discount/) | 19.0.1.0.1 |  | General discount per sale order
+[sale_order_general_discount](sale_order_general_discount/) | 19.0.1.0.2 |  | General discount per sale order
 [sale_order_invoice_amount](sale_order_invoice_amount/) | 19.0.1.0.0 |  | Display the invoiced and uninvoiced total in the sale order
 [sale_order_line_date](sale_order_line_date/) | 19.0.1.0.0 |  | Adds a commitment date to each sale order line.
 [sale_order_line_description](sale_order_line_description/) | 19.0.1.0.1 |  | Sale order line description
@@ -74,6 +74,7 @@ addon | version | maintainers | summary
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Partner Selectable Option
 [sale_product_multi_add](sale_product_multi_add/) | 19.0.1.0.0 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 19.0.1.0.0 |  | Sales product set
+[sale_purchase_stock_auto_confirm](sale_purchase_stock_auto_confirm/) | 19.0.1.0.0 | <a href='https://github.com/carlos-lopez-tecnativa'><img src='https://github.com/carlos-lopez-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='carlos-lopez-tecnativa'/></a> | Sale purchase stock auto confirm
 [sale_require_po_doc](sale_require_po_doc/) | 19.0.1.0.0 |  | Sale Orders Require PO or Sales Documentation
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 19.0.1.0.0 |  | Sale Stock Delivery Address
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 19.0.2.0.0 | <a href='https://github.com/Ricardoalso'><img src='https://github.com/Ricardoalso.png' width='32' height='32' style='border-radius:50%;' alt='Ricardoalso'/></a> | Allow you to block the creation of deliveries from a sale order.
