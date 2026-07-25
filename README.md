@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [partner_sale_pivot](partner_sale_pivot/) | 19.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Sales analysis from customer form view
 [portal_sale_list_extra_info](portal_sale_list_extra_info/) | 19.0.1.0.0 |  | Adds additional fields 'client_order_ref' and 'amount_untaxed' to the portal view. It also makes it easier to add other fields in the future.
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 19.0.1.0.0 |  | Portal Sale Personal Data Only
+[product_customerinfo_sale](product_customerinfo_sale/) | 19.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
 [product_form_sale_link](product_form_sale_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Sale Lines
 [sale_advance_payment](sale_advance_payment/) | 19.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 19.0.1.1.1 |  | Sale Automatic Workflow
@@ -46,6 +47,7 @@ addon | version | maintainers | summary
 [sale_invoice_to_partner](sale_invoice_to_partner/) | 19.0.1.0.0 |  | Set on a customer a separate partner in charge of receiving and paying its invoices, used as the invoice address on sales orders.
 [sale_last_price_info](sale_last_price_info/) | 19.0.1.0.0 |  | Product Last Price Info - Sale
 [sale_manual_delivery](sale_manual_delivery/) | 19.0.1.0.0 |  | Create your deliveries manually
+[sale_order_approval_block](sale_order_approval_block/) | 19.0.1.0.0 |  | Block sale orders with approval reasons
 [sale_order_archive](sale_order_archive/) | 19.0.1.0.0 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 19.0.1.0.0 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
 [sale_order_disable_user_autosubscribe](sale_order_disable_user_autosubscribe/) | 19.0.1.0.0 |  | Remove the salesperson from autosubscribed sale followers
@@ -86,6 +88,7 @@ addon | version | maintainers | summary
 [sale_substate](sale_substate/) | 19.0.1.0.0 |  | Sale Sub State
 [sale_transaction_form_link](sale_transaction_form_link/) | 19.0.1.0.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | Allows to display a link to payment transactions on Sale Order form view.
 [sale_validity_auto_cancel](sale_validity_auto_cancel/) | 19.0.1.0.0 | <a href='https://github.com/JordiMForgeFlow'><img src='https://github.com/JordiMForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='JordiMForgeFlow'/></a> | Automatically cancel quotations after validity period.
+[sales_team_security](sales_team_security/) | 19.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | New group for seeing only sales channel's documents
 
 [//]: # (end addons)
 
