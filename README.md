@@ -25,6 +25,7 @@ addon | version | maintainers | summary
 [partner_sale_pivot](partner_sale_pivot/) | 19.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Sales analysis from customer form view
 [portal_sale_list_extra_info](portal_sale_list_extra_info/) | 19.0.1.0.0 |  | Adds additional fields 'client_order_ref' and 'amount_untaxed' to the portal view. It also makes it easier to add other fields in the future.
 [portal_sale_personal_data_only](portal_sale_personal_data_only/) | 19.0.1.0.0 |  | Portal Sale Personal Data Only
+[product_customerinfo_elaboration](product_customerinfo_elaboration/) | 19.0.1.0.0 |  | Allows to define default elaborations and elaboration notes on product customerinfos
 [product_customerinfo_sale](product_customerinfo_sale/) | 19.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
 [product_form_sale_link](product_form_sale_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Sale Lines
 [sale_advance_payment](sale_advance_payment/) | 19.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
@@ -37,7 +38,7 @@ addon | version | maintainers | summary
 [sale_delivery_split_date](sale_delivery_split_date/) | 19.0.1.0.0 |  | Sale Deliveries split by date
 [sale_delivery_state](sale_delivery_state/) | 19.0.1.0.1 |  | Show the delivery state on the sale order
 [sale_elaboration](sale_elaboration/) | 19.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> <a href='https://github.com/yajo'><img src='https://github.com/yajo.png' width='32' height='32' style='border-radius:50%;' alt='yajo'/></a> | Set an elaboration for any sale line
-[sale_exception](sale_exception/) | 19.0.1.0.0 |  | Custom exceptions on sale order
+[sale_exception](sale_exception/) | 19.0.1.0.1 |  | Custom exceptions on sale order
 [sale_fixed_discount](sale_fixed_discount/) | 19.0.1.0.1 |  | Allows to apply fixed amount discounts in sales orders.
 [sale_force_invoiced](sale_force_invoiced/) | 19.0.1.0.0 |  | Allows to force the invoice status of the sales order to Invoiced
 [sale_force_invoiced_quantity](sale_force_invoiced_quantity/) | 19.0.1.0.0 |  | Add manual invoice quantity in sales order lines
