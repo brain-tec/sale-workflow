@@ -66,7 +66,7 @@ addon | version | maintainers | summary
 [sale_order_line_price_history](sale_order_line_price_history/) | 19.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Sale order line price history
 [sale_order_line_price_source](sale_order_line_price_source/) | 19.0.2.0.0 |  | Track the source and provenance of sale order line prices
 [sale_order_line_section](sale_order_line_section/) | 19.0.1.0.0 |  | Section on sale order line
-[sale_order_line_sequence](sale_order_line_sequence/) | 19.0.1.0.0 |  | Propagates SO line sequence to invoices and stock picking.
+[sale_order_line_sequence](sale_order_line_sequence/) | 19.0.1.1.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_tag](sale_order_line_tag/) | 19.0.1.0.0 | <a href='https://github.com/smaciaosi'><img src='https://github.com/smaciaosi.png' width='32' height='32' style='border-radius:50%;' alt='smaciaosi'/></a> <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> <a href='https://github.com/ckolobow'><img src='https://github.com/ckolobow.png' width='32' height='32' style='border-radius:50%;' alt='ckolobow'/></a> | Add tags to classify sales order line reasons
 [sale_order_note_template](sale_order_note_template/) | 19.0.1.0.0 |  | Add sale orders terms and conditions template that can be used to quickly fullfill sale order terms and conditions
 [sale_order_price_recalculation](sale_order_price_recalculation/) | 19.0.1.0.0 |  | Recalculate prices / Reset descriptions on sale order lines
@@ -79,6 +79,8 @@ addon | version | maintainers | summary
 [sale_order_split_strategy](sale_order_split_strategy/) | 19.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Define strategies to split sales orders
 [sale_order_tag](sale_order_tag/) | 19.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds Tags to Sales Orders.
 [sale_order_type](sale_order_type/) | 19.0.1.6.0 |  | Sale Order Type
+[sale_order_warehouse_header](sale_order_warehouse_header/) | 19.0.1.0.0 |  | Moves warehouse field in sales orders form to header, so it becomes more accessible. Improvements in the search view: - Filter by warehouse. - Group by warehouse.
+[sale_partner_address_restrict](sale_partner_address_restrict/) | 19.0.1.0.0 |  | Restrict addresses domain in the sales order form taking into account the partner selected
 [sale_partner_delay](sale_partner_delay/) | 19.0.1.0.0 |  | Add customer-specific delivery lead time
 [sale_partner_incoterm](sale_partner_incoterm/) | 19.0.1.0.0 |  | Set the customer preferred incoterm on each sales order
 [sale_partner_selectable_option](sale_partner_selectable_option/) | 19.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Sale Partner Selectable Option
