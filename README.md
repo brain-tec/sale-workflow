@@ -73,6 +73,7 @@ addon | version | maintainers | summary
 [sale_order_line_note](sale_order_line_note/) | 19.0.1.0.0 |  | Note on sale order line
 [sale_order_line_price_history](sale_order_line_price_history/) | 19.0.1.0.0 | <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Sale order line price history
 [sale_order_line_price_source](sale_order_line_price_source/) | 19.0.2.0.0 |  | Track the source and provenance of sale order line prices
+[sale_order_line_route_visible](sale_order_line_route_visible/) | 19.0.1.0.0 | <a href='https://github.com/MarcGForgeFlow'><img src='https://github.com/MarcGForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='MarcGForgeFlow'/></a> | Show the Routes column by default on sale order lines
 [sale_order_line_section](sale_order_line_section/) | 19.0.1.0.0 |  | Section on sale order line
 [sale_order_line_sequence](sale_order_line_sequence/) | 19.0.1.1.0 |  | Propagates SO line sequence to invoices and stock picking.
 [sale_order_line_tag](sale_order_line_tag/) | 19.0.1.0.0 | <a href='https://github.com/smaciaosi'><img src='https://github.com/smaciaosi.png' width='32' height='32' style='border-radius:50%;' alt='smaciaosi'/></a> <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> <a href='https://github.com/ckolobow'><img src='https://github.com/ckolobow.png' width='32' height='32' style='border-radius:50%;' alt='ckolobow'/></a> | Add tags to classify sales order line reasons
@@ -101,6 +102,7 @@ addon | version | maintainers | summary
 [sale_product_multi_add](sale_product_multi_add/) | 19.0.1.0.0 |  | Sale Product Multi Add
 [sale_product_set](sale_product_set/) | 19.0.1.0.1 |  | Sales product set
 [sale_purchase_stock_auto_confirm](sale_purchase_stock_auto_confirm/) | 19.0.1.0.0 | <a href='https://github.com/carlos-lopez-tecnativa'><img src='https://github.com/carlos-lopez-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='carlos-lopez-tecnativa'/></a> | Sale purchase stock auto confirm
+[sale_quotation_number](sale_quotation_number/) | 19.0.1.0.0 |  | Different sequence for sale quotations
 [sale_require_po_doc](sale_require_po_doc/) | 19.0.1.1.0 |  | Sale Orders Require PO or Sales Documentation
 [sale_resource_booking](sale_resource_booking/) | 19.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Link resource bookings with sales
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 19.0.1.0.0 |  | Add shipping amounts on sale order
