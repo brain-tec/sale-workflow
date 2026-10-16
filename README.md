@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [product_customerinfo_elaboration](product_customerinfo_elaboration/) | 19.0.1.0.0 |  | Allows to define default elaborations and elaboration notes on product customerinfos
 [product_customerinfo_sale](product_customerinfo_sale/) | 19.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
 [product_form_sale_link](product_form_sale_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Sale Lines
+[product_price_category](product_price_category/) | 19.0.1.0.0 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | Add Price Category field on product and allow to apply a pricelist on this field.
 [sale_advance_payment](sale_advance_payment/) | 19.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 19.0.1.2.0 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 19.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
@@ -59,6 +60,7 @@ addon | version | maintainers | summary
 [sale_line_name_option](sale_line_name_option/) | 19.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Display product description without reference code on sale order lines
 [sale_manual_delivery](sale_manual_delivery/) | 19.0.1.0.0 |  | Create your deliveries manually
 [sale_minimum_amount](sale_minimum_amount/) | 19.0.1.0.0 |  | Minimum sale order amount per customer
+[sale_order_amount_to_invoice](sale_order_amount_to_invoice/) | 19.0.1.0.0 |  | Show total amount to invoice in quotations/sales orders
 [sale_order_approval_block](sale_order_approval_block/) | 19.0.1.0.0 |  | Block sale orders with approval reasons
 [sale_order_archive](sale_order_archive/) | 19.0.1.0.0 |  | Archive Sale Orders
 [sale_order_carrier_auto_assign](sale_order_carrier_auto_assign/) | 19.0.1.0.2 | <a href='https://github.com/jbaudoux'><img src='https://github.com/jbaudoux.png' width='32' height='32' style='border-radius:50%;' alt='jbaudoux'/></a> | Auto assign delivery carrier on sale order confirmation
@@ -91,7 +93,7 @@ addon | version | maintainers | summary
 [sale_order_show_full_address](sale_order_show_full_address/) | 19.0.1.0.0 |  | Show the complete invoice and delivery addresses on sales orders
 [sale_order_split_strategy](sale_order_split_strategy/) | 19.0.1.0.0 | <a href='https://github.com/grindtildeath'><img src='https://github.com/grindtildeath.png' width='32' height='32' style='border-radius:50%;' alt='grindtildeath'/></a> | Define strategies to split sales orders
 [sale_order_tag](sale_order_tag/) | 19.0.1.0.0 | <a href='https://github.com/patrickrwilson'><img src='https://github.com/patrickrwilson.png' width='32' height='32' style='border-radius:50%;' alt='patrickrwilson'/></a> | Adds Tags to Sales Orders.
-[sale_order_type](sale_order_type/) | 19.0.1.6.0 |  | Sale Order Type
+[sale_order_type](sale_order_type/) | 19.0.1.6.1 |  | Sale Order Type
 [sale_order_warehouse_header](sale_order_warehouse_header/) | 19.0.1.0.0 |  | Moves warehouse field in sales orders form to header, so it becomes more accessible. Improvements in the search view: - Filter by warehouse. - Group by warehouse.
 [sale_partner_address_restrict](sale_partner_address_restrict/) | 19.0.1.0.0 |  | Restrict addresses domain in the sales order form taking into account the partner selected
 [sale_partner_delay](sale_partner_delay/) | 19.0.1.0.0 |  | Add customer-specific delivery lead time
@@ -107,6 +109,7 @@ addon | version | maintainers | summary
 [sale_require_po_doc](sale_require_po_doc/) | 19.0.1.1.0 |  | Sale Orders Require PO or Sales Documentation
 [sale_resource_booking](sale_resource_booking/) | 19.0.1.0.0 | <a href='https://github.com/Yajo'><img src='https://github.com/Yajo.png' width='32' height='32' style='border-radius:50%;' alt='Yajo'/></a> | Link resource bookings with sales
 [sale_shipping_info_helper](sale_shipping_info_helper/) | 19.0.1.0.0 |  | Add shipping amounts on sale order
+[sale_start_end_dates](sale_start_end_dates/) | 19.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Adds start date and end date on sale order lines
 [sale_stock_delivery_address](sale_stock_delivery_address/) | 19.0.1.0.0 |  | Sale Stock Delivery Address
 [sale_stock_delivery_state](sale_stock_delivery_state/) | 19.0.1.0.0 |  | Change the way to compute the delivery state
 [sale_stock_partner_warehouse](sale_stock_partner_warehouse/) | 19.0.1.0.0 |  | Allow to choose by default a warehouse on SO based on a Partner parameter
