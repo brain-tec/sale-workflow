@@ -61,6 +61,7 @@ addon | version | maintainers | summary
 [sale_line_name_option](sale_line_name_option/) | 19.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Display product description without reference code on sale order lines
 [sale_manual_delivery](sale_manual_delivery/) | 19.0.1.0.0 |  | Create your deliveries manually
 [sale_minimum_amount](sale_minimum_amount/) | 19.0.1.0.0 |  | Minimum sale order amount per customer
+[sale_mrp_bom](sale_mrp_bom/) | 19.0.1.0.0 |  | Allows define a BOM in the sales lines.
 [sale_order_amount_to_invoice](sale_order_amount_to_invoice/) | 19.0.1.0.0 |  | Show total amount to invoice in quotations/sales orders
 [sale_order_approval_block](sale_order_approval_block/) | 19.0.1.0.0 |  | Block sale orders with approval reasons
 [sale_order_archive](sale_order_archive/) | 19.0.1.0.0 |  | Archive Sale Orders
@@ -116,7 +117,7 @@ addon | version | maintainers | summary
 [sale_stock_partner_warehouse](sale_stock_partner_warehouse/) | 19.0.1.0.0 |  | Allow to choose by default a warehouse on SO based on a Partner parameter
 [sale_stock_picking_blocking](sale_stock_picking_blocking/) | 19.0.2.1.0 | <a href='https://github.com/Ricardoalso'><img src='https://github.com/Ricardoalso.png' width='32' height='32' style='border-radius:50%;' alt='Ricardoalso'/></a> | Allow you to block the creation of deliveries from a sale order.
 [sale_stock_picking_note](sale_stock_picking_note/) | 19.0.1.0.1 | <a href='https://github.com/carlosdauden'><img src='https://github.com/carlosdauden.png' width='32' height='32' style='border-radius:50%;' alt='carlosdauden'/></a> <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> <a href='https://github.com/EmilioPascual'><img src='https://github.com/EmilioPascual.png' width='32' height='32' style='border-radius:50%;' alt='EmilioPascual'/></a> | Add picking note in sale and purchase order
-[sale_stock_reference_by_line](sale_stock_reference_by_line/) | 19.0.1.0.0 |  | Base module for definition of stock references creation rules for Sale order
+[sale_stock_reference_by_line](sale_stock_reference_by_line/) | 19.0.1.0.1 |  | Base module for definition of stock references creation rules for Sale order
 [sale_stock_secondary_unit](sale_stock_secondary_unit/) | 19.0.1.0.0 |  | Get product quantities in a secondary unit
 [sale_substate](sale_substate/) | 19.0.1.0.0 |  | Sale Sub State
 [sale_transaction_form_link](sale_transaction_form_link/) | 19.0.1.1.0 | <a href='https://github.com/rousseldenis'><img src='https://github.com/rousseldenis.png' width='32' height='32' style='border-radius:50%;' alt='rousseldenis'/></a> | Allows to display a link to payment transactions on Sale Order form view.
