@@ -32,7 +32,7 @@ addon | version | maintainers | summary
 [product_customerinfo_sale](product_customerinfo_sale/) | 19.0.1.0.0 |  | Loads in every sale order line the customer code defined in the product
 [product_form_sale_link](product_form_sale_link/) | 19.0.1.0.0 |  | Adds a button on product forms to access Sale Lines
 [product_price_category](product_price_category/) | 19.0.1.0.0 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | Add Price Category field on product and allow to apply a pricelist on this field.
-[sale_advance_payment](sale_advance_payment/) | 19.0.1.0.0 |  | Allow to add advance payments on sales and then use them on invoices
+[sale_advance_payment](sale_advance_payment/) | 19.0.1.1.0 |  | Allow to add advance payments on sales and then use them on invoices
 [sale_automatic_workflow](sale_automatic_workflow/) | 19.0.1.2.1 |  | Sale Automatic Workflow
 [sale_automatic_workflow_job](sale_automatic_workflow_job/) | 19.0.1.0.0 |  | Execute sale automatic workflows in queue jobs
 [sale_automatic_workflow_payment_mode](sale_automatic_workflow_payment_mode/) | 19.0.1.0.0 |  | Sale Automatic Workflow - Payment Mode
@@ -81,6 +81,7 @@ addon | version | maintainers | summary
 [sale_order_line_route_visible](sale_order_line_route_visible/) | 19.0.1.0.0 | <a href='https://github.com/MarcGForgeFlow'><img src='https://github.com/MarcGForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='MarcGForgeFlow'/></a> | Show the Routes column by default on sale order lines
 [sale_order_line_section](sale_order_line_section/) | 19.0.1.0.0 |  | Section on sale order line
 [sale_order_line_sequence](sale_order_line_sequence/) | 19.0.1.1.0 |  | Propagates SO line sequence to invoices and stock picking.
+[sale_order_line_smartbutton](sale_order_line_smartbutton/) | 19.0.1.0.0 |  | Access, search and edit sale order lines from a smart button
 [sale_order_line_tag](sale_order_line_tag/) | 19.0.1.0.0 | <a href='https://github.com/smaciaosi'><img src='https://github.com/smaciaosi.png' width='32' height='32' style='border-radius:50%;' alt='smaciaosi'/></a> <a href='https://github.com/dreispt'><img src='https://github.com/dreispt.png' width='32' height='32' style='border-radius:50%;' alt='dreispt'/></a> <a href='https://github.com/ckolobow'><img src='https://github.com/ckolobow.png' width='32' height='32' style='border-radius:50%;' alt='ckolobow'/></a> | Add tags to classify sales order line reasons
 [sale_order_lot_selection](sale_order_lot_selection/) | 19.0.1.0.2 | <a href='https://github.com/bodedra'><img src='https://github.com/bodedra.png' width='32' height='32' style='border-radius:50%;' alt='bodedra'/></a> | Sale Order Lot Selection
 [sale_order_manual_lock](sale_order_manual_lock/) | 19.0.1.0.0 | <a href='https://github.com/NICO-SOLUTIONS'><img src='https://github.com/NICO-SOLUTIONS.png' width='32' height='32' style='border-radius:50%;' alt='NICO-SOLUTIONS'/></a> | Adds manual lock and unlock buttons to sale orders.
